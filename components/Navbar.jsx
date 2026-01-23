@@ -37,34 +37,34 @@ const Navbar = () => {
   const navItems = ["home", "events", "clubs", "connect"];
 
   const scrollToSection = (id) => {
-  const scrollTo = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      const yOffset = -100;
-      const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
-      window.scrollTo({ top: y, behavior: "smooth" });
-      return true;
+    const scrollTo = (id) => {
+      const section = document.getElementById(id);
+      if (section) {
+        const yOffset = -100;
+        const y =
+          section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+        return true;
+      }
+      return false;
+    };
+
+    if (pathname !== "/") {
+      router.push("/");
+      // Repeatedly check until section appears (max 2 seconds)
+      const interval = setInterval(() => {
+        if (scrollTo(id)) clearInterval(interval);
+      }, 200);
+      setTimeout(() => clearInterval(interval), 2000);
+    } else {
+      scrollTo(id);
     }
-    return false;
+
+    setIsOpen(false);
   };
 
-  if (pathname !== "/") {
-    router.push("/");
-    // Repeatedly check until section appears (max 2 seconds)
-    const interval = setInterval(() => {
-      if (scrollTo(id)) clearInterval(interval);
-    }, 200);
-    setTimeout(() => clearInterval(interval), 2000);
-  } else {
-    scrollTo(id);
-  }
-
-  setIsOpen(false);
-};
-
-
   return (
-    <header className="fixed top-0 left-0 w-full flex justify-between items-center py-6 px-4 lg:px-20 text-white z-[100] border-b-[0.3px] border-[#e99b63] bg-black">
+    <header className="fixed top-0 left-0 w-full flex justify-between items-center py-6 px-4 lg:px-20 text-white z-[100] border-b-[0.3px] bg-black/30 md:bg-black/15 md:backdrop-blur-md shadow-2xl border border-white/10 font-poppins">
       {/* Logo */}
       <motion.div
         initial={{ opacity: 0, x: -20 }}
@@ -93,7 +93,7 @@ const Navbar = () => {
           <motion.div key={item} variants={linkVariants}>
             <button
               onClick={() => scrollToSection(item)}
-              className="relative  tracking-[0.2em] transition-colors hover:text-[#e99b63] group text-xl uppercase cursor-pointer "
+              className="relative  tracking-[0.2em] transition-colors hover:text-[#e99b63] group text-lg uppercase cursor-pointer "
             >
               {item}
               <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#e99b63] transition-all duration-300 group-hover:w-full" />
@@ -187,7 +187,9 @@ const Navbar = () => {
               transition={{ delay: 0.8, duration: 0.6 }}
               className="absolute bottom-8 text-center text-sm text-gray-400"
             >
-              <p>© {new Date().getFullYear()} Tech Samarooh. All rights reserved.</p>
+              <p>
+                © {new Date().getFullYear()} Tech Samarooh. All rights reserved.
+              </p>
               <div className="flex justify-center mt-3 text-2xl">
                 <a
                   href="https://instagram.com"

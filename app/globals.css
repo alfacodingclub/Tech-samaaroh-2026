@@ -6,3 +6,7 @@
         h-screen overflow-x-hidden;
   }
 }
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
