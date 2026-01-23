@@ -17,8 +17,8 @@ import ElegantShape from "@/components/elegantShape";
 // 🧩 Event data
 const eventData = {
   // ALFA DATA
-  "hack-a-thon-2026": {
-    id: "hack-a-thon-2026",
+  "codex-build": {
+    id: "codex-build",
     name: "HACK-A-THON 2026",
     tagline: "Code the future, one byte at a time.",
     timing: "March 15, 10:00 AM",
@@ -48,29 +48,43 @@ const eventData = {
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
     LeftPoster:"",  
   },
-  "Fire-bound": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
-    tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+  "fire-bound": {
+    id: "fire-bound",
+    name: "Firebound",
+    fees: "₹ 100 Per Team",
+    deadline: "TBA",
+    tagline: "forged in fire, unleashed in strength",
+    timing: "February 20, TBA",
+    location: "3rd and 4th floor",
+    teamSize: "2 Members",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    "The Treasure Hunt is a fun-based offline event where participants work in teams to solve a series of clues and challenges. Each clue leads to the next location, gradually guiding teams closer to the final treasure. Participants must think logically, manage time efficiently, and collaborate effectively. The team that finds the treasure first by following all rules will be declared as winner."
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "₹1500 + Certificate + Swags + Internship Opportunity" },
+      { rank: "2nd Place", reward: "₹800 + Certificate + Swags " },
+      {rank:"3rd Place", reward:"Certificate "},
+      {rank:"All Participants",participation:"keychains + E-certificate"}
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "Mobile phones are allowed only for QR scanning",
+      "No time boundation." ,
+      "Internet usage is not allowed unless specified.", 
+      "No external help from non-participants.", 
+      "Teams must follow the sequence of clues strictly." ,
+      "Any form of cheating or rule violation will lead to disqualification.",
+      "Late completion beyond the time limit will not be considered",
+      "Teams must stay together during the event", 
+      "QR codes must not be damaged", 
+      "No unfair means allowed", 
+    ],
+    requirements:[
+      "Id card",
+      "Pen",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Kashvi Anand", phone: "+91 98716 80537" },
+      { name: "Prince Singh", phone: "+91 88605 50502" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",

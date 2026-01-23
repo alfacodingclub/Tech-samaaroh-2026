@@ -36,11 +36,11 @@ const Events = ({ id = "events" }) => {
       fees:"",
       img: "/WebAssets/WhatsApp Image 2026-01-18 at 5.51.57 PM.jpeg",
       color: "from-blue-600",
-      link: "/events/hack-a-thon-2026",
+      link: "/events/codex-build",
     },
     {
-      id: "Fire-bound",
-      name: "Fire Bound",
+      id: "fire-bound",
+      name: "Firebound",
       desc: "",
       Eligibility: "",
       time: "",
@@ -48,7 +48,7 @@ const Events = ({ id = "events" }) => {
       fees:"",
       img: "/WebAssets/WhatsApp Image 2026-01-23 at 6.35.51 PM.jpeg",
       color: "from-red-600",
-      link: "/events/hack-a-thon-2026",
+      link: "/events/fire-bound",
     },
     {
       id: "cyber-tok",
