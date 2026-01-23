@@ -27,7 +27,7 @@ const eventData = {
     location: "305 Lab",
     teamSize: "Individual",
     description: [
-      "Build with AI is a fast-paced development challenge where participants create innovative applications powered by Artificial Intelligence. Link of website will be shared in groups and the problem statement will be found on the website. Participants will find a solution and build a platform (web, app, or software etc.). The event culminates in a live demonstration of their “AI-first” application to a panel of experts.",
+      "CODEX Build is a fast-paced development challenge where participants create innovative applications powered by Artificial Intelligence. Link of website will be shared in groups and the problem statement will be found on the website. Participants will find a solution and build a platform (web, app, or software etc.). The event culminates in a live demonstration of their “AI-first” application to a panel of experts.",
     ],
     prizes: [
       { rank: "1st Place", reward: "TBA" },
