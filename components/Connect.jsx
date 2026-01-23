@@ -12,7 +12,7 @@ const dancingScript = Dancing_Script({
   variable: "--font-dancing-script",
 });
 
-const Connect = ({ id="connect" }) => {
+const Connect = ({ id = "connect" }) => {
   const sectionRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -20,7 +20,11 @@ const Connect = ({ id="connect" }) => {
     offset: ["start end", "end start"],
   });
 
-  const opacity = useTransform(scrollYProgress, [0, 0.15, 0.8, 1], [0, 1, 1, 0.8]);
+  const opacity = useTransform(
+    scrollYProgress,
+    [0, 0.15, 0.8, 1],
+    [0, 1, 1, 0.8],
+  );
   const scale = useTransform(scrollYProgress, [0, 0.2], [0.95, 1]);
 
   const fadeUp = {
@@ -76,9 +80,9 @@ const Connect = ({ id="connect" }) => {
         viewport={{ once: true }}
         className="px-6 py-2 bg-white/5 border border-[#e99b63]/30 rounded-full mb-8 backdrop-blur-md"
       >
-       <span className="text-[12px] tracking-[0.4em] font-bold text-[#e99b63] uppercase">
-            Stay connected
-          </span>
+        <span className="text-[12px] tracking-[0.4em] font-bold text-[#e99b63] uppercase">
+          Stay connected
+        </span>
       </motion.div>
 
       {/* ✨ Heading */}
@@ -90,7 +94,7 @@ const Connect = ({ id="connect" }) => {
         viewport={{ once: true, amount: 0.4 }}
         className={cn(
           "text-8xl md:text-6xl lg:text-8xl font-bold tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#e99b63] via-[#ffcc8f] to-[#e99b63]/80 z-10 text-center",
-          dancingScript.className
+          dancingScript.className,
         )}
       >
         Let’s Connect
@@ -120,7 +124,10 @@ const Connect = ({ id="connect" }) => {
         viewport={{ once: true }}
         className="relative z-[80] flex items-center justify-center mt-6 md:mt-10"
       >
-        <PinContainer title="Tech Samarooh 2026" href="https://trinitydwarka.edu">
+        <PinContainer
+          title="Tech Samarooh 2026"
+          href="https://www.tips.edu.in/"
+        >
           <div className="flex flex-col items-center justify-center w-[12rem] h-[12rem] md:w-[14rem] md:h-[14rem] rounded-2xl bg-gradient-to-tr from-[#ffcc8f]/20 to-[#e99b63]/15 border border-[#ffcc8f]/40 shadow-[0_0_60px_#e99b63aa] backdrop-blur-xl">
             <motion.div
               animate={{
@@ -133,9 +140,9 @@ const Connect = ({ id="connect" }) => {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-gradient-to-tr from-[#ffcc8f] to-[#e99b63] shadow-[0_0_40px_#e99b63aa] flex items-center justify-center"
+              className="w-24 h-24 p-6 md:w-28 md:h-28 rounded-full bg-gradient-to-tr from-[#1e1e1e] to-[#000000] shadow-[0_0_40px_#e99b63aa] flex items-center justify-center"
             >
-              
+              <img src="/WebAssets/logo-trans.png" alt="" />
             </motion.div>
           </div>
         </PinContainer>
