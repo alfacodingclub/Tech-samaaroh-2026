@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Tech Samaroh",
+  title: "Tech Samaaroh",
   description: "Trinity Dwarka's Tech Fest",
 };
 

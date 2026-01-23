@@ -76,12 +76,12 @@ const Footer = () => {
         <div className="flex flex-col items-start">
           <div className="flex items-center gap-3 mb-6">
             <img
-              src="/WebAssets/logo.png"
+              src="/WebAssets/TS 6.0.png"
               className="w-10 h-10 bg-[#e99b63] rounded-lg flex items-center justify-center font-bold text-black text-xl"
               alt="logo"
             />
-            <span className="text-2xl font-bold tracking-tighter uppercase">
-              Tech Samaroh<span className="text-[#e99b63]"> 2026</span>
+            <span className="text-[20px] font-bold tracking-tighter uppercase">
+              Tech Samaaroh<span className="text-[#e99b63]"> 2026</span>
             </span>
           </div>
           <p className="text-gray-100 text-sm leading-relaxed mb-6 text-left">

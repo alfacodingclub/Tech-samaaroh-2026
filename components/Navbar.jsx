@@ -73,12 +73,12 @@ const Navbar = () => {
         className="flex items-center gap-4 z-50"
       >
         <img
-          src="/WebAssets/logo.png"
+          src="/WebAssets/TS-26.png"
           alt="Logo"
           className="h-8 md:h-12 w-auto object-contain"
         />
         <h1 className="text-2xl md:text-3xl lg:text-5xl font-light m-0 tracking-tighter">
-          Tech Samaroh
+          Tech Samaaroh
         </h1>
       </motion.div>
 

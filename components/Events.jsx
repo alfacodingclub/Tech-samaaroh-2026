@@ -33,8 +33,6 @@ const Events = ({ id = "events" }) => {
       Eligibility: "",
       time: "",
       Venue: "",
-      Participation: "",
-      RegistrationDeadline: "",
       fees:"",
       img: "/WebAssets/WhatsApp Image 2026-01-18 at 5.51.57 PM.jpeg",
       color: "from-blue-600",
@@ -47,10 +45,8 @@ const Events = ({ id = "events" }) => {
       Eligibility: "",
       time: "",
       Venue: "",
-      Participation: "",
-      RegistrationDeadline: "",
       fees:"",
-      img: "",
+      img: "/WebAssets/WhatsApp Image 2026-01-23 at 6.35.51 PM.jpeg",
       color: "from-red-600",
       link: "/events/hack-a-thon-2026",
     },
@@ -61,8 +57,6 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all departments (technical & non-technical)",
       time: "TBA",
       Venue: "ROOM NO. 402",
-      Participation: "2 members per team",
-      RegistrationDeadline: "TBA",
       fees:"₹80",
       img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
@@ -76,8 +70,6 @@ const Events = ({ id = "events" }) => {
       Eligibility: "knowledge of technical analysis ",
       time: "12:00- 1:30",
       Venue: "305 at tips dwarka",
-      Participation: "3 members in each team ",
-      RegistrationDeadline: "TBA",
       fees:"₹150",
       img: "",
       color: "from-purple-600",
@@ -90,8 +82,6 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all departments",
       time: "TBA",
       Venue: "Conference Room ",
-      Participation: "Maximum 2 members",
-      RegistrationDeadline: "TBA",
       fees:"₹100",
       img: "",
       color: "from-pink-600",
@@ -104,8 +94,6 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all departments",
       time: "TBA",
       Venue: "Room 204 (Tentative)",
-      Participation: "1 – 2 members",
-      RegistrationDeadline: "TBA",
       fees:"TBA",
       img: "",
       color: "from-cyan-600",
@@ -117,9 +105,7 @@ const Events = ({ id = "events" }) => {
       desc: "Prompt the Future. Pitch the Vision.",
       Eligibility: "Basic knowledge of AI tools",
       time: "TBA",
-      Venue: " Room 407",
-      Participation: " Minimum 2 and Maximum 4 participants",
-      RegistrationDeadline: "18 February 2026",
+      Venue: "Room 407",
       fees:"TBA",
       img: "/WebAssets/researchclub.jpg",
       color: "from-cyan-600",
@@ -132,8 +118,6 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all registered Tech Samaaroh participants",
       time: "60 Minutes",
       Venue: "Room 407 (Campus Photo Hunt Area)",
-      Participation: "Team Event (Team of 2)",
-      RegistrationDeadline: "TBA",
       fees:"₹60 per team",
       img: "",
       color: "from-cyan-600",
@@ -242,7 +226,7 @@ const Events = ({ id = "events" }) => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
-            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} // 👈 added toggle
+            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} 
             className="group relative h-auto"
           >
             {/* Glow border */}
@@ -296,14 +280,6 @@ const Events = ({ id = "events" }) => {
                    <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
                   <MapPin className="w-4 h-4 text-gray-400 shrink-0" />
                   {club.Venue}
-                </p>
-                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
-                  <Users className="w-4 h-4 text-gray-400 shrink-0" />
-                  {club.Participation}
-                </p>
-                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
-                  <CalendarClock className="w-4 h-4 text-gray-400 shrink-0" />
-                  {club.RegistrationDeadline}
                 </p>
                 <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
                   <Wallet className="w-4 h-4 text-gray-400 shrink-0" />
