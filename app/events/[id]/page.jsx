@@ -19,30 +19,34 @@ const eventData = {
   // ALFA DATA
   "codex-build": {
     id: "codex-build",
-    name: "HACK-A-THON 2026",
+    name: "CODEX Build",
+    fees: "₹50 Per Member",
+    deadline: "TBA",
     tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+    timing: "February 20, TBA",
+    location: "305 Lab",
+    teamSize: "Individual",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+      "Build with AI is a fast-paced development challenge where participants create innovative applications powered by Artificial Intelligence. Link of website will be shared in groups and the problem statement will be found on the website. Participants will find a solution and build a platform (web, app, or software etc.). The event culminates in a live demonstration of their “AI-first” application to a panel of experts.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "TBA" },
+      { rank: "2nd Place", reward: "TBA" },
+      {rank:"3rd Place", reward:"TBA"},
+      {rank:"All Participants",participation:"E-certificates to all Participants"}
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "Devices: Teams must bring their own laptops; high-speed internet will be provided.", 
+      "AI Tools: Use of AI APIs (OpenAI, Gemini, Anthropic) and coding assistants is required.", 
+      "Plagiarism: Copying complete pre-existing projects is strictly prohibited.",
     ],
     requirements:[
-
+    "Laptop",
+    "Id card",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Abhinav Mehta ", phone: "+91 9811812178" },
+      { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
@@ -277,8 +281,8 @@ const eventData = {
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
-  "pixcel-pulse": {
-    id: "pixcel-pulse",
+  "pixel-pulse": {
+    id: "pixel-pulse",
     name: "Pixel Pulse",
     fees:"₹60 per team",
     deadline:"TBA",

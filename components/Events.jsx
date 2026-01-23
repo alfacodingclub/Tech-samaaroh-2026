@@ -27,13 +27,13 @@ const Events = ({ id = "events" }) => {
 
   const eventList = [
     {
-      id: "hack-a-thon-2026",
+      id: "codex-build",
       name: "CODEX Build",
-      desc: "",
-      Eligibility: "",
-      time: "",
-      Venue: "",
-      fees:"",
+      desc: "Code the future, one byte at a time.",
+      Eligibility: "knowledge of emerging technologies and domains",
+      time: "TBA",
+      Venue: "305 Lab Trinity Dwarka",
+      fees:"₹50 Per Member",
       img: "/WebAssets/WhatsApp Image 2026-01-18 at 5.51.57 PM.jpeg",
       color: "from-blue-600",
       link: "/events/codex-build",
@@ -112,8 +112,8 @@ const Events = ({ id = "events" }) => {
       link: "/events/brand-bot",
     },
     {
-      id: "pixcel-pulse",
-      name: "Pixcel Pulse",
+      id: "pixel-pulse",
+      name: "Pixel Pulse",
       desc: "Freeze the Frame. Master the Edit.",
       Eligibility: "Open to all registered Tech Samaaroh participants",
       time: "60 Minutes",
@@ -121,7 +121,7 @@ const Events = ({ id = "events" }) => {
       fees:"₹60 per team",
       img: "",
       color: "from-cyan-600",
-      link: "/events/pixcel-pulse",
+      link: "/events/pixel-pulse",
     },
   ];
 
