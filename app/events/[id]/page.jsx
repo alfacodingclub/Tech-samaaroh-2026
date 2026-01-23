@@ -51,7 +51,7 @@ const eventData = {
   "fire-bound": {
     id: "fire-bound",
     name: "Firebound",
-    fees: "₹ 100 Per Team",
+    fees: "₹100 Per Team",
     deadline: "TBA",
     tagline: "forged in fire, unleashed in strength",
     timing: "February 20, TBA",
