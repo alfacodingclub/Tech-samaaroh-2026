@@ -10,3 +10,9 @@
 body {
   font-family: var(--font-poppins), sans-serif;
 }
+
+@supports (-webkit-backdrop-filter: blur(10px)) {
+  .backdrop-blur-md {
+    -webkit-backdrop-filter: blur(12px);
+  }
+}

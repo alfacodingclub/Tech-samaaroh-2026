@@ -51,7 +51,6 @@ const Navbar = () => {
 
     if (pathname !== "/") {
       router.push("/");
-      // Repeatedly check until section appears (max 2 seconds)
       const interval = setInterval(() => {
         if (scrollTo(id)) clearInterval(interval);
       }, 200);
@@ -64,93 +63,81 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full flex justify-between items-center py-6 px-4 lg:px-20 text-white z-[100] border-b-[0.3px] bg-black/30 md:bg-black/15 md:backdrop-blur-md shadow-2xl border border-white/10 font-poppins">
-      {/* Logo */}
-      <motion.div
-        initial={{ opacity: 0, x: -20 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.6 }}
-        className="flex items-center gap-4 z-50"
-      >
-        <img
-          src="/WebAssets/logo-trans.png"
-          alt="Logo"
-          className="h-8 md:h-12 w-auto object-contain"
-        />
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium m-0 tracking-tighter">
-          Tech Samaaroh
-        </h1>
-      </motion.div>
+    <header className="fixed top-0 left-0 w-full z-[100]">
+      {/* Blur effect */}
+      <div className="absolute inset-0 bg-black/30 md:bg-black/15 backdrop-blur-md pointer-events-none" />
 
-      {/* Desktop Nav */}
-      <motion.nav
-        variants={navContainerVariants}
-        initial="hidden"
-        animate="visible"
-        className="hidden md:flex items-center gap-12 ml-auto"
-      >
-        {navItems.map((item) => (
-          <motion.div key={item} variants={linkVariants}>
-            <button
-              onClick={() => scrollToSection(item)}
-              className="relative  tracking-[0.2em] transition-colors hover:text-[#e99b63] group text-lg uppercase cursor-pointer "
-            >
-              {item}
-              <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#e99b63] transition-all duration-300 group-hover:w-full" />
-            </button>
-          </motion.div>
-        ))}
-      </motion.nav>
-
-      {/* Mobile Toggle */}
-      <motion.button
-        onClick={() => setIsOpen(!isOpen)}
-        whileTap={{ scale: 0.95 }}
-        whileHover={{ scale: 1.05 }}
-        className="md:hidden text-4xl p-2 z-[60] flex items-center justify-center focus:outline-none"
-      >
-        <div className="relative w-8 h-8 flex items-center justify-center">
-          {/* Menu Icon */}
-          <motion.i
-            className="bx bx-menu absolute cursor-pointer"
-            animate={{
-              opacity: isOpen ? 0 : 1,
-              rotate: isOpen ? 90 : 0,
-              scale: isOpen ? 0.8 : 1,
-            }}
-            transition={{
-              type: "spring",
-              stiffness: 250,
-              damping: 20,
-            }}
-            style={{
-              color: "#ffffff",
-              transformOrigin: "center",
-              textShadow: "0 0 6px rgba(255,255,255,0.6)",
-            }}
+      {/* Navbar */}
+      <div className="relative flex justify-between items-center py-6 px-4 lg:px-20 text-white border-b border-white/10 shadow-2xl font-poppins">
+        {/* Logo */}
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          className="flex items-center gap-4 z-50"
+        >
+          <img
+            src="/WebAssets/logo-trans.png"
+            alt="Logo"
+            className="h-8 md:h-12 w-auto object-contain"
           />
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium tracking-tighter">
+            Tech Samaaroh
+          </h1>
+        </motion.div>
 
-          {/* Cross Icon */}
-          <motion.i
-            className="bx bx-x absolute cursor-pointer"
-            animate={{
-              opacity: isOpen ? 1 : 0,
-              rotate: isOpen ? 0 : -90,
-              scale: isOpen ? 1 : 0.8,
-            }}
-            transition={{
-              type: "spring",
-              stiffness: 250,
-              damping: 20,
-            }}
-            style={{
-              color: "#e99b63",
-              transformOrigin: "center",
-              textShadow: "0 0 8px rgba(233,155,99,0.8)",
-            }}
-          />
-        </div>
-      </motion.button>
+        {/* Desktop Nav */}
+        <motion.nav
+          variants={navContainerVariants}
+          initial="hidden"
+          animate="visible"
+          className="hidden md:flex items-center gap-12 ml-auto"
+        >
+          {navItems.map((item) => (
+            <motion.div key={item} variants={linkVariants}>
+              <button
+                onClick={() => scrollToSection(item)}
+                className="relative tracking-[0.2em] transition-colors hover:text-[#e99b63] group text-lg uppercase cursor-pointer"
+              >
+                {item}
+                <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#e99b63] transition-all duration-300 group-hover:w-full" />
+              </button>
+            </motion.div>
+          ))}
+        </motion.nav>
+
+        {/* Mobile Toggle */}
+        <motion.button
+          onClick={() => setIsOpen(!isOpen)}
+          whileTap={{ scale: 0.95 }}
+          whileHover={{ scale: 1.05 }}
+          className="md:hidden text-4xl p-2 z-[160] flex items-center justify-center"
+        >
+          <div className="relative w-8 h-8 flex items-center justify-center">
+            <motion.i
+              className="bx bx-menu absolute"
+              animate={{
+                opacity: isOpen ? 0 : 1,
+                rotate: isOpen ? 90 : 0,
+                scale: isOpen ? 0.8 : 1,
+              }}
+              transition={{ type: "spring", stiffness: 250, damping: 20 }}
+              style={{ color: "#fff" }}
+            />
+
+            <motion.i
+              className="bx bx-x absolute"
+              animate={{
+                opacity: isOpen ? 1 : 0,
+                rotate: isOpen ? 0 : -90,
+                scale: isOpen ? 1 : 0.8,
+              }}
+              transition={{ type: "spring", stiffness: 250, damping: 20 }}
+              style={{ color: "#e99b63" }}
+            />
+          </div>
+        </motion.button>
+      </div>
 
       {/* Mobile Menu */}
       <AnimatePresence>
@@ -160,7 +147,7 @@ const Navbar = () => {
             initial="closed"
             animate="opened"
             exit="closed"
-            className="fixed inset-0 z-[40] bg-[#0a0a0a] flex flex-col items-center justify-center"
+            className="fixed inset-0 z-[120] bg-[#0a0a0a] flex flex-col items-center justify-center"
           >
             <nav className="flex flex-col gap-8 items-center">
               {navItems.map((item, i) => (
@@ -172,35 +159,13 @@ const Navbar = () => {
                 >
                   <button
                     onClick={() => scrollToSection(item)}
-                    className="text-4xl cursor-pointer tracking-[0.3em] font-light hover:text-[#e99b63] transition-colors uppercase"
+                    className="text-4xl tracking-[0.3em] font-light hover:text-[#e99b63] uppercase"
                   >
                     {item}
                   </button>
                 </motion.div>
               ))}
             </nav>
-
-            {/* ✅ Footer with Instagram icon only */}
-            <motion.footer
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8, duration: 0.6 }}
-              className="absolute bottom-8 text-center text-sm text-gray-400"
-            >
-              <p>
-                © {new Date().getFullYear()} Tech Samarooh. All rights reserved.
-              </p>
-              <div className="flex justify-center mt-3 text-2xl">
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#e99b63] transition-colors"
-                >
-                  <i className="bx bxl-instagram"></i>
-                </a>
-              </div>
-            </motion.footer>
           </motion.div>
         )}
       </AnimatePresence>

@@ -85,8 +85,6 @@ export default function Hero({
         />
       </div>
 
-      
-
       <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
           {/* 🎖️ Full Circle Moving Border Badge */}
@@ -126,7 +124,7 @@ export default function Hero({
               <span
                 className={cn(
                   "bg-clip-text text-transparent bg-gradient-to-r from-[#e99b63] via-[#ffcc8f] to-[#e99b63]/80 font-bold text-4xl sm:text-6xl md:text-8xl lg:text-9xl",
-                  dancingScript.className
+                  dancingScript.className,
                 )}
               >
                 {title2}
