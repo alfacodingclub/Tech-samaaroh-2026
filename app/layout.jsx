@@ -22,7 +22,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Tech Samaroh",
+  title: "Tech Samaaroh",
   description: "Trinity Dwarka's Tech Fest",
   icons: {
     icon: "/WebAssets/logo-trans.png",

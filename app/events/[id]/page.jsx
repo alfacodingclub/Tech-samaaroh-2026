@@ -17,60 +17,78 @@ import ElegantShape from "@/components/elegantShape";
 // 🧩 Event data
 const eventData = {
   // ALFA DATA
-  "hack-a-thon-2026": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
+  "codex-build": {
+    id: "codex-build",
+    name: "CODEX Build",
+    fees: "₹50 Per Member",
+    deadline: "TBA",
     tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+    timing: "February 20, TBA",
+    location: "305 Lab",
+    teamSize: "Individual",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+      "CODEX Build is a fast-paced development challenge where participants create innovative applications powered by Artificial Intelligence. Link of website will be shared in groups and the problem statement will be found on the website. Participants will find a solution and build a platform (web, app, or software etc.). The event culminates in a live demonstration of their “AI-first” application to a panel of experts.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "TBA" },
+      { rank: "2nd Place", reward: "TBA" },
+      {rank:"3rd Place", reward:"TBA"},
+      {rank:"All Participants",participation:"E-certificates to all Participants"}
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "Devices: Teams must bring their own laptops; high-speed internet will be provided.", 
+      "AI Tools: Use of AI APIs (OpenAI, Gemini, Anthropic) and coding assistants is required.", 
+      "Plagiarism: Copying complete pre-existing projects is strictly prohibited.",
     ],
     requirements:[
-
+    "Laptop",
+    "Id card",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Abhinav Mehta ", phone: "+91 9811812178" },
+      { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
     LeftPoster:"",  
   },
-  "Fire-bound": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
-    tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+  "fire-bound": {
+    id: "fire-bound",
+    name: "Firebound",
+    fees: "₹100 Per Team",
+    deadline: "TBA",
+    tagline: "forged in fire, unleashed in strength",
+    timing: "February 20, TBA",
+    location: "3rd and 4th floor",
+    teamSize: "2 Members",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    "The Treasure Hunt is a fun-based offline event where participants work in teams to solve a series of clues and challenges. Each clue leads to the next location, gradually guiding teams closer to the final treasure. Participants must think logically, manage time efficiently, and collaborate effectively. The team that finds the treasure first by following all rules will be declared as winner."
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "₹1500 + Certificate + Swags + Internship Opportunity" },
+      { rank: "2nd Place", reward: "₹800 + Certificate + Swags " },
+      {rank:"3rd Place", reward:"Certificate "},
+      {rank:"All Participants",participation:"keychains + E-certificate"}
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "Mobile phones are allowed only for QR scanning",
+      "No time boundation." ,
+      "Internet usage is not allowed unless specified.", 
+      "No external help from non-participants.", 
+      "Teams must follow the sequence of clues strictly." ,
+      "Any form of cheating or rule violation will lead to disqualification.",
+      "Late completion beyond the time limit will not be considered",
+      "Teams must stay together during the event", 
+      "QR codes must not be damaged", 
+      "No unfair means allowed", 
+    ],
+    requirements:[
+      "Id card",
+      "Pen",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Kashvi Anand", phone: "+91 98716 80537" },
+      { name: "Prince Singh", phone: "+91 88605 50502" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
@@ -263,8 +281,8 @@ const eventData = {
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
-  "pixcel-pulse": {
-    id: "pixcel-pulse",
+  "pixel-pulse": {
+    id: "pixel-pulse",
     name: "Pixel Pulse",
     fees:"₹60 per team",
     deadline:"TBA",
@@ -305,84 +323,108 @@ const eventData = {
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
   // ARCLIGHT DATA
-  "hack-a-thon-2026": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
-    tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+  "genre-jeopardy": {
+    id: "genre-jeopardy",
+    name: "Genre Jeopardy",
+    fees:"₹100",
+    deadline:"TBA",
+    tagline: "Greater the Risk, Sweeter the victory",
+    timing: "TBA",
+    location: "Room no 402(tentative)",
+    teamSize: "Individual ",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+      "Genre Jeopardy is an exciting quiz competition that challenges participants' knowledge across various entertainment genres, including movies, music, literature, and pop culture.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "Trophy + Certificate" },
+      { rank: "2nd Place", reward: "Medal+Certificate" },
+      {rank:"3rd Place", reward:"Medal + Certificate"},
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "Questions have different point values based on difficulty (e.g., 100, 200, 300 points).",
+      "Correct answers earn points; incorrect answers will lead to deductions.",
+      "Each player has 3 skips to pass a question.",
+      "The host will read each question, and players will have 10 seconds to respond.",
+      "There will be 2 rounds.",
+      "In first round players will play individually.",
+      "In second round participants will be randomly merged to form a duo.",
+      "The highest-scoring player at the end wins.",
+      "In case of a tie, a tie-breaker question will be asked.",
+    ],
+    requirements:[
+      "College ID",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Sneha", phone: "+91  85059 39335" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
-  "hack-a-thon-2026": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
-    tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+  "hack-my-mind": {
+    id: "hack-my-mind",
+    name: "Hack My Mind",
+    fees:"₹100",
+    deadline:"TBA",
+    tagline: "Soch lao, card uthao, dimag hilao",
+    timing: "TBA",
+    location: "Conference Room (tentative)",
+    teamSize: "Individual or Duo",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+      "Two contestants face off with one bold, funny, or controversial statement on the screen. One contestant must defend the statement, while the other tries to change their opponent’s mind using logic, humour, and smart persuasion.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "Trophy + Certificate" },
+      { rank: "2nd Place", reward: "Medal+Certificate" },
+      {rank:"3rd Place", reward:"Medal + Certificate"},
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "Participants will compete in structured opinion based game format",
+      "They will be presented with a controversial yet safe statement on-screen",
+      "Participants must take a stance in the given preparation time",
+      "Power cards must be drawn, introducing twists",
+      "Judges will evaluate participants based on the predefining score criteria",
+      "Top scoring participants will qualify for the next round",
+    ],
+    requirements:[
+      "College ID",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Bhumi", phone: "+91 87459 32303" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
   // ALFA AND APEX DATA
-  "hack-a-thon-2026": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
-    tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+  "the-404-makeover": {
+    id: "the-404-makeover",
+    name: "The 404 Makeover",
+    fees:"TBA",
+    deadline:"TBA",
+    tagline: "Lost in Code. Found in Design.",
+    timing: "TBA",
+    location: "TBA",
+    teamSize: "TBA",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+      "Lorem ipsum dolor sit."
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "TBA" },
+      { rank: "2nd Place", reward: "TBA" },
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+    "The Duo: Must be a team of 2 (1 Designer + 1 Coder). If a student comes alone, the organizers will match-make them.",
+    "The Tech Stack: Coders are limited to HTML, CSS, and basic JavaScript. Designers can use Figma, Canva, or Photoshop to create assets.",
+    "Core Requirement: The page must contain at least one interactive element (e.g., a button that does something funny, a hover effect, or a mini-game).",
+    "The Human Element: The page must include a Back to Home link and a creative UX Micro-copy (a funny or helpful message explaining the error).",
+    "Submission: A live preview (using GitHub Pages, Netlify, or simply opening the local file on the judge's screen).",
+    ],
+   requirements:[
+      "College ID",
+      "Laptop"
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "ALFA", phone: "+91 1234567890" },
+      { name: "APEX", phone: "+91 1234567890" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",

@@ -47,23 +47,6 @@ const ClubPage = () => {
             "Networking events with tech companies",
             "Annual tech exhibition showcasing student projects",
         ],
-        achievements: [
-            {
-                title: "National Hackathon Champions 2024",
-                description:
-                    "First place at the National College Hackathon, competing against 50+ teams from across the country.",
-            },
-            {
-                title: "Best Student Innovation Award",
-                description:
-                    "Recognized by the Ministry of Education for developing an AI-based solution for rural healthcare.",
-            },
-            {
-                title: "Google Developer Student Club Partner",
-                description:
-                    "Official partnership with Google Developer Student Clubs to host workshops and events.",
-            },
-        ],
         team: [
             {
                 name: "Aryan Sharma",
