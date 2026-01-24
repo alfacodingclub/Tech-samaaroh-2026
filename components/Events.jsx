@@ -5,7 +5,14 @@ import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
 import { cn } from "@/lib/utils";
 import ElegantShape from "./elegantShape";
-import { UserCheck, Clock, MapPin, Users, CalendarClock, Wallet  } from "lucide-react";
+import {
+  UserCheck,
+  Clock,
+  MapPin,
+  Users,
+  CalendarClock,
+  Wallet,
+} from "lucide-react";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -22,10 +29,42 @@ const Events = ({ id = "events" }) => {
     offset: ["start end", "end start"],
   });
 
-  const opacity = useTransform(scrollYProgress, [0, 0.15, 0.8, 1], [0, 1, 1, 0.9]);
-  const scale = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.95, 1, 1, 0.98]);
+  const opacity = useTransform(
+    scrollYProgress,
+    [0, 0.15, 0.8, 1],
+    [0, 1, 1, 0.9],
+  );
+  const scale = useTransform(
+    scrollYProgress,
+    [0, 0.2, 0.8, 1],
+    [0.95, 1, 1, 0.98],
+  );
 
   const eventList = [
+    {
+      id: "cyber-tok",
+      name: "Cyber TOK",
+      desc: "Think Fast. Create Smart. Solve Sharp.",
+      Eligibility: "Open to all departments (technical & non-technical)",
+      time: "TBA",
+      Venue: "ROOM NO. 402",
+      fees: "₹80",
+      img: "/WebAssets/Cyber Knight logo.jpg",
+      color: "from-red-600",
+      link: "/events/cyber-tok",
+    },
+    {
+      id: "shadow-trace",
+      name: "Shadow Trace",
+      desc: "Uncover the system behind the data",
+      Eligibility: "knowledge of technical analysis ",
+      time: "12:00- 1:30",
+      Venue: "305 at tips dwarka",
+      fees: "₹150",
+      img: "",
+      color: "from-purple-600",
+      link: "/events/shadow-trace",
+    },
     {
       id: "codex-build",
       name: "CODEX Build",
@@ -33,7 +72,7 @@ const Events = ({ id = "events" }) => {
       Eligibility: "knowledge of emerging technologies and domains",
       time: "110 Minutes",
       Venue: "305 Lab Trinity Dwarka",
-      fees:"₹50 Per Member",
+      fees: "₹50 Per Member",
       img: "/WebAssets/WhatsApp Image 2026-01-18 at 5.51.57 PM.jpeg",
       color: "from-blue-600",
       link: "/events/codex-build",
@@ -45,35 +84,10 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all college students with valid ID Cards",
       time: "120 Minutes",
       Venue: "3rd and 4th floor",
-      fees:"₹100 Per Team",
+      fees: "₹100 Per Team",
       img: "/WebAssets/WhatsApp Image 2026-01-23 at 6.35.51 PM.jpeg",
       color: "from-red-600",
       link: "/events/fire-bound",
-    },
-    {
-      id: "cyber-tok",
-      name: "Cyber TOK",
-      desc: "Think Fast. Create Smart. Solve Sharp.",
-      Eligibility: "Open to all departments (technical & non-technical)",
-      time: "TBA",
-      Venue: "ROOM NO. 402",
-      fees:"₹80",
-      img: "/WebAssets/Cyber Knight logo.jpg",
-      color: "from-red-600",
-      link: "/events/cyber-tok",
-
-    },
-    {
-      id: "shadow-trace",
-      name: "Shadow Trace",
-      desc: "Uncover the system behind the data",
-      Eligibility: "knowledge of technical analysis ",
-      time: "12:00- 1:30",
-      Venue: "305 at tips dwarka",
-      fees:"₹150",
-      img: "",
-      color: "from-purple-600",
-      link: "/events/shadow-trace",
     },
     {
       id: "the-scholar-stage",
@@ -82,7 +96,7 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all departments",
       time: "TBA",
       Venue: "Conference Room ",
-      fees:"₹100",
+      fees: "₹100",
       img: "",
       color: "from-pink-600",
       link: "/events/the-scholar-stage",
@@ -94,7 +108,7 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all departments",
       time: "TBA",
       Venue: "Room 204 (Tentative)",
-      fees:"TBA",
+      fees: "TBA",
       img: "",
       color: "from-cyan-600",
       link: "/events/pich-perfect",
@@ -106,7 +120,7 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Basic knowledge of AI tools",
       time: "TBA",
       Venue: "Room 407",
-      fees:"TBA",
+      fees: "TBA",
       img: "/WebAssets/researchclub.jpg",
       color: "from-cyan-600",
       link: "/events/brand-bot",
@@ -118,43 +132,43 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open to all registered Tech Samaaroh participants",
       time: "60 Minutes",
       Venue: "Room 407 (Campus Photo Hunt Area)",
-      fees:"₹60 per team",
+      fees: "₹60 per team",
       img: "",
       color: "from-cyan-600",
       link: "/events/pixel-pulse",
     },
-     {
+    {
       id: "genre-jeopardy",
       name: "Genre Jeopardy",
       desc: "Greater the Risk, Sweeter the victory",
       Eligibility: "Open to all",
       time: "TBA",
       Venue: "Room no 402(tentative)",
-      fees:"₹100",
+      fees: "₹100",
       img: "",
       color: "from-cyan-600",
       link: "/events/genre-jeopardy",
     },
-     {
+    {
       id: "hack-my-mind",
       name: "Hack My Mind",
       desc: "Soch lao, card uthao, dimag hilao",
       Eligibility: "Open to all",
       time: "TBA",
       Venue: "Conference Room (tentative)",
-      fees:"₹100",
+      fees: "₹100",
       img: "",
       color: "from-cyan-600",
       link: "/events/hack-my-mind",
     },
-     {
+    {
       id: "the-404-makeover",
       name: "The 404 Makeover",
       desc: "Lost in Code. Found in Design.",
       Eligibility: "TBA",
       time: "60 Minutes",
       Venue: "TBA",
-      fees:"TBA",
+      fees: "TBA",
       img: "",
       color: "from-cyan-600",
       link: "/events/the-404-makeover",
@@ -230,7 +244,7 @@ const Events = ({ id = "events" }) => {
           viewport={{ once: true, amount: 0.4 }}
           className={cn(
             "text-8xl md:text-6xl lg:text-8xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#e99b63] via-[#ffcc8f] to-[#e99b63]/80",
-            dancingScript.className
+            dancingScript.className,
           )}
         >
           Events
@@ -248,7 +262,8 @@ const Events = ({ id = "events" }) => {
           <span className="text-[#e99b63] font-semibold">
             Tech Samarooh’s exclusive events
           </span>{" "}
-          — Discover the exciting lineup of events at Tech Samaaroh 2026. From coding competitions to workshops, there's something for everyone!
+          — Discover the exciting lineup of events at Tech Samaaroh 2026. From
+          coding competitions to workshops, there's something for everyone!
         </motion.p>
       </div>
 
@@ -262,7 +277,9 @@ const Events = ({ id = "events" }) => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
-            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} 
+            onClick={() =>
+              setActiveCard(activeCard === club.id ? null : club.id)
+            }
             className="group relative h-auto"
           >
             {/* Glow border */}
@@ -309,11 +326,11 @@ const Events = ({ id = "events" }) => {
                   <UserCheck className="w-4 h-4 text-gray-400 shrink-0" />
                   {club.Eligibility}
                 </p>
-                 <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
                   <Clock className="w-4 h-4 text-gray-400 shrink-0" />
                   {club.time}
                 </p>
-                   <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
                   <MapPin className="w-4 h-4 text-gray-400 shrink-0" />
                   {club.Venue}
                 </p>
@@ -331,7 +348,7 @@ const Events = ({ id = "events" }) => {
                     "cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]",
                     activeCard === club.id
                       ? "translate-y-0"
-                      : "translate-y-full md:group-hover:translate-y-0"
+                      : "translate-y-full md:group-hover:translate-y-0",
                   )}
                 >
                   VIEW EVENT DETAILS

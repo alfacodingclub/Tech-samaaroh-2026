@@ -37,8 +37,8 @@ export default function Hero({
       {/* ✨ Soft ambient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#e99b63]/[0.08] via-[#1a1a1a] to-[#e99b63]/[0.15] blur-3xl" />
 
-      {/* ✨ Floating abstract shapes */}
-      <div className="absolute inset-0 overflow-hidden">
+      {/* ✨ Floating abstract shapes - Desktop */}
+      <div className="max-md:hidden absolute inset-0 overflow-hidden">
         <ElegantShape
           delay={0.3}
           width={600}
@@ -85,6 +85,54 @@ export default function Hero({
         />
       </div>
 
+      {/* ✨ Floating abstract shapes - Desktop */}
+      <div className="md:hidden absolute inset-0 overflow-hidden">
+        <ElegantShape
+          delay={0.3}
+          width={350}
+          height={80}
+          rotate={-10}
+          gradient="from-[#e99b63]/[0.80] to-[#ffcc8f]/[0.60]"
+          className="left-[-50%] md:left-[-5%] top-[25%] md:top-[20%]"
+        />
+
+        <ElegantShape
+          delay={0.5}
+          width={300}
+          height={70}
+          rotate={-15}
+          gradient="from-amber-400/[0.5] to-amber-200/[0.4]"
+          className="right-[-5%] md:right-[0%] top-[70%] md:top-[75%]"
+        />
+
+        <ElegantShape
+          delay={0.4}
+          width={250}
+          height={80}
+          rotate={20}
+          gradient="from-[#ffb87a]/[0.55] to-[#e99b63]/[0.45]"
+          className="left-[5%] md:left-[10%] bottom-[5%] md:bottom-[10%]"
+        />
+
+        <ElegantShape
+          delay={0.6}
+          width={220}
+          height={60}
+          rotate={20}
+          gradient="from-[#ffcc8f]/[0.6] to-[#e99b63]/[0.45]"
+          className="right-[-15%] md:right-[20%] top-[10%] md:top-[15%]"
+        />
+
+        <ElegantShape
+          delay={0.7}
+          width={160}
+          height={40}
+          rotate={-25}
+          gradient="from-[#ffb87a]/[0.6] to-[#e99b63]/[0.5]"
+          className="left-[20%] md:left-[25%] top-[5%] md:top-[10%]"
+        />
+      </div>
+
       <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
           {/* 🎖️ Full Circle Moving Border Badge */}
@@ -100,7 +148,7 @@ export default function Hero({
               duration={4000}
               containerClassName="h-10 w-auto p-[1px]"
               borderClassName="bg-[conic-gradient(from_90deg_at_50%_50%,#e99b63_0%,#ffcc8f_50%,#e99b63_100%)] opacity-60"
-              className="bg-[#0a0a0a] text-[#e99b63]/90 text-sm font-medium tracking-wide px-6 py-2 border-none backdrop-blur-3xl"
+              className="bg-[#0a0a0a] text-[#e99b63]/90 text-sm max-md:text-xs font-medium tracking-wide px-6 py-2 border-none backdrop-blur-3xl"
             >
               <span className="relative z-10 flex items-center gap-2">
                 <span className="w-1 h-1 rounded-full bg-[#e99b63] shadow-[0_0_8px_#e99b63]" />

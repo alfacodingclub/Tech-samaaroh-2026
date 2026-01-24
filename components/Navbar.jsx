@@ -68,7 +68,7 @@ const Navbar = () => {
       <div className="absolute inset-0 bg-black/30 md:bg-black/15 backdrop-blur-md pointer-events-none" />
 
       {/* Navbar */}
-      <div className="relative flex justify-between items-center py-6 px-4 lg:px-20 text-white border-b border-white/10 shadow-2xl font-poppins">
+      <div className="relative flex justify-between items-center py-5 px-4 lg:px-20 text-white border-b border-white/10 shadow-2xl font-poppins">
         {/* Logo */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -79,9 +79,9 @@ const Navbar = () => {
           <img
             src="/WebAssets/logo-trans.png"
             alt="Logo"
-            className="h-8 md:h-12 w-auto object-contain"
+            className="h-8 md:h-10 w-auto object-contain"
           />
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium tracking-tighter">
+          <h1 className="text-2xl lg:text-4xl font-medium tracking-tighter">
             Tech Samaaroh
           </h1>
         </motion.div>
@@ -97,7 +97,7 @@ const Navbar = () => {
             <motion.div key={item} variants={linkVariants}>
               <button
                 onClick={() => scrollToSection(item)}
-                className="relative tracking-[0.2em] transition-colors hover:text-[#e99b63] group text-lg uppercase cursor-pointer"
+                className="relative tracking-[0.2em] transition-colors hover:text-[#e99b63] group text-md uppercase cursor-pointer"
               >
                 {item}
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#e99b63] transition-all duration-300 group-hover:w-full" />
