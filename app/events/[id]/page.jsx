@@ -446,37 +446,42 @@ const EventSection = ({ title, children, icon }) => (
 );
 
 export default function EventPage() {
-  const router = useRouter();
-  const params = useParams();
-  const eventId = params?.id?.toLowerCase?.();
+ const router = useRouter();
+const params = useParams();
+const eventId = params?.id?.toLowerCase?.();
 
-  const [event, setEvent] = useState(undefined);
-  const [isMobile, setIsMobile] = useState(false);
+const [event, setEvent] = useState(undefined);
+const [isMobile, setIsMobile] = useState(false);
 
-  // ✅ Fetch event safely
-  useEffect(() => {
-    if (!eventId) return;
-    const data = eventData[eventId];
-    if (data) setEvent(data);
-    else setEvent(null);
-  }, [eventId]);
+// ✅ Fetch event safely
+useEffect(() => {
+  if (!eventId) return;
+  const data = eventData[eventId];
+  if (data) setEvent(data);
+  else setEvent(null);
+}, [eventId]);
 
-  // ✅ Redirect if not found
-  useEffect(() => {
-    if (event === null) {
-      router.replace("/events");
-    }
-  }, [event, router]);
+// ✅ Redirect if not found
+useEffect(() => {
+  if (event === null) {
+    router.replace("/events");
+  }
+}, [event, router]);
 
-  // ✅ Detect mobile
-  useEffect(() => {
-    const resizeHandler = () => setIsMobile(window.innerWidth < 1024);
-    resizeHandler();
-    window.addEventListener("resize", resizeHandler);
-    return () => window.removeEventListener("resize", resizeHandler);
-  }, []);
+// ✅ Detect mobile
+useEffect(() => {
+  const resizeHandler = () => setIsMobile(window.innerWidth < 1024);
+  resizeHandler();
+  window.addEventListener("resize", resizeHandler);
+  return () => window.removeEventListener("resize", resizeHandler);
+}, []);
 
-  if (event === undefined || event === null) return null;
+// prevent scrolling
+useEffect(() => {
+  window.scrollTo({ top: 0, behavior: "instant" });
+}, []);
+
+if (event === undefined || event === null) return null;
 
   return (
     <div className="relative min-h-screen w-full text-white font-sans bg-[#0a0a0a] overflow-hidden">
