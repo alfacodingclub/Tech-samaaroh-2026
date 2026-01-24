@@ -49,7 +49,7 @@ const Events = ({ id = "events" }) => {
       time: "TBA",
       Venue: "ROOM NO. 402",
       fees: "₹80",
-      img: "/WebAssets/Cyber Knight logo.jpg",
+      img: "/WebAssets/WhatsApp Image 2026-01-24 at 1.48.03 PM.jpeg",
       color: "from-red-600",
       link: "/events/cyber-tok",
     },
@@ -61,7 +61,7 @@ const Events = ({ id = "events" }) => {
       time: "12:00- 1:30",
       Venue: "305 at tips dwarka",
       fees: "₹150",
-      img: "",
+      img: "/WebAssets/WhatsApp Image 2026-01-24 at 1.48.41 PM.jpeg",
       color: "from-purple-600",
       link: "/events/shadow-trace",
     },
@@ -190,7 +190,6 @@ const Events = ({ id = "events" }) => {
       },
     }),
   };
-
   return (
     <motion.section
       id={id}
@@ -341,7 +340,7 @@ const Events = ({ id = "events" }) => {
               </div>
 
               {/* Button */}
-              <Link href={club.link}>
+              <Link href={club.link} scroll={false}>
                 <motion.button
                   whileTap={{ scale: 0.97 }}
                   className={cn(

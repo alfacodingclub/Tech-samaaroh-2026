@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { useLayoutEffect } from "react";
 import {
   ArrowLeft,
   MapPin,
@@ -446,43 +447,42 @@ const EventSection = ({ title, children, icon }) => (
 );
 
 export default function EventPage() {
- const router = useRouter();
-const params = useParams();
-const eventId = params?.id?.toLowerCase?.();
+const router = useRouter();
+  const params = useParams();
+  const eventId = params?.id?.toLowerCase?.();
 
-const [event, setEvent] = useState(undefined);
-const [isMobile, setIsMobile] = useState(false);
+  const [event, setEvent] = useState(undefined);
+  const [isMobile, setIsMobile] = useState(false);
 
-// ✅ Fetch event safely
-useEffect(() => {
-  if (!eventId) return;
-  const data = eventData[eventId];
-  if (data) setEvent(data);
-  else setEvent(null);
-}, [eventId]);
+  // 1. Instant Scroll Reset
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-// ✅ Redirect if not found
-useEffect(() => {
-  if (event === null) {
-    router.replace("/events");
+  // 2. Fetch data
+  useEffect(() => {
+    if (!eventId) return;
+    const data = eventData[eventId];
+    setEvent(data || null);
+  }, [eventId]);
+
+  // 3. Redirect
+  useEffect(() => {
+    if (event === null) router.replace("/events");
+  }, [event, router]);
+
+  // 4. Mobile Detect
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 1024);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // 5. Prevent "Footer Jump" by returning a placeholder with height
+  if (!event) {
+    return <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center" />;
   }
-}, [event, router]);
-
-// ✅ Detect mobile
-useEffect(() => {
-  const resizeHandler = () => setIsMobile(window.innerWidth < 1024);
-  resizeHandler();
-  window.addEventListener("resize", resizeHandler);
-  return () => window.removeEventListener("resize", resizeHandler);
-}, []);
-
-// prevent scrolling
-useEffect(() => {
-  window.scrollTo({ top: 0, behavior: "instant" });
-}, []);
-
-if (event === undefined || event === null) return null;
-
   return (
     <div className="relative min-h-screen w-full text-white font-sans bg-[#0a0a0a] overflow-hidden">
       {/* ✨ Background Shapes */}

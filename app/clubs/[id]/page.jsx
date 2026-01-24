@@ -178,7 +178,7 @@ const ClubPage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
                     {/* LEFT SECTION */}
                     <div className="lg:col-span-8">
-                        <ClubSection title="The Mission" icon={<Target className="w-5 h-5" />}>
+                        <ClubSection title="About Us" icon={<Target className="w-5 h-5" />}>
                             <h4 className="text-xl text-gray-100 italic font-light mb-6">
                                 “{club.mission}”
                             </h4>
@@ -243,7 +243,7 @@ const ClubPage = () => {
                     <div className="lg:col-span-4 space-y-4">
                         <div className="bg-[#0a0a0a] border border-white/5 rounded-[45px] p-10 flex flex-col items-center shadow-2xl">
                             <h3 className="text-[10px] font-bold text-gray-500 tracking-[0.5em] uppercase mb-10">
-                                Upcoming Events
+                                Our Events
                             </h3>
                             <div className="w-full space-y-10">
                                 {club.upcomingEvents.map((event, i) => (
