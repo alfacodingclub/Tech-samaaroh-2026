@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 import {
     ArrowLeft,
     Target,
+    Lightbulb,
     Zap,
     Instagram,
     Linkedin,
@@ -23,84 +24,342 @@ const dancingScript = Dancing_Script({
 });
 
 const ClubPage = () => {
+    const params = useParams();
     const router = useRouter();
 
     // 🎯 Full Club Data
-    const club = {
-        id: 1,
-        name: "Tech Samaroh",
-        tagline: "Innovate • Create • Transform",
-        logo: "/WebAssets/tech-innovators-logo.png",
-        coverImage: "/WebAssets/cover-tech-innovators.jpg",
-        established: "2018",
-        members: "120+",
-        description:
-            "Tech Innovators Club is a student-led organization dedicated to fostering innovation and technological advancement among students. We provide a platform for tech enthusiasts to collaborate, learn, and create cutting-edge solutions to real-world problems.",
-        mission:
-            "To cultivate a culture of innovation and technological excellence by providing students with resources, mentorship, and opportunities to develop their skills and bring their ideas to life.",
-        vision:
-            "To be the leading student tech community that empowers the next generation of innovators and contributes to technological advancement in society.",
-        activities: [
-            "Weekly coding workshops and hackathons",
-            "Tech talks by industry professionals",
-            "Project development and mentorship programs",
-            "Networking events with tech companies",
-            "Annual tech exhibition showcasing student projects",
-        ],
-        team: [
-            {
-                name: "Aryan Sharma",
-                role: "President",
-                image: "/WebAssets/team/aryan-sharma.jpg",
-            },
-            {
-                name: "Priya Patel",
-                role: "Vice President",
-                image: "/WebAssets/team/priya-patel.jpg",
-            },
-            {
-                name: "Rahul Verma",
-                role: "Technical Lead",
-                image: "/WebAssets/team/rahul-verma.jpg",
-            },
-            {
-                name: "Neha Singh",
-                role: "Event Coordinator",
-                image: "/WebAssets/team/neha-singh.jpg",
-            },
-        ],
-        gallery: [
-            { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
-            { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
-            { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
-            { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
-            { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
-            { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
-        ],
-        upcomingEvents: [
-            {
-                id: "web-dev-workshop",
-                name: "Web Development Workshop",
-                date: "March 20, 2025",
-                description:
-                    "Learn the latest web development technologies and frameworks in this hands-on workshop.",
-            },
-            {
-                id: "hack-a-thon-2026",
-                name: "AI Hackathon",
-                date: "April 5–6, 2025",
-                description:
-                    "A 24-hour hackathon focused on developing AI solutions for everyday problems.",
-            },
-            {
-                id: "tech-talk-series",
-                name: "Tech Talk: Blockchain Revolution",
-                date: "April 15, 2025",
-                description:
-                    "Industry experts discuss the future of blockchain technology and its applications.",
-            },
-        ],
+    const clubs = {
+        alfa: {
+            id: 1,
+            name: "ALFA Coding Club",
+            tagline: "Code • Create • Conquer",
+            banner: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            logo: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            established: "2022",
+            inst: "",
+            linkdin: "",
+            description:
+                "ALFA Coding Club is the official coding club of the CS & IT Department at Trinity Institute of Professional Studies. It serves as a hub for tech enthusiasts, fostering a collaborative learning environment through workshops, hackathons, and coding competitions. The club empowers students with hands-on experience in web development, app development, competitive programming, and emerging technologies.",
+            mission:
+                "Our mission is to cultivate a community of passionate developers by fostering innovation, collaboration, and continuous learning. We aim to empower students with hands-on experience in coding, problem-solving, and emerging technologies through workshops, hackathons, and mentorship. By bridging the gap between academia and industry, we strive to nurture future-ready tech professionals who can excel in the ever-evolving digital world.",
+            vision:
+                "To be a leading student-driven tech community that inspires creativity, innovation, and excellence in coding. We envision a future where every member is equipped with industry-relevant skills, fostering a culture of problem-solving and leadership. Through continuous learning and collaboration, we aim to make a lasting impact in the tech ecosystem, empowering students to become pioneers of the digital era.",
+            activities: [
+                "Conduct hands-on workshops on web development, app development, AI/ML, cybersecurity, and more.",
+                "Organize coding challenges and hackathons to encourage problem-solving and innovation.",
+                "Invite industry experts to share insights on emerging technologies and career guidance.",
+            ],
+            team: [
+                {
+                    name: "ABHINAV MEHTA",
+                    role: "President",
+                    image: "/WebAssets/team/aryan-sharma.jpg",
+                },
+                {
+                    name: "Priya Patel",
+                    role: "Vice President",
+                    image: "/WebAssets/team/priya-patel.jpg",
+                },
+                {
+                    name: "Rahul Verma",
+                    role: "Technical Lead",
+                    image: "/WebAssets/team/rahul-verma.jpg",
+                },
+                {
+                    name: "Neha Singh",
+                    role: "Event Coordinator",
+                    image: "/WebAssets/team/neha-singh.jpg",
+                },
+            ],
+            gallery: [
+                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
+                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
+                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
+                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
+                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
+                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+            ],
+            upcomingEvents: [
+                {
+                    id: "fire-bound",
+                    name: "Firebound",
+                    description: "forged in fire, unleashed in strength",
+                },
+                {
+                    id: "codex-build",
+                    name: "CODEX Build",
+                    description: "Code the future, one byte at a time.",
+                },
+                {
+                    id: "the-404-makeover",
+                    name: "The 404 Makeover",
+                    description: "Lost in Code. Found in Design.",
+                },
+            ],
+        },
+
+        cyberknight: {
+            id: 2,
+            name: "Cyber Knight",
+            tagline: "We Defend We Protect",
+            banner: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            logo: "/WebAssets/Cyber Knight logo.jpg",
+            established: "2022",
+            description:
+                "CYBER KNIGHT is the Networking and Security club of Trinity Institute of Professional Studies.Cyber Knight focuses on spreading awareness on cyber security and gives opportunities to the students who are enthusiastic about cyber security world and wanted to explore about Ethical hacking, Security and Networking by taking various seminars and sessions.",
+            mission:
+                "As Cyber Knight continues to grow, our vision is to become a leading cybersecurity community that empowers individuals with the knowledge and skills to defend against evolving cyber threats. We aim to host advanced workshops, hackathons, and ethical hacking challenges to enhance practical learning. Collaborating with industry experts and organizations, we strive to provide mentorship, certifications, and career opportunities for our members. Our long-term goal is to develop innovative cybersecurity solutions and raise awareness about digital safety, ensuring a secure cyber landscape for all. Together, we stand as the guardians of the digital realm.",
+            vision:
+                "The vision of Cyber Knight is to build a secure and resilient community equipped with the knowledge and skills to protect themselves and society from evolving cyber threats. By fostering awareness, promoting best practices, and encouraging proactive cybersecurity measures, Cyber Knight aims to create a safer digital environment where individuals and organizations can navigate the online world with confidence and security.",
+            activities: [
+                "At Cyber Knight, we focus on building a strong foundation in cybersecurity and networking.",
+                "We offer interactive workshops, expert-led sessions, and knowledge-sharing events to enhance practical skills.",
+                "Our club also conducts awareness programs in schools and NGOs on online safety and digital security.",
+                "Through competitions and Capture The Flag (CTF) challenges, we provide students with opportunities to learn, collaborate, and grow in the cybersecurity field.",
+            ],
+            team: [
+                {
+                    name: "ABHINAV MEHTA",
+                    role: "President",
+                    image: "/WebAssets/team/aryan-sharma.jpg",
+                },
+                {
+                    name: "Priya Patel",
+                    role: "Vice President",
+                    image: "/WebAssets/team/priya-patel.jpg",
+                },
+                {
+                    name: "Rahul Verma",
+                    role: "Technical Lead",
+                    image: "/WebAssets/team/rahul-verma.jpg",
+                },
+                {
+                    name: "Neha Singh",
+                    role: "Event Coordinator",
+                    image: "/WebAssets/team/neha-singh.jpg",
+                },
+            ],
+            gallery: [
+                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
+                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
+                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
+                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
+                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
+                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+            ],
+            upcomingEvents: [
+                {
+                    id: "shadow-trace",
+                    name: "Shadow Trace",
+                    description: "Uncover the system behind the data",
+                },
+                {
+                    id: "cyber-tok",
+                    name: "Cyber TOK",
+                    description: "Think Fast. Create Smart. Solve Sharp.",
+                },
+            ],
+        },
+
+        apex: {
+            id: 3,
+            name: "APEX",
+            tagline: "",
+            banner: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            logo: "/WebAssets/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
+            established: "2022",
+            description:
+                "APEX - Designing Society of Trinity, Dwarka, is the college’s creative arts hub, promoting innovation and collaboration in design, video production, photography, and more. The society offers students a platform to develop their skills through workshops, competitions, and hands-on projects across various creative fields.",
+            mission:
+                "To provide valuable internships, teach new software, and foster collaborations with institutes and companies for career growth.",
+            vision:
+                "To bridge education and industry, creating opportunities for skill development, real-world experience, and career advancement.",
+            activities: [
+                "Designing Society of Trinity, Dwarka, we foster creativity and innovation across multiple artistic disciplines.",
+                "Founded in 2022, we unite students passionate about design and the arts, offering a platform to explore and develop skills in areas such as Graphic Design, Video Production, 3D Modelling, UI/UX Design, Photography, and Music Production.",
+                "Our society emphasizes collaboration and learning, enabling members to work together, push creative boundaries, and grow both individually and as a team.",
+                "Through our thriving departments, we provide opportunities for students to engage in real-world projects, enhance their creativity, and expand their artistic expertise.",
+            ],
+            team: [
+                {
+                    name: "Aryan Sharma",
+                    role: "President",
+                    image: "/WebAssets/team/aryan-sharma.jpg",
+                },
+                {
+                    name: "Priya Patel",
+                    role: "Vice President",
+                    image: "/WebAssets/team/priya-patel.jpg",
+                },
+                {
+                    name: "Rahul Verma",
+                    role: "Technical Lead",
+                    image: "/WebAssets/team/rahul-verma.jpg",
+                },
+                {
+                    name: "Neha Singh",
+                    role: "Event Coordinator",
+                    image: "/WebAssets/team/neha-singh.jpg",
+                },
+            ],
+            gallery: [
+                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
+                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
+                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
+                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
+                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
+                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+            ],
+            upcomingEvents: [
+                {
+                    id: "brand-bot",
+                    name: "Brand Bot",
+                    description: "Prompt the Future. Pitch the Vision.",
+                },
+                {
+                    id: "pixel-pulse",
+                    name: "Pixel Pulse",
+                    description: "Freeze the Frame. Master the Edit.",
+                },
+                {
+                    id: "the-404-makeover",
+                    name: "The 404 Makeover",
+                    description: "Lost in Code. Found in Design.",
+                },
+            ],
+        },
+        bloggingclub: {
+            id: 4,
+            name: "FactSmith",
+            tagline: "",
+            banner: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            logo: "/WebAssets/WhatsApp Image 2026-01-23 at 5.13.52 PM.jpeg",
+            established: "2023",
+            description:
+                "FactSmith is a student-driven research club under the CS & IT Department at Trinity Institute of Professional Studies our motto is to Innovating for a Better Future. The club is dedicated to fostering analytical thinking, innovation, and knowledge-sharing among students. It provides a platform for aspiring researchers to explore emerging technologies, conduct research, and participate in academic discussions.",
+            mission:
+                "FactSmith aims to foster a culture of research, critical thinking, and innovation among students of the CS & IT Department. The club is dedicated to providing a platform for knowledge-sharing, skill development, and academic exploration through workshops, seminars, research initiatives, and collaborative projects. By bridging the gap between theoretical learning and practical application, FactSmith strives to equip students with the necessary analytical and technical skills to excel in the field of technology and research.",
+            vision:
+                "To be a leading student-driven research club that nurtures intellectual curiosity, encourages interdisciplinary collaboration, and contributes to technological advancements. FactSmith envisions empowering students to become future researchers, data analysts, and tech innovators who drive impactful solutions in the digital era.",
+            activities: [
+                "Foster a Culture of Research: The research club can promote a culture of research among its members and encourage them to engage in research activities.",
+                "Enhance Research Skills: The club can provide opportunities for members to develop their research skills through training sessions, workshops, and mentorship.",
+                "Collaborate on Research Projects: Members can collaborate on research projects and share their knowledge and expertise with each other to produce high-quality research output.",
+                "Encourage Interdisciplinary Research: The club can encourage members from different academic disciplines to come together and collaborate on interdisciplinary research projects.",
+                "Publish Research Papers: Members can work together to produce research papers and submit them to academic journals or conferences.",
+                "Participate in Research Competitions: The club can participate in research competitions and challenges to showcase their skills and knowledge.",
+                "Create a platform for Discussion and Debate: The club can create a platform for members to discuss and debate various research topics, exchange ideas, and get feedback on their work.",
+            ],
+            team: [
+                {
+                    name: "Aryan Sharma",
+                    role: "President",
+                    image: "/WebAssets/team/aryan-sharma.jpg",
+                },
+                {
+                    name: "Priya Patel",
+                    role: "Vice President",
+                    image: "/WebAssets/team/priya-patel.jpg",
+                },
+                {
+                    name: "Rahul Verma",
+                    role: "Technical Lead",
+                    image: "/WebAssets/team/rahul-verma.jpg",
+                },
+                {
+                    name: "Neha Singh",
+                    role: "Event Coordinator",
+                    image: "/WebAssets/team/neha-singh.jpg",
+                },
+            ],
+            gallery: [
+                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
+                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
+                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
+                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
+                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
+                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+            ],
+            upcomingEvents: [
+                {
+                    id: "the-scholar-stage",
+                    name: "The Scholar’s Stage",
+                    description: "Presenting Perspectives, Defining Possibilities!",
+                },
+                {
+                    id: "pich-perfect",
+                    name: "Pich Perfect",
+                    description: "Innovate. Pitch. Inspire.",
+                },
+            ],
+        },
+        researchclub: {
+            id: 5,
+            name: "Arclight Blogging Club",
+            tagline: "",
+            banner: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            logo: "/WebAssets/WhatsApp Image 2026-01-23 at 5.14.50 PM.jpeg",
+            established: "2023",
+            description:
+                "Arclight is the official blogging club of the CS & IT department at Trinity Institute of Professional Studies. The club encourages creativity, collaboration, and communication, serving as a platform for students to share ideas, experiences, and showcase their literary talents in various forms, from technical writing to storytelling.",
+            mission:
+                "To create a vibrant and inclusive platform for students to express their thoughts and showcase their writing talents.",
+            vision:
+                "To establish Arclight as a leading blogging community that inspires creativity and intellectual discussions among students.",
+            activities: [
+                "We host various events such as short story writing competitions, collaborate with other college clubs for events, and maintain a blog covering academic, cultural, and social topics. The club provides a space for students to improve their writing and digital content creation skills.",
+            ],
+            team: [
+                {
+                    name: "Aryan Sharma",
+                    role: "President",
+                    image: "/WebAssets/team/aryan-sharma.jpg",
+                },
+                {
+                    name: "Priya Patel",
+                    role: "Vice President",
+                    image: "/WebAssets/team/priya-patel.jpg",
+                },
+                {
+                    name: "Rahul Verma",
+                    role: "Technical Lead",
+                    image: "/WebAssets/team/rahul-verma.jpg",
+                },
+                {
+                    name: "Neha Singh",
+                    role: "Event Coordinator",
+                    image: "/WebAssets/team/neha-singh.jpg",
+                },
+            ],
+            gallery: [
+                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
+                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
+                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
+                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
+                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
+                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+            ],
+            upcomingEvents: [
+                {
+                    id: "genre-jeopardy",
+                    name: "Genre Jeopardy",
+                    description: "Greater the Risk, Sweeter the victory",
+                },
+                {
+                    id: "hack-my-mind",
+                    name: "Hack My Mind",
+                    description: "Soch lao, card uthao, dimag hilao",
+                },
+            ],
+        },
     };
+
+    const clubId = params?.id?.toLowerCase?.();
+    const club = clubs[clubId];
+    if (!club) {
+        router.replace("/clubs");
+        return null;
+    }
 
     // Reusable Section Layout
     const ClubSection = ({ title, children, icon }) => (
@@ -116,7 +375,7 @@ const ClubPage = () => {
     );
 
     return (
-        <div className="relative w-full text-white font-sans min-h-screen pb-20 overflow-hidden bg-[#0a0a0a]">
+        <div key={club.id} className="relative w-full text-white font-sans min-h-screen pb-20 overflow-hidden bg-[#0a0a0a]">
             {/* ✨ Themed Background Shapes */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <ElegantShape
@@ -137,65 +396,90 @@ const ClubPage = () => {
                 />
             </div>
 
-            {/* 🔙 Back Button (Lowered) */}
+            {/* 🔙 Back Button */}
             <div className="relative container mx-auto px-6 py-8 z-10">
                 <button
                     onClick={() => router.back()}
                     className="flex items-center text-[10px] font-bold text-gray-100 hover:text-[#e99b63] transition-colors tracking-widest mt-20 cursor-pointer"
                 >
-                    <ArrowLeft className="w-4 h-4 mr-2 " />
+                    <ArrowLeft className="w-4 h-4 mr-2" />
                     BACK TO CLUBS
                 </button>
             </div>
 
+           
             {/* 🏆 Hero Section */}
-            <div className="relative container mx-auto px-6 mb-20 z-10 mt-20">
-                <div className="w-full bg-[#0a0a0a]/80 border border-white/5 rounded-[40px] p-8 md:p-12 backdrop-blur-xl">
-                    <div className="flex flex-col md:flex-row items-center gap-8">
-                        <img
-                            src={club.logo}
-                            className="w-32 h-32 rounded-3xl bg-[#111] border border-white/10 flex items-center justify-center text-3xl font-black italic tracking-tighter"
-                            alt={club.name}
-                        />
-                        <div className="text-center md:text-left">
-                            <span className="text-[10px] font-bold tracking-[0.4em] text-[#e99b63] uppercase mb-2 block">
-                                {club.tagline}
-                            </span>
+            <div className="relative container mx-auto px-6 mb-20 z-10 -mt-2">
+                <div className="relative w-full bg-[#0a0a0a]/80 border border-white/5 rounded-[40px] overflow-hidden backdrop-blur-xl shadow-xl">
+                    {/* 🖼️ Banner */}
+                    {club.banner && (
+                        <div className="relative w-full h-[280px] md:h-[400px]">
+                            <img
+                                src={club.banner}
+                                alt={`${club.name} Banner`}
+                                className="w-full h-full object-cover"
+                            />
 
-                                <h1
-                                    className={`text-4xl md:text-7xl lg:text-8xl tracking-tighter uppercase leading-none bg-clip-text text-transparent bg-gradient-to-r from-[#e99b63] via-[#ffcc8f] to-[#e99b63]/80 ${dancingScript.className}`}
-                                >
-                                    {club.name}
-                                </h1>
+                            {/* Gradient for text visibility */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/90 via-[#0a0a0a]/40 to-transparent" />
 
+                            {/* Club Info */}
+                            <div className="absolute bottom-0 left-0 w-full flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between p-6 md:p-10">
+                                <div className="flex flex-row items-center md:items-end gap-4 md:gap-6">
+                                    <img
+                                        src={club.logo}
+                                        alt={club.name}
+                                        className="w-20 h-20 md:w-28 md:h-28 rounded-2xl bg-[#111] border border-white/10 object-contain shadow-lg"
+                                    />
+                                    <div className="text-left">
+                                        <span className="text-[10px] font-bold tracking-[0.4em] text-[#e99b63] uppercase block mb-1">
+                                            {club.tagline}
+                                        </span>
+                                        <h1
+                                            className={`text-3xl md:text-6xl lg:text-7xl tracking-tighter uppercase leading-none bg-clip-text text-transparent bg-gradient-to-r from-[#e99b63] via-[#ffcc8f] to-[#e99b63]/80 ${dancingScript.className}`}
+                                        >
+                                            {club.name}
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    )}
                 </div>
             </div>
-
             {/* 📄 Main Content */}
             <div className="relative container mx-auto px-6 max-w-7xl z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
                     {/* LEFT SECTION */}
                     <div className="lg:col-span-8">
-                        <ClubSection title="About Us" icon={<Target className="w-5 h-5" />}>
-                            <h4 className="text-xl text-gray-100 italic font-light mb-6">
-                                “{club.mission}”
-                            </h4>
-                            <p className="text-gray-100 leading-relaxed text-lg max-w-2xl">
+                        <ClubSection title="About Us" icon={<Users className="w-5 h-5" />}>
+                            <h4 className="text-xl text-gray-100  font-light mb-6">
                                 {club.description}
+                            </h4>
+                        </ClubSection>
+
+                        <ClubSection title="Our Mission" icon={<Lightbulb className="w-5 h-5" />}>
+                            <p className="text-xl text-gray-100  font-light mb-6">
+                                {club.mission}
                             </p>
                         </ClubSection>
 
-                        <ClubSection title="What We Do" icon={<Zap className="w-5 h-5" />}>
+                        <ClubSection title="Our Vision" icon={<Target className="w-5 h-5" />}>
+                            <p className="text-xl text-gray-100  font-light mb-6">
+                                {club.vision}
+                            </p>
+                        </ClubSection>
+
+                        <ClubSection title="What We Do" icon={<Zap className="w-6 h-6" />}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                {club.activities.map((item, i) => (
+                                {club?.activities?.map((item, i) => (
                                     <div
                                         key={i}
                                         className="flex items-center gap-4 p-6 rounded-[24px] bg-[#0a0a0a] border border-white/5"
                                     >
-                                        <div className="w-1.5 h-1.5 rounded-full bg-[#e99b63]" />
-                                        <span className="text-sm text-gray-100 font-medium">{item}</span>
+                                        {/* Perfect circular dot */}
+                                        <div className="w-3 h-3 min-w-3 rounded-full bg-[#e99b63] shrink-0" />
+                                        <span className="text-sm text-gray-100 font-medium leading-snug">{item}</span>
                                     </div>
                                 ))}
                             </div>
@@ -203,9 +487,9 @@ const ClubPage = () => {
 
                         <ClubSection title="Gallery" icon={<Camera className="w-5 h-5" />}>
                             <div className="grid grid-cols-2 gap-4">
-                                {club.gallery.map((img, i) => (
+                                {club?.gallery?.map((img, i) => (
                                     <div
-                                        key={i}
+                                        key={img.src}
                                         className="relative aspect-video rounded-[24px] overflow-hidden border border-white/5 group"
                                     >
                                         <img
@@ -220,7 +504,7 @@ const ClubPage = () => {
 
                         <ClubSection title="Our Team" icon={<Users className="w-5 h-5" />}>
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                                {club.team.map((member, i) => (
+                                {club?.team?.map((member, i) => (
                                     <div key={i} className="group flex flex-col items-center md:items-start">
                                         <div className="relative w-full aspect-square rounded-[32px] overflow-hidden bg-[#0a0a0a] border border-white/5 mb-4">
                                             <img
@@ -255,13 +539,13 @@ const ClubPage = () => {
                                                     {event.name}
                                                 </p>
                                                 <p className="text-[10px] text-gray-600 uppercase tracking-widest mt-1">
-                                                    {event.date}
+                                                    {event.description}
                                                 </p>
                                             </div>
                                         </div>
                                         <button
                                             onClick={() => router.push(`/events/${event.id}`)}
-                                            className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10transition-all flex items-center justify-center gap-2"
+                                            className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10 flex items-center justify-center gap-2"
                                         >
                                             View Event Detail <ChevronRight className="w-3 h-3" />
                                         </button>
@@ -274,7 +558,7 @@ const ClubPage = () => {
                         <div className="bg-[#0a0a0a] border border-white/5 rounded-[30px] p-6 flex items-center justify-between">
                             <div
                                 className="flex-1 flex flex-col items-center group cursor-pointer"
-                                onClick={() => window.open("https://instagram.com", "_blank")}
+                                onClick={() => window.open(club.inst, "_blank")}
                             >
                                 <Instagram className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
                                 <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
@@ -284,7 +568,7 @@ const ClubPage = () => {
                             <div className="w-[1px] h-8 bg-white/5" />
                             <div
                                 className="flex-1 flex flex-col items-center group cursor-pointer"
-                                onClick={() => window.open("https://linkedin.com", "_blank")}
+                                onClick={() => window.open(club.linkdin, "_blank")}
                             >
                                 <Linkedin className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
                                 <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
