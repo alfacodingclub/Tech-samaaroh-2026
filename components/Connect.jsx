@@ -142,7 +142,7 @@ const Connect = ({ id = "connect" }) => {
               }}
               className="w-24 h-24 p-6 md:w-28 md:h-28 rounded-full bg-gradient-to-tr from-[#1e1e1e] to-[#000000] shadow-[0_0_40px_#e99b63aa] flex items-center justify-center"
             >
-              <img src="/WebAssets/logo-trans.png" alt="" />
+              <img src="/WebAssets/ts6.0-logos/TS-26.png" alt="ts-logo" />
             </motion.div>
           </div>
         </PinContainer>
