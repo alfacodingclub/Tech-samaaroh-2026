@@ -140,12 +140,12 @@ const ClubPage = () => {
                 },
             ],
             gallery: [
-                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
-                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
-                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
-                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
-                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
-                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+                { src: "/WebAssets/cyberknight/ck-gallery/1.jpeg", alt: "image 1" },
+                { src: "/WebAssets/cyberknight/ck-gallery/5 (1).jpeg", alt: "image 2" },
+                { src: "/WebAssets/cyberknight/ck-gallery/5.jpeg", alt: "image 2" },
+                { src: "/WebAssets/cyberknight/ck-gallery/9.jpeg", alt: "image 3" },
+                { src: "/WebAssets/cyberknight/ck-gallery/IMG-20251029-WA0078.jpg", alt: "image 4" },
+                { src: "/WebAssets/cyberknight/ck-gallery/IMG-20251029-WA0090.jpg", alt: "image 5" },
             ],
             upcomingEvents: [
                 {
@@ -203,12 +203,17 @@ const ClubPage = () => {
                 },
             ],
             gallery: [
-                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
-                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
-                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
-                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
-                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
-                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+                { src: "/WebAssets/apex/apex-gallery/20250830_122916.jpg", alt: "image 1" },
+                { src: "/WebAssets/apex/apex-gallery/20250830_124446.jpg", alt: "image 2" },
+                { src: "/WebAssets/apex/apex-gallery/IMG_2166.HEIC", alt: "image 3" },
+                { src: "/WebAssets/apex/apex-gallery/IMG_2185.HEIC", alt: "image 4" },
+                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.35.06 PM.jpeg", alt: "image 5" },
+                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.37.47 PM.jpeg", alt: "image 6" },
+                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.39.07 PM.jpeg", alt: "image 7" },
+                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.49.53 PM.jpeg", alt: "image 8" },
+                {src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.23 PM.jpeg", alt: "image 9"},
+                {src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.57 PM.jpeg", alt: "image 10"},
+                
             ],
             upcomingEvents: [
                 {
@@ -273,12 +278,13 @@ const ClubPage = () => {
                 },
             ],
             gallery: [
-                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
-                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
-                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
-                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
-                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
-                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/4baeba1d-73a7-4c09-af5f-256582bd3c9b.jpg", alt: "image 1" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/f6139eb5-8ba1-420c-b204-9cb3e38c9efd.jpg", alt: "image 2" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250828-WA0034.jpg", alt: "image 3" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250828-WA0105.jpg", alt: "image 4" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250901-WA0081.jpg", alt: "image 5" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250901-WA0121.jpg", alt: "image 6" },
+                {src: "/WebAssets/factsmith/factsmith-gallery/Videoshot_20250812_224529.jpg", alt: "image 7"},
             ],
             upcomingEvents: [
                 {
@@ -332,12 +338,11 @@ const ClubPage = () => {
                 },
             ],
             gallery: [
-                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
-                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
-                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
-                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
-                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
-                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+                { src: "/WebAssets/arclight/arclight-gallery/IMG_1076.JPG", alt: "image 1" },
+                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250904-WA0016.jpg", alt: "image 2" },
+                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250905-WA0012.jpg", alt: "image 3" },
+                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250917-WA0043.jpg", alt: "image 4" },
+                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250917-WA0051.jpg", alt: "image 5" },
             ],
             upcomingEvents: [
                 {
@@ -495,7 +500,7 @@ const ClubPage = () => {
                                         <img
                                             src={img.src}
                                             alt={img.alt}
-                                            className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                                            className="w-full h-full object-cover  group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                                         />
                                     </div>
                                 ))}
@@ -510,7 +515,7 @@ const ClubPage = () => {
                                             <img
                                                 src={member.image}
                                                 alt={member.name}
-                                                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                                className="w-full h-full object-cover  group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                                             />
                                         </div>
                                         <h4 className="text-white font-bold text-sm tracking-wide">{member.name}</h4>

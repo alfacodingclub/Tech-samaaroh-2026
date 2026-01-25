@@ -185,7 +185,7 @@ const Footer = () => {
     </div>
     <div className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center transition-all duration-500 group-hover:border-[#e99b63]/50 group-hover:shadow-[0_0_15px_rgba(233,155,99,0.2)]">
       <img
-        src="/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg"
+        src="/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg"
         className="text-[#e99b63] font-black text-xl rounded-full"
         alt="logo"
       />
