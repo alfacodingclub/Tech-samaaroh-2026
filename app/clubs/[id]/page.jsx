@@ -72,12 +72,12 @@ const ClubPage = () => {
                 },
             ],
             gallery: [
-                { src: "/WebAssets/gallery/hackathon-2024.jpg", alt: "Hackathon 2024" },
-                { src: "/WebAssets/gallery/workshop.jpg", alt: "Workshop Session" },
-                { src: "/WebAssets/gallery/exhibition.jpg", alt: "Project Exhibition" },
-                { src: "/WebAssets/gallery/team-building.jpg", alt: "Team Building" },
-                { src: "/WebAssets/gallery/award-ceremony.jpg", alt: "Award Ceremony" },
-                { src: "/WebAssets/gallery/tech-talk.jpg", alt: "Tech Talk" },
+                { src: "/WebAssets/alfa/alfa-gallery/IMG-20251030-WA0079.jpg", alt: "image 1" },
+                { src: "/WebAssets/alfa/alfa-gallery/img1.png", alt: "image 2" },
+                { src: "/WebAssets/alfa/alfa-gallery/img2.jpg", alt: "image 3" },
+                { src: "/WebAssets/alfa/alfa-gallery/img3.jpg", alt: "image 4" },
+                { src: "/WebAssets/alfa/alfa-gallery/img3.png", alt: "image 5" },
+                { src: "/WebAssets/alfa/alfa-gallery/WhatsApp Image 2025-09-07 at 22.13.56_a2188da5.jpg", alt: "image 6" },
             ],
             upcomingEvents: [
                 {
