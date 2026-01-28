@@ -207,8 +207,8 @@ const eventData = {
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop", 
   },
-  "pich-perfect": {
-    id: "pich-perfect",
+  "pitch-perfect": {
+    id: "pitch-perfect",
     name: "PITCH PERFECT",
     fees:"TBA",
     deadline:"TBA",

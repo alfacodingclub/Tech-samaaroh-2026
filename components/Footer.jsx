@@ -89,7 +89,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://www.instagram.com/techsamaaroh?igsh=a3V1dmsyd2o3bDlx"
               className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-xl hover:bg-[#e99b63] hover:text-black transition-all duration-300"
             >
               <i className="bx bxl-instagram"></i>
@@ -107,7 +107,7 @@ const Footer = () => {
                   onClick={() => handleNavigation(item)}
                   className="hover:text-[#e99b63] transition-colors flex items-center gap-2 cursor-pointer"
                 >
-                  <i className="bx bx-chevron-right text-[#e99b63]"></i> {item}
+                <i className="bx bx-chevron-right text-[#e99b63]"></i> {item}
                 </button>
               </li>
             ))}
@@ -167,7 +167,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Credits */}
+     
      {/* Credits */}
 <div className="relative z-10 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
   <p className="text-[12px] md:text-[20px] lg:text-[20px] text-white uppercase tracking-widest">
@@ -180,7 +180,7 @@ const Footer = () => {
         Developed by
       </p>
       <p className="text-sm font-black group-hover:text-[#e99b63] transition-colors">
-        ALFA CODING CLUB
+        <a href="https://share.google/1BjhhYbBWPe1q0PSr" className="cursor-pointer">ALFA CODING CLUB</a>
       </p>
     </div>
     <div className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center transition-all duration-500 group-hover:border-[#e99b63]/50 group-hover:shadow-[0_0_15px_rgba(233,155,99,0.2)]">

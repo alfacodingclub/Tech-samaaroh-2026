@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useRouter, useParams } from "next/navigation";
+import { useLayoutEffect } from "react";
 import {
     ArrowLeft,
     Target,
@@ -211,9 +212,9 @@ const ClubPage = () => {
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.37.47 PM.jpeg", alt: "image 6" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.39.07 PM.jpeg", alt: "image 7" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.49.53 PM.jpeg", alt: "image 8" },
-                {src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.23 PM.jpeg", alt: "image 9"},
-                {src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.57 PM.jpeg", alt: "image 10"},
-                
+                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.23 PM.jpeg", alt: "image 9" },
+                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.57 PM.jpeg", alt: "image 10" },
+
             ],
             upcomingEvents: [
                 {
@@ -284,7 +285,7 @@ const ClubPage = () => {
                 { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250828-WA0105.jpg", alt: "image 4" },
                 { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250901-WA0081.jpg", alt: "image 5" },
                 { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250901-WA0121.jpg", alt: "image 6" },
-                {src: "/WebAssets/factsmith/factsmith-gallery/Videoshot_20250812_224529.jpg", alt: "image 7"},
+                { src: "/WebAssets/factsmith/factsmith-gallery/Videoshot_20250812_224529.jpg", alt: "image 7" },
             ],
             upcomingEvents: [
                 {
@@ -293,8 +294,8 @@ const ClubPage = () => {
                     description: "Presenting Perspectives, Defining Possibilities!",
                 },
                 {
-                    id: "pich-perfect",
-                    name: "Pich Perfect",
+                    id: "pitch-perfect",
+                    name: "Pitch Perfect",
                     description: "Innovate. Pitch. Inspire.",
                 },
             ],
@@ -358,12 +359,24 @@ const ClubPage = () => {
             ],
         },
     };
-
     const clubId = params?.id?.toLowerCase?.();
     const club = clubs[clubId];
+
+    // 1. Instant Scroll Reset (fires before the user sees the jump)
+    useLayoutEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    }, []);
+
+    // 2. Handle the "Not Found" state without collapsing the page
     if (!club) {
-        router.replace("/clubs");
-        return null;
+        // We use a useEffect for the redirect to avoid side-effects during render
+        useEffect(() => {
+            router.replace("/clubs");
+        }, [router]);
+
+        // Return a full-height empty container so the scroll position 
+        // stays at the top while the redirect happens
+        return <div className="min-h-screen bg-[#0a0a0a]" />;
     }
 
     // Reusable Section Layout
@@ -412,7 +425,7 @@ const ClubPage = () => {
                 </button>
             </div>
 
-           
+
             {/* 🏆 Hero Section */}
             <div className="relative container mx-auto px-6 mb-20 z-10 -mt-2">
                 <div className="relative w-full bg-[#0a0a0a]/80 border border-white/5 rounded-[40px] overflow-hidden backdrop-blur-xl shadow-xl">

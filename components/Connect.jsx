@@ -126,7 +126,7 @@ const Connect = ({ id = "connect" }) => {
       >
         <PinContainer
           title="Tech Samarooh 2026"
-          href="https://www.tips.edu.in/"
+          href="https://www.instagram.com/techsamaaroh?igsh=a3V1dmsyd2o3bDlx"
         >
           <div className="flex flex-col items-center justify-center w-[12rem] h-[12rem] md:w-[14rem] md:h-[14rem] rounded-2xl bg-gradient-to-tr from-[#ffcc8f]/20 to-[#e99b63]/15 border border-[#ffcc8f]/40 shadow-[0_0_60px_#e99b63aa] backdrop-blur-xl">
             <motion.div

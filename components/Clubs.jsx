@@ -173,6 +173,7 @@ const Clubs = ({ id="clubs" }) => {
             className="group relative h-auto"
           >
             {/* Glow border */}
+            <Link href={club.link} scroll={false}>
             <motion.div
               layout
               transition={{ layout: { duration: 0.8, type: "spring" } }}
@@ -215,7 +216,6 @@ const Clubs = ({ id="clubs" }) => {
               </div>
 
               {/* Button */}
-              <Link href={club.link}>
                 <motion.button
                   whileTap={{ scale: 0.97 }}
                   className={cn(
@@ -227,8 +227,8 @@ const Clubs = ({ id="clubs" }) => {
                 >
                   EXPLORE THE COMMUNITY
                 </motion.button>
-              </Link>
             </motion.div>
+            </Link>
           </motion.div>
         ))}
       </div>

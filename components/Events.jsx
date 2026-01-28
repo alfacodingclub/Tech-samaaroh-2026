@@ -102,8 +102,8 @@ const Events = ({ id = "events" }) => {
       link: "/events/the-scholar-stage",
     },
     {
-      id: "pich-perfect",
-      name: "Pich Perfect",
+      id: "pitch-perfect",
+      name: "Pitch Perfect",
       desc: "Innovate. Pitch. Inspire.",
       Eligibility: "Open to all departments",
       time: "TBA",
@@ -121,7 +121,7 @@ const Events = ({ id = "events" }) => {
       time: "TBA",
       Venue: "Room 407",
       fees: "TBA",
-      img: "/WebAssets/researchclub.jpg",
+      img: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-27 at 2.17.51 PM.jpeg",
       color: "from-cyan-600",
       link: "/events/brand-bot",
     },
@@ -133,7 +133,7 @@ const Events = ({ id = "events" }) => {
       time: "60 Minutes",
       Venue: "Room 407 (Campus Photo Hunt Area)",
       fees: "₹60 per team",
-      img: "",
+      img: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-27 at 2.17.51 PM (1).jpeg",
       color: "from-cyan-600",
       link: "/events/pixel-pulse",
     },
@@ -282,12 +282,14 @@ const Events = ({ id = "events" }) => {
             className="group relative h-auto"
           >
             {/* Glow border */}
+
+            <Link href={club.link} scroll={false}>
             <motion.div
               layout
               transition={{ layout: { duration: 0.8, type: "spring" } }}
               className="absolute -inset-[1px] bg-gradient-to-b from-white/20 to-transparent rounded-[30px] transition-all duration-700 group-hover:from-[#e99b63] group-hover:to-transparent opacity-50 group-hover:opacity-100"
             />
-
+          
             {/* Card */}
             <motion.div
               layout
@@ -340,7 +342,6 @@ const Events = ({ id = "events" }) => {
               </div>
 
               {/* Button */}
-              <Link href={club.link} scroll={false}>
                 <motion.button
                   whileTap={{ scale: 0.97 }}
                   className={cn(
@@ -352,8 +353,9 @@ const Events = ({ id = "events" }) => {
                 >
                   VIEW EVENT DETAILS
                 </motion.button>
-              </Link>
+              
             </motion.div>
+            </Link>
           </motion.div>
         ))}
       </div>
