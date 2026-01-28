@@ -111,7 +111,7 @@ const Events = ({ id = "events" }) => {
       fees: "TBA",
       img: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-25 at 9.45.47 PM.jpeg",
       color: "from-cyan-600",
-      link: "/events/pich-perfect",
+      link: "/events/pitch-perfect",
     },
     {
       id: "brand-bot",
