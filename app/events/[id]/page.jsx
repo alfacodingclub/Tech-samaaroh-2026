@@ -170,7 +170,7 @@ const eventData = {
   },
   // FACTSMITH DATA
   "the-scholar-stage": {
-    id: "the-scholar-stage",
+    id: "the-scholarstage",
     name: "THE SCHOLAR’S STAGE",
     fees: "₹100",
     deadline: "TBA",
@@ -657,9 +657,9 @@ const router = useRouter();
                 <h3 className="text-[10px] font-black text-[#e99b63] tracking-[0.3em] mb-6 uppercase flex items-center justify-center gap-2">
                   <Phone className="w-3 h-3" /> Coordinators
                 </h3>
-                <div className="lg:flex flex-row items-center justify-center gap-6 ">
+                <div className="space-y-6">
                   {event.organizers.map((org, i) => (
-                    <div key={i} className="md:flex flex-col mb-6">
+                    <div key={i} className="flex flex-col mb-6">
                       <span className="text-white font-bold text-xs uppercase tracking-wider flex">
                         {org.name}
                       </span>
