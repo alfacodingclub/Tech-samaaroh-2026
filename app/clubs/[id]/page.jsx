@@ -657,7 +657,7 @@ const ClubPage = () => {
                             >
                                 <Linkedin className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
                                 <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
-                                    Linkedln
+                                    LinkedIn
                                 </span>
                             </div>
                         </div>
