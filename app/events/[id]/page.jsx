@@ -691,9 +691,11 @@ const router = useRouter();
       {/* 📱 Mobile CTA */}
       {isMobile && (
         <div className="fixed bottom-0 left-0 right-0 p-6 backdrop-blur-xl border-t border-white/10 z-50">
+         <a href={event.EventRegister}>
           <button className="w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em]">
             REGISTER FOR EVENT
           </button>
+          </a>
         </div>
       )}
     </div>
