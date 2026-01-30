@@ -32,13 +32,13 @@ const ClubPage = () => {
     const clubs = {
         alfa: {
             id: 1,
-            name: "ALFA Coding Club",
+            name: "ALFA",
             tagline: "Code • Create • Conquer",
             banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             logo: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             established: "2022",
-            inst: "",
-            linkdin: "",
+            inst: "https://www.instagram.com/alfa.coding.tips?igsh=MXBmcDdsbnlucHlmdg==",
+            linkdin: "https://www.linkedin.com/company/alfa-the-coding-club-of-tips/",
             description:
                 "ALFA Coding Club is the official coding club of the CS & IT Department at Trinity Institute of Professional Studies. It serves as a hub for tech enthusiasts, fostering a collaborative learning environment through workshops, hackathons, and coding competitions. The club empowers students with hands-on experience in web development, app development, competitive programming, and emerging technologies.",
             mission:
@@ -52,24 +52,69 @@ const ClubPage = () => {
             ],
             team: [
                 {
-                    name: "ABHINAV MEHTA",
+                    name: "Dhruv Pal",
                     role: "President",
-                    image: "/WebAssets/team/aryan-sharma.jpg",
+                    image: "/WebAssets/alfa/alfa-core/img18.png",
                 },
                 {
-                    name: "Priya Patel",
+                    name: "Sushil Kumar",
                     role: "Vice President",
-                    image: "/WebAssets/team/priya-patel.jpg",
+                    image: "/WebAssets/alfa/alfa-core/img5.png",
                 },
                 {
-                    name: "Rahul Verma",
-                    role: "Technical Lead",
-                    image: "/WebAssets/team/rahul-verma.jpg",
+                    name: "Abhimanyu Tyagi",
+                    role: "Club Administrator",
+                    image: "/WebAssets/alfa/alfa-core/img4.png",
                 },
                 {
-                    name: "Neha Singh",
-                    role: "Event Coordinator",
-                    image: "/WebAssets/team/neha-singh.jpg",
+                    name: "Rujul Varshney",
+                    role: "Secretary",
+                    image: "/WebAssets/alfa/alfa-core/img7.png",
+                },
+                {
+                    name: "Harsh",
+                    role: "Secretary",
+                    image: "/WebAssets/alfa/alfa-core/img6.png",
+                },
+                {
+                    name: "Mahi",
+                    role: "Assistant Secretary",
+                    image: "/WebAssets/alfa/alfa-core/WhatsApp Image 2026-01-30 at 8.00.40 AM.jpeg",
+                },
+                {
+                    name: "Abhinav Mehta",
+                    role: "Core Member",
+                    image: "/WebAssets/alfa/alfa-core/Abhinav Mehta_ExecutiveHead.jpeg",
+                },
+                {
+                    name: "Sania",
+                    role: "Core Member",
+                    image: "/WebAssets/alfa/alfa-core/img 19.jpg",
+                },
+                {
+                    name: "Prince Singh",
+                    role: "Core Member",
+                    image: "/WebAssets/alfa/alfa-core/WhatsApp Image 2026-01-30 at 7.57.24 AM.jpeg",
+                },
+                {
+                    name: "Sahil Handa",
+                    role: "Core Member",
+                    image: "/WebAssets/alfa/alfa-core/WhatsApp Image 2026-01-30 at 7.58.07 AM.jpeg",
+                },
+                {
+                    name: "Megha Bhagat",
+                    role: "Core Member",
+                    image: "/WebAssets/alfa/alfa-core/img13.png",
+                },
+                {
+                    name: "Kashvi",
+                    role: "Core Member",
+                    image: "/WebAssets/alfa/alfa-core/WhatsApp Image 2026-01-30 at 7.57.24 AM (1).jpeg",
+                },
+                 {
+                    name: "Yugal Bisht",
+                    role: "Core Member",
+                    image: "/WebAssets/alfa/alfa-core/img11.png",
                 },
             ],
             gallery: [
@@ -103,9 +148,11 @@ const ClubPage = () => {
             id: 2,
             name: "Cyber Knight",
             tagline: "We Defend We Protect",
-            banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            banner: "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 7.04.16 AM.jpeg",
             logo: "/WebAssets/cyberknight/ck-logos/Cyber Knight logo.jpg",
             established: "2022",
+            inst: "https://www.instagram.com/cyberknight.tips?igsh=YTJtZjJmcWttYmds",
+            linkdin: "https://www.linkedin.com/company/cyber-knighttips/",
             description:
                 "CYBER KNIGHT is the Networking and Security club of Trinity Institute of Professional Studies.Cyber Knight focuses on spreading awareness on cyber security and gives opportunities to the students who are enthusiastic about cyber security world and wanted to explore about Ethical hacking, Security and Networking by taking various seminars and sessions.",
             mission:
@@ -120,24 +167,44 @@ const ClubPage = () => {
             ],
             team: [
                 {
-                    name: "ABHINAV MEHTA",
+                    name: "Madhur Sindhwani",
                     role: "President",
-                    image: "/WebAssets/team/aryan-sharma.jpg",
+                    image: "/WebAssets/cyberknight/ck-core/madhur sindhwani_president.jpeg",
                 },
                 {
-                    name: "Priya Patel",
+                    name: "Angle Kaur Kalra",
                     role: "Vice President",
-                    image: "/WebAssets/team/priya-patel.jpg",
+                    image: "/WebAssets/cyberknight/ck-core/angel kaur kalra_vice president.jpg",
                 },
                 {
-                    name: "Rahul Verma",
-                    role: "Technical Lead",
-                    image: "/WebAssets/team/rahul-verma.jpg",
+                    name: "Tamanna Vats",
+                    role: "Secretary",
+                    image: "/WebAssets/cyberknight/ck-core/Tamanna vats_Secretary.png",
                 },
                 {
-                    name: "Neha Singh",
-                    role: "Event Coordinator",
-                    image: "/WebAssets/team/neha-singh.jpg",
+                    name: "Rahul Pathak",
+                    role: "Joint Secretary",
+                    image: "/WebAssets/cyberknight/ck-core/RAHUL PATHAK_JOINT SECRETARY_.jpg",
+                },
+                 {
+                    name: "Bargavi",
+                    role: "Joint Secretary",
+                    image: "/WebAssets/cyberknight/ck-core/bargavi_joint secretary 2.jpg",
+                },
+                 {
+                    name: "Abhinav Mehta",
+                    role: "Executive Head",
+                    image: "/WebAssets/cyberknight/ck-core/Abhinav Mehta_ExecutiveHead.jpeg",
+                },
+                 {
+                    name: "Shivam",
+                    role: "Management Head",
+                    image: "/WebAssets/cyberknight/ck-core/shivam_management head.jpg",
+                },
+                 {
+                    name: "Rishav",
+                    role: "Project Head",
+                    image: "/WebAssets/cyberknight/ck-core/rishav_project head.jpg",
                 },
             ],
             gallery: [
@@ -238,7 +305,7 @@ const ClubPage = () => {
             id: 4,
             name: "FactSmith",
             tagline: "",
-            banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            banner: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.03.55 AM.jpeg",
             logo: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-23 at 5.13.52 PM.jpeg",
             established: "2023",
             description:

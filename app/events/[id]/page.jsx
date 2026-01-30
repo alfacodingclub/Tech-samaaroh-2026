@@ -128,7 +128,7 @@ const eventData = {
       { name: "Shivam goel", phone: "+91 9891169971" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 7.41.10 AM.jpeg",
   },
   "cyber-tok": {
     id: "Cyber-tok",
@@ -170,7 +170,7 @@ const eventData = {
   },
   // FACTSMITH DATA
   "the-scholar-stage": {
-    id: "the-scholarstage",
+    id: "the-scholar-stage",
     name: "THE SCHOLAR’S STAGE",
     fees: "₹100",
     deadline: "TBA",
@@ -205,7 +205,7 @@ const eventData = {
       { name: "Yuvika", phone: "+91 78385 30752" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop", 
+      "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.32.59 AM.jpeg", 
   },
   "pitch-perfect": {
     id: "pitch-perfect",
@@ -243,7 +243,7 @@ const eventData = {
       { name: "Shabnam", phone: "+91 93174 44542" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.31.38 AM.jpeg",
   },
   // APEX DATA
   "brand-bot": {
@@ -255,6 +255,7 @@ const eventData = {
     timing: "February 20, TBA",
     location: "Room 407 ",
     teamSize: "Minimum 2 and Maximum 4 participants",
+    EventRegister: "https://forms.gle/gr4kM2Amg95UNayB9",
     description: [
       "A branding challenge where participants use Generative AI to design a visual identity and pitch a solution for a Crisis Brand",
     ],
@@ -291,6 +292,7 @@ const eventData = {
     timing: "February 20, 60 minutes",
     location: "Room 407 (Campus Photo Hunt Area)",
     teamSize: "2 Members",
+    EventRegister: "https://forms.gle/4ymoWwPF3srX4CbW9",
     description: [
       "Pixel Pulse is a high-speed photography and editing challenge that puts creativity and quick thinking to the test. The event kicks off with an exciting round of Tech Charades, designed to assess participants’ visual and media awareness. Once the theme is unlocked, teams race across the campus to capture a compelling photograph using only their mobile phones. The captured image must then be edited within the given time using free mobile editing applications. With no professional equipment, no pre-set filters, and strict time constraints, Pixel Pulse challenges participants to rely purely on their vision, storytelling skills, and editing instincts to create a striking visual narrative.",
     ],
@@ -646,9 +648,11 @@ const router = useRouter();
                       <span className="text-white">{event.deadline}</span>
                     </div>
                   </div>
+                  <a href={event.EventRegister}>
                   <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
-                    JOIN EVENT NOW
+                   JOIN EVENT NOW
                   </button>
+                  </a>
                 </div>
               </div>
 
