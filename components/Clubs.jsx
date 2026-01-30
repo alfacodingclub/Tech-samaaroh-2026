@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react"; 
+import React, { useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
@@ -12,9 +12,9 @@ const dancingScript = Dancing_Script({
   variable: "--font-dancing-script",
 });
 
-const Clubs = ({ id="clubs" }) => {
+const Clubs = ({ id = "clubs" }) => {
   const containerRef = useRef(null);
-  const [activeCard, setActiveCard] = useState(null); 
+  const [activeCard, setActiveCard] = useState(null);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -169,65 +169,68 @@ const Clubs = ({ id="clubs" }) => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
-            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} 
+            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)}
             className="group relative h-auto"
           >
             {/* Glow border */}
             <Link href={club.link} scroll={false}>
-            <motion.div
-              layout
-              transition={{ layout: { duration: 0.8, type: "spring" } }}
-              className="absolute -inset-[1px] bg-gradient-to-b from-white/20 to-transparent rounded-[30px] transition-all duration-700 group-hover:from-[#e99b63] group-hover:to-transparent opacity-50 group-hover:opacity-100"
-            />
-
-            {/* Card */}
-            <motion.div
-              layout
-              whileHover={{ scale: 1.03, y: -6 }}
-              transition={{ type: "spring", stiffness: 120, damping: 12 }}
-              className="relative h-full bg-[#0d0d0d]/95 rounded-[29px] p-8 border border-white/5 flex flex-col justify-start overflow-hidden"
-            >
-              {/* Glow */}
-              <div
-                className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-gradient-to-br ${club.color} opacity-0 blur-[70px] group-hover:opacity-40 transition-all duration-700`}
+              <motion.div
+                layout
+                transition={{ layout: { duration: 0.8, type: "spring" } }}
+                className="absolute -inset-[1px] bg-gradient-to-b from-white/20 to-transparent rounded-[30px] transition-all duration-700 group-hover:from-[#e99b63] group-hover:to-transparent opacity-50 group-hover:opacity-100"
               />
 
-              {/* Image, Name, Description */}
-              <div className="flex flex-col items-left text-left gap-4 mt-2">
-                <motion.div
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ type: "spring", stiffness: 200, damping: 18 }}
-                  className="w-19 h-19 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
-                >
-                  <img
-                    src={club.img}
-                    alt={club.name}
-                    className="object-cover w-full h-full rounded-2xl"
-                  />
-                </motion.div>
+              {/* Card */}
+              <motion.div
+                layout
+                whileHover={{ scale: 1.03, y: -6 }}
+                transition={{ type: "spring", stiffness: 120, damping: 12 }}
+                className="relative h-full bg-[#0d0d0d]/95 rounded-[29px] p-8 border border-white/5 flex flex-col justify-start overflow-hidden"
+              >
+                {/* Glow */}
+                <div
+                  className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-gradient-to-br ${club.color} opacity-0 blur-[70px] group-hover:opacity-40 transition-all duration-700`}
+                />
 
-                <h3 className="text-2xl font-bold group-hover:text-white transition-colors">
-                  {club.name}
-                </h3>
+                {/* Image, Name, Description */}
+                <div className="flex flex-col items-left text-left gap-4 mt-2">
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 200, damping: 18 }}
+                    className="w-19 h-19 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
+                  >
+                    <img
+                      src={club.img}
+                      alt={club.name}
+                      className="object-cover w-full h-full rounded-2xl"
+                    />
+                  </motion.div>
 
-                <p className="text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors">
-                  {club.desc}
-                </p>
-              </div>
+                  <h3 className="text-2xl font-bold group-hover:text-white transition-colors">
+                    {club.name}
+                  </h3>
 
-              {/* Button */}
+                  <p className="text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors">
+                    {club.desc}
+                  </p>
+                </div>
+
+                {/* Button */}
                 <motion.button
                   whileTap={{ scale: 0.97 }}
                   className={cn(
-                    "cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]",
+                    ` absolute bottom-0 left-0 h-[3px] w-0 bg-[#e99b63] rounded-full
+                      shadow-[0_0_10px_2px_#e99b63aa]
+                      transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+                      group-hover:w-full group-hover:shadow-[0_0_20px_4px_#e99b63bb]`,
                     activeCard === club.id
                       ? "translate-y-0"
-                      : "translate-y-full md:group-hover:translate-y-0" 
+                      : "translate-y-full md:group-hover:translate-y-0"
                   )}
                 >
-                  EXPLORE THE COMMUNITY
+                  {/* EXPLORE THE COMMUNITY */}
                 </motion.button>
-            </motion.div>
+              </motion.div>
             </Link>
           </motion.div>
         ))}

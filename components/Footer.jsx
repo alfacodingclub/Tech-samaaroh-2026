@@ -124,7 +124,7 @@ const Footer = () => {
               <i className="bx bx-calendar text-2xl text-[#e99b63]"></i>
               <div>
                 <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  February 20, 2026
+                  February 26, 2026
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
                   Trinity Dwarka Main Campus

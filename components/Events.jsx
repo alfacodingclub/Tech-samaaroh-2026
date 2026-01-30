@@ -345,13 +345,16 @@ const Events = ({ id = "events" }) => {
                 <motion.button
                   whileTap={{ scale: 0.97 }}
                   className={cn(
-                    "cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]",
+                    ` absolute bottom-0 left-0 h-[3px] w-0 bg-[#e99b63] rounded-full
+                      shadow-[0_0_10px_2px_#e99b63aa]
+                      transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+                      group-hover:w-full group-hover:shadow-[0_0_20px_4px_#e99b63bb]`,
                     activeCard === club.id
                       ? "translate-y-0"
                       : "translate-y-full md:group-hover:translate-y-0",
                   )}
                 >
-                  VIEW EVENT DETAILS
+                  {/* VIEW EVENT DETAILS */}
                 </motion.button>
               
             </motion.div>
