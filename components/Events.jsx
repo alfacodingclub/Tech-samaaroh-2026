@@ -41,31 +41,7 @@ const Events = ({ id = "events" }) => {
   );
 
   const eventList = [
-    {
-      id: "cyber-tok",
-      name: "Cyber TOK",
-      desc: "Think Fast. Create Smart. Solve Sharp.",
-      Eligibility: "Open to all departments (technical & non-technical)",
-      time: "TBA",
-      Venue: "ROOM NO. 402",
-      fees: "₹80",
-      img: "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-24 at 1.48.03 PM.jpeg",
-      color: "from-red-600",
-      link: "/events/cyber-tok",
-    },
-    {
-      id: "shadow-trace",
-      name: "Shadow Trace",
-      desc: "Uncover the system behind the data",
-      Eligibility: "knowledge of technical analysis ",
-      time: "12:00- 1:30",
-      Venue: "305 at tips dwarka",
-      fees: "₹150",
-      img: "/WebAssets/cyberknight/ck-logos//WhatsApp Image 2026-01-24 at 1.48.41 PM.jpeg",
-      color: "from-purple-600",
-      link: "/events/shadow-trace",
-    },
-    {
+  {
       id: "codex-build",
       name: "CODEX Build",
       desc: "Code the future, one byte at a time.",
@@ -88,6 +64,30 @@ const Events = ({ id = "events" }) => {
       img: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-30 at 7.13.27 AM.jpeg",
       color: "from-red-600",
       link: "/events/fire-bound",
+    },
+     {
+      id: "shadow-trace",
+      name: "Shadow Trace",
+      desc: "Uncover the system behind the data",
+      Eligibility: "knowledge of technical analysis ",
+      time: "12:00- 1:30",
+      Venue: "305 at tips dwarka",
+      fees: "₹150",
+      img: "/WebAssets/cyberknight/ck-logos//WhatsApp Image 2026-01-24 at 1.48.41 PM.jpeg",
+      color: "from-purple-600",
+      link: "/events/shadow-trace",
+    },
+    {
+      id: "cyber-tok",
+      name: "Cyber TOK",
+      desc: "Think Fast. Create Smart. Solve Sharp.",
+      Eligibility: "Open to all departments (technical & non-technical)",
+      time: "TBA",
+      Venue: "ROOM NO. 402",
+      fees: "₹80",
+      img: "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-24 at 1.48.03 PM.jpeg",
+      color: "from-red-600",
+      link: "/events/cyber-tok",
     },
     {
       id: "the-scholar-stage",
