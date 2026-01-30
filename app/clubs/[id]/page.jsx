@@ -172,7 +172,7 @@ const ClubPage = () => {
                     image: "/WebAssets/cyberknight/ck-core/madhur sindhwani_president.jpeg",
                 },
                 {
-                    name: "Angle Kaur Kalra",
+                    name: "Angel Kaur Kalra",
                     role: "Vice President",
                     image: "/WebAssets/cyberknight/ck-core/angel kaur kalra_vice president.jpg",
                 },
