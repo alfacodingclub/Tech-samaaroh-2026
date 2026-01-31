@@ -85,7 +85,8 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-gray-100 text-sm leading-relaxed mb-6 text-left">
-            Tech Samaaroh 2026 – Trinity Dwarka's premier tech fest, showcasing innovation, competitions, and creativity in the digital era!
+            Tech Samaaroh 2026 – Trinity Dwarka's premier tech fest, showcasing
+            innovation, competitions, and creativity in the digital era!
           </p>
           <div className="flex gap-4">
             <a
@@ -107,7 +108,7 @@ const Footer = () => {
                   onClick={() => handleNavigation(item)}
                   className="hover:text-[#e99b63] transition-colors flex items-center gap-2 cursor-pointer"
                 >
-                <i className="bx bx-chevron-right text-[#e99b63]"></i> {item}
+                  <i className="bx bx-chevron-right text-[#e99b63]"></i> {item}
                 </button>
               </li>
             ))}
@@ -138,7 +139,7 @@ const Footer = () => {
                   Trinty Dwarka
                 </p>
                 <p className="text-xs text-gray-100 mt-1">
-                Trinity Dwarka, Sector-9, New Delhi, India
+                  Trinity Dwarka, Sector-9, New Delhi, India
                 </p>
               </div>
             </div>
@@ -155,44 +156,47 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-3 hover:text-[#e99b63] transition-colors duration-300">
               <i className="bx bx-phone text-lg text-[#e99b63]"></i>
-              <a href="tel:+919315911715 +919315911714">9315911715 , 9315911714</a>
+              <a href="tel:+919315911715 +919315911714">
+                9315911715 , 9315911714
+              </a>
             </li>
             <li className="flex items-start gap-3 text-left hover:text-[#e99b63] transition-colors duration-300">
               <i className="bx bx-current-location text-lg text-[#e99b63]"></i>
-              <span>
-                Trinity Dwarka, Sector-9, New Delhi, India
-              </span>
+              <span>Trinity Dwarka, Sector-9, New Delhi, India</span>
             </li>
           </ul>
         </div>
       </div>
 
-     
-     {/* Credits */}
-<div className="relative z-10 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
-  <p className="text-[12px] md:text-[20px] lg:text-[20px] text-white uppercase tracking-widest">
-    © {new Date().getFullYear()} Tech samarooh. All Rights Reserved.
-  </p>
+      {/* Credits */}
+      <div className="relative z-10 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
+        <p className="text-[12px] md:text-[20px] lg:text-[20px] text-white uppercase tracking-widest">
+          © {new Date().getFullYear()} Tech samaaroh. All Rights Reserved.
+        </p>
 
-  <div className="flex items-center gap-4 group cursor-default">
-    <div className="text-right">
-      <p className="text-[12px] text-white uppercase tracking-tighter">
-        Developed by
-      </p>
-      <p className="text-sm font-black group-hover:text-[#e99b63] transition-colors">
-        <a href="https://share.google/1BjhhYbBWPe1q0PSr" className="cursor-pointer">ALFA CODING CLUB</a>
-      </p>
-    </div>
-    <div className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center transition-all duration-500 group-hover:border-[#e99b63]/50 group-hover:shadow-[0_0_15px_rgba(233,155,99,0.2)]">
-      <img
-        src="/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg"
-        className="text-[#e99b63] font-black text-xl rounded-full"
-        alt="logo"
-      />
-    </div>
-  </div>
-</div>
-
+        <div className="flex items-center gap-4 group cursor-default">
+          <div className="text-right">
+            <p className="text-[12px] text-white uppercase tracking-tighter">
+              Developed by
+            </p>
+            <p className="text-sm font-black group-hover:text-[#e99b63] transition-colors">
+              <a
+                href="https://share.google/1BjhhYbBWPe1q0PSr"
+                className="cursor-pointer"
+              >
+                ALFA CODING CLUB
+              </a>
+            </p>
+          </div>
+          <div className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center transition-all duration-500 group-hover:border-[#e99b63]/50 group-hover:shadow-[0_0_15px_rgba(233,155,99,0.2)]">
+            <img
+              src="/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg"
+              className="text-[#e99b63] font-black text-xl rounded-full"
+              alt="logo"
+            />
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

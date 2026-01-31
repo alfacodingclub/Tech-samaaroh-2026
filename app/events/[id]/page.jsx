@@ -33,25 +33,25 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "TBA" },
       { rank: "2nd Place", reward: "TBA" },
-      {rank:"3rd Place", reward:"TBA"},
-      {rank:"All Participants",participation:"E-certificates to all Participants"}
+      { rank: "3rd Place", reward: "TBA" },
+      {
+        rank: "All Participants",
+        participation: "E-certificates to all Participants",
+      },
     ],
     rules: [
-      "Devices: Teams must bring their own laptops; high-speed internet will be provided.", 
-      "AI Tools: Use of AI APIs (OpenAI, Gemini, Anthropic) and coding assistants is required.", 
+      "Devices: Teams must bring their own laptops; high-speed internet will be provided.",
+      "AI Tools: Use of AI APIs (OpenAI, Gemini, Anthropic) and coding assistants is required.",
       "Plagiarism: Copying complete pre-existing projects is strictly prohibited.",
     ],
-    requirements:[
-    "Laptop",
-    "Id card",
-    ],
+    requirements: ["Laptop", "Id card"],
     organizers: [
       { name: "Abhinav Mehta ", phone: "+91 9811812178" },
       { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
-    LeftPoster:"",  
+    LeftPoster: "",
   },
   "fire-bound": {
     id: "fire-bound",
@@ -63,30 +63,30 @@ const eventData = {
     location: "3rd and 4th floor",
     teamSize: "2 Members",
     description: [
-    "The Treasure Hunt is a fun-based offline event where participants work in teams to solve a series of clues and challenges. Each clue leads to the next location, gradually guiding teams closer to the final treasure. Participants must think logically, manage time efficiently, and collaborate effectively. The team that finds the treasure first by following all rules will be declared as winner."
+      "The Treasure Hunt is a fun-based offline event where participants work in teams to solve a series of clues and challenges. Each clue leads to the next location, gradually guiding teams closer to the final treasure. Participants must think logically, manage time efficiently, and collaborate effectively. The team that finds the treasure first by following all rules will be declared as winner.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹1500 + Certificate + Swags + Internship Opportunity" },
+      {
+        rank: "1st Place",
+        reward: "₹1500 + Certificate + Swags + Internship Opportunity",
+      },
       { rank: "2nd Place", reward: "₹800 + Certificate + Swags " },
-      {rank:"3rd Place", reward:"Certificate "},
-      {rank:"All Participants",participation:"keychains + E-certificate"}
+      { rank: "3rd Place", reward: "Certificate " },
+      { rank: "All Participants", participation: "keychains + E-certificate" },
     ],
     rules: [
       "Mobile phones are allowed only for QR scanning",
-      "No time boundation." ,
-      "Internet usage is not allowed unless specified.", 
-      "No external help from non-participants.", 
-      "Teams must follow the sequence of clues strictly." ,
+      "No time boundation.",
+      "Internet usage is not allowed unless specified.",
+      "No external help from non-participants.",
+      "Teams must follow the sequence of clues strictly.",
       "Any form of cheating or rule violation will lead to disqualification.",
       "Late completion beyond the time limit will not be considered",
-      "Teams must stay together during the event", 
-      "QR codes must not be damaged", 
-      "No unfair means allowed", 
+      "Teams must stay together during the event",
+      "QR codes must not be damaged",
+      "No unfair means allowed",
     ],
-    requirements:[
-      "Id card",
-      "Pen",
-    ],
+    requirements: ["Id card", "Pen"],
     organizers: [
       { name: "Kashvi Anand", phone: "+91 98716 80537" },
       { name: "Prince Singh", phone: "+91 88605 50502" },
@@ -101,7 +101,7 @@ const eventData = {
     fees: "₹ 150 Per Team",
     deadline: "February 26",
     // tagline: "Uncover the system behind the data",
-    timing: "February 26 12:00-1:30",
+    timing: "February 26, TBA",
     location: "305 at Trinity Dwarka",
     teamSize: "3 members in each team ",
     description: [
@@ -110,34 +110,33 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
       { rank: "2nd Place", reward: "₹300(cash) + medal+ certificate" },
-      {rank: "3rd Place", reward: "₹200(cash) + medal+ certificate "},
-      {rank:"All Participants" , participation:"Everyone will get digital certificates of participation"},
+      { rank: "3rd Place", reward: "₹200(cash) + medal+ certificate " },
+      {
+        rank: "All Participants",
+        participation:
+          "Everyone will get digital certificates of participation",
+      },
     ],
     rules: [
       "Phones are prohibited",
       "Usage of ai is not allowed",
       "Anyone caught cheating immediately they are out",
-      "Only teams are allowed" ,
+      "Only teams are allowed",
       "Single person team is not allowed",
     ],
-    requirements:[
-    "Laptop/id card",
-    "Pen",
-    ],
-    organizers: [
-      { name: "Shivam goel", phone: "+91 9891169971" },
-    ],
+    requirements: ["Laptop/id card", "Pen"],
+    organizers: [{ name: "Shivam goel", phone: "+91 9891169971" }],
     poster:
       "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 7.41.10 AM.jpeg",
   },
   "cyber-tok": {
     id: "Cyber-tok",
     // name: "Cyber Tok",
-    fees:"₹80",
-    deadline:"February 26",
+    fees: "₹80",
+    deadline: "February 26",
     // tagline: "Crack it, Reel it, Win it",
-    timing: "TBA",
-    location:"ROOM NO. 402",
+    timing: "February 26, TBA",
+    location: "ROOM NO. 402",
     teamSize: "2 Members Per team",
     description: [
       "Cyber Quest is a multi-round cybersecurity challenge designed to test participants’ awareness, creativity, and logical thinking in a fun and engaging format. The event blends real-life cyber and networking scenarios with content creation and riddle-solving to create a fast-paced learning experience. Participants begin by analyzing cyber cases, move on to creating awareness reels, and finally compete in a high-energy cyber riddle finale. Open to both technical and non-technical students, Cyber Quest encourages teamwork, communication, and quick decision-making while promoting cyber awareness in a creative way. It is an ideal event for beginners and advanced participants alike, making cybersecurity learning interactive, practical, and exciting.",
@@ -145,26 +144,24 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
       { rank: "2nd Place", reward: "₹300(cash)+ medal+ certificate" },
-      {rank:"3rd Place",reward:"₹200(cash)+ medal+ certificate "},
-      {rank:"All Participants",participation:"Participation Certificate"},
+      { rank: "3rd Place", reward: "₹200(cash)+ medal+ certificate " },
+      { rank: "All Participants", participation: "Participation Certificate" },
     ],
     rules: [
-    "Team size strictly limited to 2 members",
-    "Internet usage not allowed in Round 1",
-    "Mobile phones allowed only in Round 2",
-    "No pre-recorded or pre-prepared reels",
-    "Any misconduct leads to direct disqualification",
-    "Judges’ decision will be final and binding",
+      "Team size strictly limited to 2 members",
+      "Internet usage not allowed in Round 1",
+      "Mobile phones allowed only in Round 2",
+      "No pre-recorded or pre-prepared reels",
+      "Any misconduct leads to direct disqualification",
+      "Judges’ decision will be final and binding",
     ],
-    requirements:[
+    requirements: [
       "Valid College ID Card",
       "Smartphone (only for Round 2 – Reel Creation)",
       "Basic cybersecurity awareness",
       "Creativity & teamwork skills",
     ],
-    organizers: [
-      { name: " Ishita Sharma", phone: "+91 9810581549 " },
-    ],
+    organizers: [{ name: " Ishita Sharma", phone: "+91 9810581549 " }],
     poster:
       "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 10.45.34 PM.jpeg",
   },
@@ -175,7 +172,7 @@ const eventData = {
     fees: "₹100",
     deadline: "February 26",
     // tagline: "Presenting Perspectives, Defining Possibilities!",
-    timing: "TBA",
+    timing: "February 26, TBA",
     location: "Conference Room",
     teamSize: "2 Members",
     EventRegister: "https://forms.gle/E3Y7K4TUR6RZ5tvy7",
@@ -185,8 +182,11 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "₹500(cash) +  Certificates + medals" },
       { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
-      {rank:"3rd Place", reward: "Certificates + medals+ Hamper(₹ 150) "},
-      {rank:"All Participants", participation:"Certificate of Participation"},
+      { rank: "3rd Place", reward: "Certificates + medals+ Hamper(₹ 150) " },
+      {
+        rank: "All Participants",
+        participation: "Certificate of Participation",
+      },
     ],
     rules: [
       "Each team is allowed a maximum of 10 slides for their presentation.",
@@ -196,49 +196,51 @@ const eventData = {
       "Presentation should be submitted before the event. ",
       "Participants must maintain professional decorum during event.",
     ],
-    requirements:[
-    "College ID Card (mandatory)",
-    "Laptop for presentation" ,
-    "Presentation (compatible with MS PowerPoint)",
+    requirements: [
+      "College ID Card (mandatory)",
+      "Laptop for presentation",
+      "Presentation (compatible with MS PowerPoint)",
     ],
     organizers: [
       { name: "Nidhi", phone: "+91 93159 57256" },
       { name: "Yuvika", phone: "+91 78385 30752" },
     ],
     poster:
-      "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.32.59 AM.jpeg", 
+      "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.32.59 AM.jpeg",
   },
   "pitch-perfect": {
     id: "pitch-perfect",
     // name: "PITCH PERFECT",
-    fees:"₹100",
-    deadline:"February 26",
+    fees: "₹100",
+    deadline: "February 26",
     // tagline: "Innovate. Pitch. Inspire.",
-    timing: "TBA",
+    timing: "February 26, TBA",
     location: "Room 204",
     teamSize: "1–2 members",
-    EventRegister:"https://forms.gle/zHeQ4aoY7a9nEwbJ9",
+    EventRegister: "https://forms.gle/zHeQ4aoY7a9nEwbJ9",
     description: [
       "Pitch Perfect is a dynamic idea-presentation event organised by the Factsmith Research Club, designed to provide a platform for individuals and teams to showcase innovative ideas and practical solutions. Participants will present their concepts along with prototypes, focusing on originality, feasibility, and market potential. Theme of the event is Tech for Societal Welfare. The event encourages creative thinking, problem-solving, and effective communication skills. Each participant will have the opportunity to defend their idea before a panel of judges through presentations and Q&A sessions. Pitch Perfect aims to nurture innovation, promote entrepreneurial thinking, and empower students to transform ideas into impactful solutions.",
     ],
     prizes: [
       { rank: "1st Place", reward: "₹500(cash) Certificates + medals" },
       { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
-      { rank: "3rd Place", reward: "Certificates + medals+ Hamper (₹ 150)"},
-      { rank:"All Participants", participation:"Certificate of Participation"},
+      { rank: "3rd Place", reward: "Certificates + medals+ Hamper (₹ 150)" },
+      {
+        rank: "All Participants",
+        participation: "Certificate of Participation",
+      },
     ],
     rules: [
-    "Participation is open to individuals or teams of up to two members.",
-    "Ideas must be original and submitted before the event.",
-    "Each participant/team will get 5 minutes for presentation and 5 + 2 minutes for prototype demonstration and Q&A.",
-    "Professional conduct is mandatory.",
-    "Participants retain full ownership of their ideas.",
+      "Participation is open to individuals or teams of up to two members.",
+      "Ideas must be original and submitted before the event.",
+      "Each participant/team will get 5 minutes for presentation and 5 + 2 minutes for prototype demonstration and Q&A.",
+      "Professional conduct is mandatory.",
+      "Participants retain full ownership of their ideas.",
     ],
-    requirements:[
-    "Laptop (mandatory)",
-    "College/School ID Card",
-    "Presentation (PPT)",
-
+    requirements: [
+      "Laptop (mandatory)",
+      "College/School ID Card",
+      "Presentation (PPT)",
     ],
     organizers: [
       { name: "Khushi Bishtania", phone: "+91 99110 57463" },
@@ -251,10 +253,10 @@ const eventData = {
   "brand-bot": {
     id: "brand-bot",
     // name: "Brand Bot",
-    fees:"TBA",
-    deadline:"18 February 2026",
+    fees: "TBA",
+    deadline: "18 February 2026",
     // tagline: "Prompt the Future. Pitch the Vision.",
-    timing: "February 20, TBA",
+    timing: "February 26, TBA",
     location: "Room 407 ",
     teamSize: "Min 2 and Max 4 participants",
     EventRegister: "https://forms.gle/gr4kM2Amg95UNayB9",
@@ -272,11 +274,10 @@ const eventData = {
       "Pitching: Each team must be prepared for a 90-second Power Pitch immediately following the 60-minute creation window.",
       "Academic Integrity: Use of pre-made brand templates or plagiarizing existing company logos will lead to immediate disqualification.",
     ],
-    requirements:[
-    "Use of pre-made templates are not allowed.",
-    "Brand Name and Slogan must be completely original and created during the event.",
-    "Brand type and crisis brief will be revealed on the spot at the start of the event.",
-
+    requirements: [
+      "Use of pre-made templates are not allowed.",
+      "Brand Name and Slogan must be completely original and created during the event.",
+      "Brand type and crisis brief will be revealed on the spot at the start of the event.",
     ],
     organizers: [
       { name: "Charu Kakkar", phone: "+91 8368411655" },
@@ -288,8 +289,8 @@ const eventData = {
   "pixel-pulse": {
     id: "pixel-pulse",
     // name: "Pixel Pulse",
-    fees:"₹60 per team",
-    deadline:"February 26",
+    fees: "₹60 per team",
+    deadline: "February 26, TBA",
     // tagline: "Freeze the Frame. Master the Edit.",
     timing: "February 20, 60 minutes",
     location: "Room 407 (Campus Photo Hunt Area)",
@@ -301,8 +302,8 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "₹500(cash) + Certificate" },
       { rank: "2nd Place", reward: "₹300 (Cash) + Certificate" },
-      {rank:"3rd Place", reward:"Certificate"},
-      {rank:"All Participants", participation:"Participation Certificate"},
+      { rank: "3rd Place", reward: "Certificate" },
+      { rank: "All Participants", participation: "Participation Certificate" },
     ],
     rules: [
       "Participation is allowed only in teams of two",
@@ -312,13 +313,12 @@ const eventData = {
       "Editing must be done from scratch within the 60-minute duration",
       "One Raw JPEG and one Edited JPEG must be submitted before time ends",
       "Late or incomplete submissions will not be accepted",
-
     ],
-    requirements:[
-    "Smartphone with camera",
-    "Free mobile editing apps (Lightroom Mobile, Snapseed, etc.)",
-    "College ID Card",
-    "Internet access (for submission if required)",
+    requirements: [
+      "Smartphone with camera",
+      "Free mobile editing apps (Lightroom Mobile, Snapseed, etc.)",
+      "College ID Card",
+      "Internet access (for submission if required)",
     ],
     organizers: [
       { name: "Dev", phone: "+91 7042077948" },
@@ -331,10 +331,10 @@ const eventData = {
   "genre-jeopardy": {
     id: "genre-jeopardy",
     // name: "Genre Jeopardy",
-    fees:"₹100",
-    deadline:"February 26",
+    fees: "₹100",
+    deadline: "February 26",
     // tagline: "Greater the Risk, Sweeter the victory",
-    timing: "TBA",
+    timing: "February 26, TBA",
     location: "Room no 402(tentative)",
     teamSize: "Individual ",
     description: [
@@ -343,7 +343,7 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "Trophy + Certificate" },
       { rank: "2nd Place", reward: "Medal+Certificate" },
-      {rank:"3rd Place", reward:"Medal + Certificate"},
+      { rank: "3rd Place", reward: "Medal + Certificate" },
     ],
     rules: [
       "Questions have different point values based on difficulty (e.g., 100, 200, 300 points).",
@@ -356,22 +356,18 @@ const eventData = {
       "The highest-scoring player at the end wins.",
       "In case of a tie, a tie-breaker question will be asked.",
     ],
-    requirements:[
-      "College ID",
-    ],
-    organizers: [
-      { name: "Sneha", phone: "+91  85059 39335" },
-    ],
+    requirements: ["College ID"],
+    organizers: [{ name: "Sneha", phone: "+91  85059 39335" }],
     poster:
       "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM.jpeg",
   },
   "hack-my-mind": {
     id: "hack-my-mind",
     // name: "Hack My Mind",
-    fees:"₹100",
-    deadline:"February 26",
+    fees: "₹100",
+    deadline: "February 26",
     // tagline: "Soch lao, card uthao, dimag hilao",
-    timing: "TBA",
+    timing: "February 26, TBA",
     location: "Conference Room (tentative)",
     teamSize: "Individual or Duo",
     description: [
@@ -380,7 +376,7 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "Trophy + Certificate" },
       { rank: "2nd Place", reward: "Medal+Certificate" },
-      {rank:"3rd Place", reward:"Medal + Certificate"},
+      { rank: "3rd Place", reward: "Medal + Certificate" },
     ],
     rules: [
       "Participants will compete in structured opinion based game format",
@@ -390,12 +386,8 @@ const eventData = {
       "Judges will evaluate participants based on the predefining score criteria",
       "Top scoring participants will qualify for the next round",
     ],
-    requirements:[
-      "College ID",
-    ],
-    organizers: [
-      { name: "Bhumi", phone: "+91 87459 32303" },
-    ],
+    requirements: ["College ID"],
+    organizers: [{ name: "Bhumi", phone: "+91 87459 32303" }],
     poster:
       "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM (1).jpeg",
   },
@@ -403,30 +395,27 @@ const eventData = {
   "the-404-makeover": {
     id: "the-404-makeover",
     // name: "The 404 Makeover",
-    fees:"₹50 for Individual and ₹80 for Team",
-    deadline:"February 26",
+    fees: "₹50 for Individual and ₹80 for Team",
+    deadline: "February 26",
     // tagline: "Lost in Code. Found in Design.",
-    timing: "",
+    timing: "February 26, TBA",
     location: "305 Lab Trinity Dwarka",
     teamSize: "Individual And Team",
     description: [
-      "The 404 Makeover is a fast-paced creative challenge where design and code collide. Teams of two reimagine a boring 404 error page into a fun, interactive experience based on a unique company persona. Using only HTML, CSS, and basic JavaScript, participants blend strong visual design, clever UX micro-copy, and playful interactions to prove that even errors can leave a great impression."
+      "The 404 Makeover is a fast-paced creative challenge where design and code collide. Teams of two reimagine a boring 404 error page into a fun, interactive experience based on a unique company persona. Using only HTML, CSS, and basic JavaScript, participants blend strong visual design, clever UX micro-copy, and playful interactions to prove that even errors can leave a great impression.",
     ],
     prizes: [
       { rank: "1st Place", reward: "TBA" },
       { rank: "2nd Place", reward: "TBA" },
     ],
     rules: [
-    "The Duo: Must be a team of 2 (1 Designer + 1 Coder). If a student comes alone, the organizers will match-make them.",
-    "The Tech Stack: Coders are limited to HTML, CSS, and basic JavaScript. Designers can use Figma, Canva, or Photoshop to create assets.",
-    "Core Requirement: The page must contain at least one interactive element (e.g., a button that does something funny, a hover effect, or a mini-game).",
-    "The Human Element: The page must include a Back to Home link and a creative UX Micro-copy (a funny or helpful message explaining the error).",
-    "Submission: A live preview (using GitHub Pages, Netlify, or simply opening the local file on the judge's screen).",
+      "The Duo: Must be a team of 2 (1 Designer + 1 Coder). If a student comes alone, the organizers will match-make them.",
+      "The Tech Stack: Coders are limited to HTML, CSS, and basic JavaScript. Designers can use Figma, Canva, or Photoshop to create assets.",
+      "Core Requirement: The page must contain at least one interactive element (e.g., a button that does something funny, a hover effect, or a mini-game).",
+      "The Human Element: The page must include a Back to Home link and a creative UX Micro-copy (a funny or helpful message explaining the error).",
+      "Submission: A live preview (using GitHub Pages, Netlify, or simply opening the local file on the judge's screen).",
     ],
-   requirements:[
-      "College ID",
-      "Laptop"
-    ],
+    requirements: ["College ID", "Laptop"],
     organizers: [
       { name: "ALFA", phone: "+91 1234567890" },
       { name: "APEX", phone: "+91 1234567890" },
@@ -451,7 +440,7 @@ const EventSection = ({ title, children, icon }) => (
 );
 
 export default function EventPage() {
-const router = useRouter();
+  const router = useRouter();
   const params = useParams();
   const eventId = params?.id?.toLowerCase?.();
 
@@ -485,7 +474,9 @@ const router = useRouter();
 
   // 5. Prevent "Footer Jump" by returning a placeholder with height
   if (!event) {
-    return <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center" />;
+    return (
+      <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center" />
+    );
   }
   return (
     <div className="relative min-h-screen w-full text-white font-sans bg-[#0a0a0a] overflow-hidden">
@@ -646,14 +637,16 @@ const router = useRouter();
                       <span className="text-white">{event.fees}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-100">Registration Deadline</span>
+                      <span className="text-gray-100">
+                        Registration Deadline
+                      </span>
                       <span className="text-white">{event.deadline}</span>
                     </div>
                   </div>
                   <a href={event.EventRegister}>
-                  <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
-                   JOIN EVENT NOW
-                  </button>
+                    <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
+                      JOIN EVENT NOW
+                    </button>
                   </a>
                 </div>
               </div>
@@ -693,10 +686,10 @@ const router = useRouter();
       {/* 📱 Mobile CTA */}
       {isMobile && (
         <div className="fixed bottom-0 left-0 right-0 p-6 backdrop-blur-xl border-t border-white/10 z-50">
-         <a href={event.EventRegister}>
-          <button className="w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em]">
-            REGISTER FOR EVENT
-          </button>
+          <a href={event.EventRegister}>
+            <button className="w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em]">
+              REGISTER FOR EVENT
+            </button>
           </a>
         </div>
       )}
