@@ -79,7 +79,7 @@ const ClubPage = () => {
                 {
                     name: "Mahi",
                     role: "Assistant Secretary",
-                    image: "/WebAssets/alfa/alfa-core/WhatsApp Image 2026-01-30 at 8.00.40 AM.jpeg",
+                    image: "/WebAssets/alfa/alfa-core/WhatsApp Image 2026-01-30 at 2.47.54 PM.jpeg",
                 },
                 {
                     name: "Abhinav Mehta",
@@ -250,24 +250,49 @@ const ClubPage = () => {
             ],
             team: [
                 {
-                    name: "Aryan Sharma",
+                    name: "Lakshita Chawla",
                     role: "President",
-                    image: "/WebAssets/team/aryan-sharma.jpg",
+                    image: "/WebAssets/apex/apex-core/lakshita_president.jpeg",
                 },
                 {
-                    name: "Priya Patel",
+                    name: "Jatin Chaurasia",
+                    role: "Society Administrator",
+                    image: "/WebAssets/apex/apex-core/society_administrator_jatin.jpeg",
+                },
+                {
+                    name: "Khushi Kathuria",
                     role: "Vice President",
-                    image: "/WebAssets/team/priya-patel.jpg",
+                    image: "/WebAssets/apex/apex-core/khushi_vp.jpg",
                 },
                 {
-                    name: "Rahul Verma",
-                    role: "Technical Lead",
-                    image: "/WebAssets/team/rahul-verma.jpg",
+                    name: "Dipanshu Kalita",
+                    role: "Vice President",
+                    image: "/WebAssets/apex/apex-core/DipanshuKalita_VP.jpg",
                 },
                 {
-                    name: "Neha Singh",
-                    role: "Event Coordinator",
-                    image: "/WebAssets/team/neha-singh.jpg",
+                    name: "Adhyan Kandhari",
+                    role: "Secretary",
+                    image: "/WebAssets/apex/apex-core/adhyan_secretary.JPG",
+                },
+                {
+                    name: "Vaibhav Sharma",
+                    role: "Joint Secretary",
+                    image: "/WebAssets/apex/apex-core/vaibhav_js.jpg",
+                },
+                {
+                    name: "Sambraddhi Parihar",
+                    role: "Joint Secretary",
+                    image: "/WebAssets/apex/apex-core/Sambraddhi Parihar_.jpg",
+                },
+                {
+                    name: "Dev",
+                    role: "Executive Head",
+                    image: "/WebAssets/apex/apex-core/dev_executive.jpg",
+                },
+                {
+                    name: "Aarav Tanwar",
+                    role: "Executive Head",
+                    image: "/WebAssets/apex/apex-core/aarav_executive.jpg",
                 },
             ],
             gallery: [
@@ -325,24 +350,34 @@ const ClubPage = () => {
             ],
             team: [
                 {
-                    name: "Aryan Sharma",
+                    name: "Pihu Mudgal",
                     role: "President",
-                    image: "/WebAssets/team/aryan-sharma.jpg",
+                    image: "/WebAssets/factsmith/factsmith-core/Pihu Mudgal_President.jpeg",
                 },
                 {
-                    name: "Priya Patel",
+                    name: "Mahak Preet",
                     role: "Vice President",
-                    image: "/WebAssets/team/priya-patel.jpg",
+                    image: "/WebAssets/factsmith/factsmith-core/Mahak Preet_Vice President.jpeg",
                 },
                 {
-                    name: "Rahul Verma",
-                    role: "Technical Lead",
-                    image: "/WebAssets/team/rahul-verma.jpg",
+                    name: "Kalash",
+                    role: "Secretary",
+                    image: "/WebAssets/factsmith/factsmith-core/Kalash_Secretary.jpeg",
                 },
                 {
-                    name: "Neha Singh",
-                    role: "Event Coordinator",
-                    image: "/WebAssets/team/neha-singh.jpg",
+                    name: "Tanishk",
+                    role: "joint secretary",
+                    image: "/WebAssets/factsmith/factsmith-core/Tanishk_joint secretary.jpeg",
+                },
+                {
+                    name: "Khushi",
+                    role: "Executive Member",
+                    image: "/WebAssets/factsmith/factsmith-core/Khushi_Executive Member.jpeg",
+                },
+                {
+                    name: "Devansh",
+                    role: "Executive Member",
+                    image: "/WebAssets/factsmith/factsmith-core/Devansh_Executive Member.jpeg",
                 },
             ],
             gallery: [
@@ -385,24 +420,24 @@ const ClubPage = () => {
             ],
             team: [
                 {
-                    name: "Aryan Sharma",
+                    name: "Krishna",
                     role: "President",
-                    image: "/WebAssets/team/aryan-sharma.jpg",
+                    image: "/WebAssets/arclight/arclight-core/IMG-20251210-WA0627.jpg",
                 },
                 {
-                    name: "Priya Patel",
+                    name: "Dipanshu",
                     role: "Vice President",
-                    image: "/WebAssets/team/priya-patel.jpg",
+                    image: "/WebAssets/arclight/arclight-core/Dipanshu.jpg",
                 },
                 {
-                    name: "Rahul Verma",
-                    role: "Technical Lead",
-                    image: "/WebAssets/team/rahul-verma.jpg",
+                    name: "Khanak",
+                    role: "Secretary",
+                    image: "/WebAssets/arclight/arclight-core/Khanak.jpg",
                 },
                 {
-                    name: "Neha Singh",
-                    role: "Event Coordinator",
-                    image: "/WebAssets/team/neha-singh.jpg",
+                    name: "Nancy",
+                    role: "joint secretary",
+                    image: "/WebAssets/arclight/arclight-core/Nancy.jpg",
                 },
             ],
             gallery: [
