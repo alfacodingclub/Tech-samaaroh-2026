@@ -256,7 +256,7 @@ const eventData = {
     // tagline: "Prompt the Future. Pitch the Vision.",
     timing: "February 20, TBA",
     location: "Room 407 ",
-    teamSize: "Minimum 2 and Maximum 4 participants",
+    teamSize: "Min 2 and Max 4 participants",
     EventRegister: "https://forms.gle/gr4kM2Amg95UNayB9",
     description: [
       "A branding challenge where participants use Generative AI to design a visual identity and pitch a solution for a Crisis Brand",

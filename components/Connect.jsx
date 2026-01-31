@@ -111,7 +111,7 @@ const Connect = ({ id = "connect" }) => {
       >
         We’d love to hear from you! Whether it’s a project idea, a tech
         collaboration, or just a friendly hello — connect with{" "}
-        <span className="text-[#e99b63] font-semibold">Tech Samarooh 2026</span>{" "}
+        <span className="text-[#e99b63] font-semibold">Tech Samaaroh 2026</span>{" "}
         and let’s build the future together.
       </motion.p>
 

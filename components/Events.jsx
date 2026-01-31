@@ -70,7 +70,7 @@ const Events = ({ id = "events" }) => {
       name: "Shadow Trace",
       desc: "Uncover the system behind the data",
       Eligibility: "knowledge of technical analysis ",
-      time: "12:00- 1:30",
+      time: "110 Minutes",
       Venue: "305 at tips dwarka",
       fees: "₹150",
       img: "/WebAssets/cyberknight/ck-logos//WhatsApp Image 2026-01-24 at 1.48.41 PM.jpeg",
@@ -82,7 +82,7 @@ const Events = ({ id = "events" }) => {
       name: "Cyber TOK",
       desc: "Crack it, Reel it, Win it",
       Eligibility: "Open to all departments (technical & non-technical)",
-      time: "TBA",
+      time: "90 Minutes",
       Venue: "ROOM NO. 402",
       fees: "₹80",
       img: "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-24 at 1.48.03 PM.jpeg",
@@ -94,7 +94,7 @@ const Events = ({ id = "events" }) => {
       name: "The Scholar’s Stage",
       desc: "Presenting Perspectives, Defining Possibilities!",
       Eligibility: "Open to all departments",
-      time: "TBA",
+      time: "110 Minutes",
       Venue: "Conference Room ",
       fees: "₹100",
       img: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-25 at 9.45.46 PM.jpeg",
@@ -106,7 +106,7 @@ const Events = ({ id = "events" }) => {
       name: "Pitch Perfect",
       desc: "Innovate. Pitch. Inspire.",
       Eligibility: "Open to all departments",
-      time: "TBA",
+      time: "110 Minutes",
       Venue: "Room 204 (Tentative)",
       fees: "₹100",
       img: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-25 at 9.45.47 PM.jpeg",
@@ -118,7 +118,7 @@ const Events = ({ id = "events" }) => {
       name: "Brand Bot",
       desc: "Prompt the Future. Pitch the Vision.",
       Eligibility: "Basic knowledge of AI tools",
-      time: "TBA",
+      time: "60 Minutes",
       Venue: "Room 407",
       fees: "TBA",
       img: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-27 at 2.17.51 PM.jpeg",
@@ -129,7 +129,7 @@ const Events = ({ id = "events" }) => {
       id: "pixel-pulse",
       name: "Pixel Pulse",
       desc: "Freeze the Frame. Master the Edit.",
-      Eligibility: "Open to all registered Tech Samaaroh participants",
+      Eligibility: "Open to all",
       time: "60 Minutes",
       Venue: "Room 407 (Campus Photo Hunt Area)",
       fees: "₹60 per team",
@@ -142,7 +142,7 @@ const Events = ({ id = "events" }) => {
       name: "Genre Jeopardy",
       desc: "Greater the Risk, Sweeter the victory",
       Eligibility: "Open to all",
-      time: "TBA",
+      time: "60 Minutes",
       Venue: "Room no 402(tentative)",
       fees: "₹100",
       img: "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-30 at 7.06.28 AM.jpeg",
@@ -154,7 +154,7 @@ const Events = ({ id = "events" }) => {
       name: "Hack My Mind",
       desc: "Soch lao, card uthao, dimag hilao",
       Eligibility: "Open to all",
-      time: "TBA",
+      time: "90 Minutes",
       Venue: "Conference Room (tentative)",
       fees: "₹100",
       img: "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-30 at 7.07.00 AM.jpeg",
@@ -259,7 +259,7 @@ const Events = ({ id = "events" }) => {
         >
           Join{" "}
           <span className="text-[#e99b63] font-semibold">
-            Tech Samarooh’s exclusive events
+            Tech Samaaroh’s exclusive events
           </span>{" "}
           — Discover the exciting lineup of events at Tech Samaaroh 2026. From
           coding competitions to workshops, there's something for everyone!
