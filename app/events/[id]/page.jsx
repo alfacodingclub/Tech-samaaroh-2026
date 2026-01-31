@@ -652,21 +652,19 @@ export default function EventPage() {
               </div>
 
               {/* Coordinators */}
-              <div className="bg-white/[0.02] border border-white/5 rounded-[32px] p-8 ">
-                <h3 className="text-[10px] font-black text-[#e99b63] tracking-[0.3em] mb-6 uppercase flex items-center justify-center gap-2">
-                  <Phone className="w-3 h-3" /> Coordinators
-                </h3>
-                <div className="space-y-6">
-                  {event.organizers.map((org, i) => (
-                    <div key={i} className="flex flex-col mb-6">
-                      <span className="text-white font-bold text-xs uppercase tracking-wider flex">
-                        {org.name}
-                      </span>
-                      <span className="text-gray-100 text-[11px] mt-1">
-                        {org.phone}
-                      </span>
-                    </div>
-                  ))}
+              <div className="hidden md:block bg-white/[0.03] border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
+                <div className="relative z-10">
+                  <h3 className="text-center text-sm font-black mb-6 uppercase tracking-[0.2em] text-[#e99b63]">
+                    Coordinators
+                  </h3>
+                  <div className="divide-y divide-white/10 text-[11px] uppercase tracking-widest font-bold">
+                    {event.organizers.map((item, idx) => (
+                      <div key={idx} className="flex justify-between py-3">
+                        <span className="text-gray-100">{item.name}</span>
+                        <span className="text-white">{item.phone}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
 
