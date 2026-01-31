@@ -33,7 +33,7 @@ const ClubPage = () => {
         alfa: {
             id: 1,
             name: "ALFA",
-            tagline: "Code • Create • Conquer",
+            // tagline: "Code • Create • Conquer",
             banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 7.29.17 AM.jpeg",
             logo: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             established: "2022",
@@ -147,7 +147,7 @@ const ClubPage = () => {
         cyberknight: {
             id: 2,
             name: "Cyber Knight",
-            tagline: "We Defend We Protect",
+            // tagline: "We Defend We Protect",
             banner: "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 7.04.16 AM.jpeg",
             logo: "/WebAssets/cyberknight/ck-logos/Cyber Knight logo.jpg",
             established: "2022",
@@ -232,7 +232,7 @@ const ClubPage = () => {
         apex: {
             id: 3,
             name: "APEX",
-            tagline: "",
+            // tagline: "",
             banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             logo: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
             established: "2022",
@@ -298,8 +298,8 @@ const ClubPage = () => {
             gallery: [
                 { src: "/WebAssets/apex/apex-gallery/20250830_122916.jpg", alt: "image 1" },
                 { src: "/WebAssets/apex/apex-gallery/20250830_124446.jpg", alt: "image 2" },
-                { src: "/WebAssets/apex/apex-gallery/IMG_2166.HEIC", alt: "image 3" },
-                { src: "/WebAssets/apex/apex-gallery/IMG_2185.HEIC", alt: "image 4" },
+                { src: "/WebAssets/apex/apex-galleryIMG_2166.jpg", alt: "image 3" },
+                { src: "/WebAssets/apex/apex-galleryIMG_2185.jpg", alt: "image 4" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.35.06 PM.jpeg", alt: "image 5" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.37.47 PM.jpeg", alt: "image 6" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.39.07 PM.jpeg", alt: "image 7" },
@@ -329,7 +329,7 @@ const ClubPage = () => {
         bloggingclub: {
             id: 4,
             name: "FactSmith",
-            tagline: "",
+            // tagline: "",
             banner: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.03.55 AM.jpeg",
             logo: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-23 at 5.13.52 PM.jpeg",
             established: "2023",
@@ -405,7 +405,7 @@ const ClubPage = () => {
         researchclub: {
             id: 5,
             name: "Arclight Blogging Club",
-            tagline: "",
+            // tagline: "",
             banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             logo: "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-23 at 5.14.50 PM.jpeg",
             established: "2023",
