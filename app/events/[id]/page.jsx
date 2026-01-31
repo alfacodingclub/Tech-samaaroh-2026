@@ -94,7 +94,7 @@ const eventData = {
       { name: "Prince Singh", phone: "+91 88605 50502" },
     ],
     poster:
-      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.54 PM.jpeg",
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.54 PM.png",
   },
   // CYBER KNIGHT DATA
   "shadow-trace": {
@@ -397,7 +397,7 @@ const eventData = {
   "the-404-makeover": {
     id: "the-404-makeover",
     name: "The 404 Makeover",
-    fees: "₹50 for Individual and ₹80 for Team",
+    fees: "₹50 for Solo & ₹80 for Team",
     deadline: "February 26",
     tagline: "Lost in Code. Found in Design.",
     timing: "February 26, TBA",
@@ -650,7 +650,9 @@ export default function EventPage() {
                   <div className="space-y-4 mb-8 text-[11px] uppercase tracking-widest font-bold">
                     <div className="flex justify-between pb-4 border-b border-white/5">
                       <span className="text-gray-100">Registration Fees</span>
-                      <span className="text-white">{event.fees}</span>
+                      <span className="text-white text-right">
+                        {event.fees}
+                      </span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-100">
