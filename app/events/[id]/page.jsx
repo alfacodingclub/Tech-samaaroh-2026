@@ -51,13 +51,8 @@ const eventData = {
       { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
     poster:
-<<<<<<< HEAD
-      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.55.14 PM.jpeg",
-    LeftPoster:"",  
-=======
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
     LeftPoster: "",
->>>>>>> 28f41d2556b7e6d2356e90c7f3a453e2120a0c5d
   },
   "fire-bound": {
     id: "fire-bound",
@@ -104,10 +99,10 @@ const eventData = {
   // CYBER KNIGHT DATA
   "shadow-trace": {
     id: "Shadow-trace",
-    // name: "Shadow Trace",
+    name: "Shadow Trace",
     fees: "₹ 150 Per Team",
     deadline: "February 26",
-    // tagline: "Uncover the system behind the data",
+    tagline: "Uncover the system behind the data",
     timing: "February 26, TBA",
     location: "305 at Trinity Dwarka",
     teamSize: "3 members in each team ",
@@ -138,10 +133,10 @@ const eventData = {
   },
   "cyber-tok": {
     id: "Cyber-tok",
-    // name: "Cyber Tok",
+    name: "Cyber Tok",
     fees: "₹80",
     deadline: "February 26",
-    // tagline: "Crack it, Reel it, Win it",
+    tagline: "Crack it, Reel it, Win it",
     timing: "February 26, TBA",
     location: "ROOM NO. 402",
     teamSize: "2 Members Per team",
@@ -175,10 +170,10 @@ const eventData = {
   // FACTSMITH DATA
   "the-scholar-stage": {
     id: "the-scholar-stage",
-    // name: "THE SCHOLAR’S STAGE",
+    name: "THE SCHOLAR’S STAGE",
     fees: "₹100",
     deadline: "February 26",
-    // tagline: "Presenting Perspectives, Defining Possibilities!",
+    tagline: "Presenting Perspectives, Defining Possibilities!",
     timing: "February 26, TBA",
     location: "Conference Room",
     teamSize: "2 Members",
@@ -217,10 +212,10 @@ const eventData = {
   },
   "pitch-perfect": {
     id: "pitch-perfect",
-    // name: "PITCH PERFECT",
+    name: "PITCH PERFECT",
     fees: "₹100",
     deadline: "February 26",
-    // tagline: "Innovate. Pitch. Inspire.",
+    tagline: "Innovate. Pitch. Inspire.",
     timing: "February 26, TBA",
     location: "Room 204",
     teamSize: "1–2 members",
@@ -259,10 +254,10 @@ const eventData = {
   // APEX DATA
   "brand-bot": {
     id: "brand-bot",
-    // name: "Brand Bot",
+    name: "Brand Bot",
     fees: "TBA",
     deadline: "18 February 2026",
-    // tagline: "Prompt the Future. Pitch the Vision.",
+    tagline: "Prompt the Future. Pitch the Vision.",
     timing: "February 26, TBA",
     location: "Room 407 ",
     teamSize: "Min 2 and Max 4 participants",
@@ -295,10 +290,10 @@ const eventData = {
   },
   "pixel-pulse": {
     id: "pixel-pulse",
-    // name: "Pixel Pulse",
+    name: "Pixel Pulse",
     fees: "₹60 per team",
     deadline: "February 26, TBA",
-    // tagline: "Freeze the Frame. Master the Edit.",
+    tagline: "Freeze the Frame. Master the Edit.",
     timing: "February 20, 60 minutes",
     location: "Room 407 (Campus Photo Hunt Area)",
     teamSize: "2 Members",
@@ -337,10 +332,10 @@ const eventData = {
   // ARCLIGHT DATA
   "genre-jeopardy": {
     id: "genre-jeopardy",
-    // name: "Genre Jeopardy",
+    name: "Genre Jeopardy",
     fees: "₹100",
     deadline: "February 26",
-    // tagline: "Greater the Risk, Sweeter the victory",
+    tagline: "Greater the Risk, Sweeter the victory",
     timing: "February 26, TBA",
     location: "Room no 402(tentative)",
     teamSize: "Individual ",
@@ -370,10 +365,10 @@ const eventData = {
   },
   "hack-my-mind": {
     id: "hack-my-mind",
-    // name: "Hack My Mind",
+    name: "Hack My Mind",
     fees: "₹100",
     deadline: "February 26",
-    // tagline: "Soch lao, card uthao, dimag hilao",
+    tagline: "Soch lao, card uthao, dimag hilao",
     timing: "February 26, TBA",
     location: "Conference Room (tentative)",
     teamSize: "Individual or Duo",
@@ -401,10 +396,10 @@ const eventData = {
   // ALFA AND APEX DATA
   "the-404-makeover": {
     id: "the-404-makeover",
-    // name: "The 404 Makeover",
+    name: "The 404 Makeover",
     fees: "₹50 for Individual and ₹80 for Team",
     deadline: "February 26",
-    // tagline: "Lost in Code. Found in Design.",
+    tagline: "Lost in Code. Found in Design.",
     timing: "February 26, TBA",
     location: "305 Lab Trinity Dwarka",
     teamSize: "Individual And Team",
@@ -518,17 +513,31 @@ export default function EventPage() {
         </button>
       </div>
 
-      {/* 🖼️ Hero Poster */}
+      {/* Hero Poster */}
       <div className="container mx-auto px-6 mb-12 relative z-10">
-        <div className="relative w-full h-[300px] md:h-[500px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl">
+        <div className="relative w-full h-[300px] md:h-[500px] rounded-[40px] max-md:rounded-[20px] overflow-hidden border border-white/10 shadow-xl">
+          {/* Image */}
           <img
             src={event.poster}
             alt="Event Banner"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
-          <div className="absolute bottom-10 left-10 right-10">
-            <h1 className="text-4xl md:text-7xl font-black tracking-tighter uppercase leading-[0.9] mb-2">
+
+          {/* top fade effect top-right */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+
+          {/* dark glow bottom-left */}
+          <div
+            className="
+    absolute inset-0 pointer-events-none
+    md:bg-[radial-gradient(circle_at_bottom_left,rgba(0,0,0,0.9),rgba(0,0,0,0.6),transparent_80%)]
+    bg-[radial-gradient(ellipse_at_bottom_left,rgba(0,0,0,0.95),rgba(0,0,0,0.7),transparent_85%)]
+  "
+          />
+
+          {/* Content */}
+          <div className="absolute bottom-10 max-md:bottom-3 left-10 max-md:left-3 right-10 z-10">
+            <h1 className="text-4xl md:text-7xl font-black tracking-tighter uppercase leading-[0.9] mb-2 text-white">
               {event.name}
             </h1>
             <p className="text-[#e99b63] text-lg md:text-xl font-light italic">
