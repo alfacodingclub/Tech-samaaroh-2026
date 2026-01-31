@@ -34,7 +34,7 @@ const ClubPage = () => {
             id: 1,
             name: "ALFA",
             tagline: "Code • Create • Conquer",
-            banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 7.29.17 AM.jpeg",
             logo: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             established: "2022",
             inst: "https://www.instagram.com/alfa.coding.tips?igsh=MXBmcDdsbnlucHlmdg==",

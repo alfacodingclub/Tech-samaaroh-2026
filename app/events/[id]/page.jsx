@@ -22,9 +22,9 @@ const eventData = {
     id: "codex-build",
     name: "CODEX Build",
     fees: "₹50 Per Member",
-    deadline: "TBA",
+    deadline: "February 26",
     tagline: "Code the future, one byte at a time.",
-    timing: "February 20, TBA",
+    timing: "February 26, TBA",
     location: "305 Lab",
     teamSize: "Individual",
     description: [
@@ -57,9 +57,9 @@ const eventData = {
     id: "fire-bound",
     name: "Firebound",
     fees: "₹100 Per Team",
-    deadline: "TBA",
+    deadline: "February 26",
     tagline: "forged in fire, unleashed in strength",
-    timing: "February 20, TBA",
+    timing: "February 26, TBA",
     location: "3rd and 4th floor",
     teamSize: "2 Members",
     description: [
@@ -97,11 +97,11 @@ const eventData = {
   // CYBER KNIGHT DATA
   "shadow-trace": {
     id: "Shadow-trace",
-    name: "Shadow Trace",
+    // name: "Shadow Trace",
     fees: "₹ 150 Per Team",
-    deadline: "TBA",
-    tagline: "Uncover the system behind the data",
-    timing: "February 20 12:00-1:30",
+    deadline: "February 26",
+    // tagline: "Uncover the system behind the data",
+    timing: "February 26 12:00-1:30",
     location: "305 at Trinity Dwarka",
     teamSize: "3 members in each team ",
     description: [
@@ -132,10 +132,10 @@ const eventData = {
   },
   "cyber-tok": {
     id: "Cyber-tok",
-    name: "CyberTok - Crack it, Reel it, Win it ",
+    // name: "Cyber Tok",
     fees:"₹80",
-    deadline:"TBA",
-    tagline: "Think Fast. Create Smart. Solve Sharp.",
+    deadline:"February 26",
+    // tagline: "Crack it, Reel it, Win it",
     timing: "TBA",
     location:"ROOM NO. 402",
     teamSize: "2 Members Per team",
@@ -166,18 +166,19 @@ const eventData = {
       { name: " Ishita Sharma", phone: "+91 9810581549 " },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 10.45.34 PM.jpeg",
   },
   // FACTSMITH DATA
   "the-scholar-stage": {
     id: "the-scholar-stage",
-    name: "THE SCHOLAR’S STAGE",
+    // name: "THE SCHOLAR’S STAGE",
     fees: "₹100",
-    deadline: "TBA",
-    tagline: "Presenting Perspectives, Defining Possibilities!",
+    deadline: "February 26",
+    // tagline: "Presenting Perspectives, Defining Possibilities!",
     timing: "TBA",
     location: "Conference Room",
     teamSize: "2 Members",
+    EventRegister: "https://forms.gle/E3Y7K4TUR6RZ5tvy7",
     description: [
       "The Scholar’s Stage is a research-based presentation event designed to provide a platform for students to showcase their analytical thinking and innovation on emerging technologies and their impact on the future. Participants will present well-structured research presentations evaluated on research methodology, content depth, and presentation skills. This competition is more than just a presentation; it is a challenge to think critically, communicate effectively, and engage in meaningful intellectual discussions with peers and experts. It provides a unique opportunity to bridge the gap between academic knowledge and real-world innovation.",
     ],
@@ -209,13 +210,14 @@ const eventData = {
   },
   "pitch-perfect": {
     id: "pitch-perfect",
-    name: "PITCH PERFECT",
-    fees:"TBA",
-    deadline:"TBA",
-    tagline: "Innovate. Pitch. Inspire.",
+    // name: "PITCH PERFECT",
+    fees:"₹100",
+    deadline:"February 26",
+    // tagline: "Innovate. Pitch. Inspire.",
     timing: "TBA",
     location: "Room 204",
     teamSize: "1–2 members",
+    EventRegister:"https://forms.gle/zHeQ4aoY7a9nEwbJ9",
     description: [
       "Pitch Perfect is a dynamic idea-presentation event organised by the Factsmith Research Club, designed to provide a platform for individuals and teams to showcase innovative ideas and practical solutions. Participants will present their concepts along with prototypes, focusing on originality, feasibility, and market potential. Theme of the event is Tech for Societal Welfare. The event encourages creative thinking, problem-solving, and effective communication skills. Each participant will have the opportunity to defend their idea before a panel of judges through presentations and Q&A sessions. Pitch Perfect aims to nurture innovation, promote entrepreneurial thinking, and empower students to transform ideas into impactful solutions.",
     ],
@@ -248,10 +250,10 @@ const eventData = {
   // APEX DATA
   "brand-bot": {
     id: "brand-bot",
-    name: "Brand Bot",
+    // name: "Brand Bot",
     fees:"TBA",
     deadline:"18 February 2026",
-    tagline: "Prompt the Future. Pitch the Vision.",
+    // tagline: "Prompt the Future. Pitch the Vision.",
     timing: "February 20, TBA",
     location: "Room 407 ",
     teamSize: "Minimum 2 and Maximum 4 participants",
@@ -285,10 +287,10 @@ const eventData = {
   },
   "pixel-pulse": {
     id: "pixel-pulse",
-    name: "Pixel Pulse",
+    // name: "Pixel Pulse",
     fees:"₹60 per team",
-    deadline:"TBA",
-    tagline: "Freeze the Frame. Master the Edit.",
+    deadline:"February 26",
+    // tagline: "Freeze the Frame. Master the Edit.",
     timing: "February 20, 60 minutes",
     location: "Room 407 (Campus Photo Hunt Area)",
     teamSize: "2 Members",
@@ -328,10 +330,10 @@ const eventData = {
   // ARCLIGHT DATA
   "genre-jeopardy": {
     id: "genre-jeopardy",
-    name: "Genre Jeopardy",
+    // name: "Genre Jeopardy",
     fees:"₹100",
-    deadline:"TBA",
-    tagline: "Greater the Risk, Sweeter the victory",
+    deadline:"February 26",
+    // tagline: "Greater the Risk, Sweeter the victory",
     timing: "TBA",
     location: "Room no 402(tentative)",
     teamSize: "Individual ",
@@ -361,14 +363,14 @@ const eventData = {
       { name: "Sneha", phone: "+91  85059 39335" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM.jpeg",
   },
   "hack-my-mind": {
     id: "hack-my-mind",
-    name: "Hack My Mind",
+    // name: "Hack My Mind",
     fees:"₹100",
-    deadline:"TBA",
-    tagline: "Soch lao, card uthao, dimag hilao",
+    deadline:"February 26",
+    // tagline: "Soch lao, card uthao, dimag hilao",
     timing: "TBA",
     location: "Conference Room (tentative)",
     teamSize: "Individual or Duo",
@@ -395,20 +397,20 @@ const eventData = {
       { name: "Bhumi", phone: "+91 87459 32303" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM (1).jpeg",
   },
   // ALFA AND APEX DATA
   "the-404-makeover": {
     id: "the-404-makeover",
-    name: "The 404 Makeover",
-    fees:"TBA",
-    deadline:"TBA",
-    tagline: "Lost in Code. Found in Design.",
-    timing: "TBA",
-    location: "TBA",
-    teamSize: "TBA",
+    // name: "The 404 Makeover",
+    fees:"₹50 for Individual and ₹80 for Team",
+    deadline:"February 26",
+    // tagline: "Lost in Code. Found in Design.",
+    timing: "",
+    location: "305 Lab Trinity Dwarka",
+    teamSize: "Individual And Team",
     description: [
-      "Lorem ipsum dolor sit."
+      "The 404 Makeover is a fast-paced creative challenge where design and code collide. Teams of two reimagine a boring 404 error page into a fun, interactive experience based on a unique company persona. Using only HTML, CSS, and basic JavaScript, participants blend strong visual design, clever UX micro-copy, and playful interactions to prove that even errors can leave a great impression."
     ],
     prizes: [
       { rank: "1st Place", reward: "TBA" },
