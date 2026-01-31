@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Clubs from "@/components/Clubs";
 import Connect from "@/components/Connect";
 import Events from "@/components/Events";
