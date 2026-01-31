@@ -298,8 +298,8 @@ const ClubPage = () => {
             gallery: [
                 { src: "/WebAssets/apex/apex-gallery/20250830_122916.jpg", alt: "image 1" },
                 { src: "/WebAssets/apex/apex-gallery/20250830_124446.jpg", alt: "image 2" },
-                { src: "/WebAssets/apex/apex-galleryIMG_2166.jpg", alt: "image 3" },
-                { src: "/WebAssets/apex/apex-galleryIMG_2185.jpg", alt: "image 4" },
+                { src: "/WebAssets/apex/apex-gallery/IMG_2166.jpg", alt: "image 3" },
+                { src: "/WebAssets/apex/apex-gallery/IMG_2185.jpg", alt: "image 4" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.35.06 PM.jpeg", alt: "image 5" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.37.47 PM.jpeg", alt: "image 6" },
                 { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.39.07 PM.jpeg", alt: "image 7" },
