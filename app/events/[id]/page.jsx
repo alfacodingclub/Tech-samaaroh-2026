@@ -27,6 +27,7 @@ const eventData = {
     timing: "February 26, TBA",
     location: "305 Lab",
     teamSize: "Individual",
+    EventRegister: "https://forms.gle/vP9hRhSwUToi9v7p6",
     description: [
       "CODEX Build is a fast-paced development challenge where participants create innovative applications powered by Artificial Intelligence. Link of website will be shared in groups and the problem statement will be found on the website. Participants will find a solution and build a platform (web, app, or software etc.). The event culminates in a live demonstration of their “AI-first” application to a panel of experts.",
     ],
@@ -50,7 +51,7 @@ const eventData = {
       { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.55.14 PM.jpeg",
     LeftPoster:"",  
   },
   "fire-bound": {
@@ -62,6 +63,7 @@ const eventData = {
     timing: "February 26, TBA",
     location: "3rd and 4th floor",
     teamSize: "2 Members",
+    EventRegister: "https://forms.gle/kxCvHWGM8wtaF7WJ9",
     description: [
     "The Treasure Hunt is a fun-based offline event where participants work in teams to solve a series of clues and challenges. Each clue leads to the next location, gradually guiding teams closer to the final treasure. Participants must think logically, manage time efficiently, and collaborate effectively. The team that finds the treasure first by following all rules will be declared as winner."
     ],
@@ -92,7 +94,7 @@ const eventData = {
       { name: "Prince Singh", phone: "+91 88605 50502" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.54 PM.jpeg",
   },
   // CYBER KNIGHT DATA
   "shadow-trace": {
@@ -325,7 +327,7 @@ const eventData = {
       { name: "Aarav", phone: "+91 7834995446" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-31 at 5.55.43 PM.jpeg",
   },
   // ARCLIGHT DATA
   "genre-jeopardy": {
@@ -432,7 +434,7 @@ const eventData = {
       { name: "APEX", phone: "+91 1234567890" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.31 PM.jpeg",
   },
 };
 

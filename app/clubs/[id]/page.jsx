@@ -234,8 +234,10 @@ const ClubPage = () => {
             name: "APEX",
             // tagline: "",
             banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
-            logo: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
+            logo: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg", 
             established: "2022",
+            inst: "https://www.instagram.com/design.apex?igsh=M2x3Mzh4bHlubm1w",
+            linkdin: "https://www.linkedin.com/company/design-apex/",
             description:
                 "APEX - Designing Society of Trinity, Dwarka, is the college’s creative arts hub, promoting innovation and collaboration in design, video production, photography, and more. The society offers students a platform to develop their skills through workshops, competitions, and hands-on projects across various creative fields.",
             mission:
@@ -331,8 +333,9 @@ const ClubPage = () => {
             name: "FactSmith",
             // tagline: "",
             banner: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.03.55 AM.jpeg",
-            logo: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-23 at 5.13.52 PM.jpeg",
+            logo: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-23 at 5.13.52 PM.jpeg", 
             established: "2023",
+            inst: "https://www.instagram.com/research.factsmith?igsh=MWo2dHF3YWF3cXh6Ng==",
             description:
                 "FactSmith is a student-driven research club under the CS & IT Department at Trinity Institute of Professional Studies our motto is to Innovating for a Better Future. The club is dedicated to fostering analytical thinking, innovation, and knowledge-sharing among students. It provides a platform for aspiring researchers to explore emerging technologies, conduct research, and participate in academic discussions.",
             mission:
@@ -409,6 +412,7 @@ const ClubPage = () => {
             banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             logo: "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-23 at 5.14.50 PM.jpeg",
             established: "2023",
+            inst: "https://www.instagram.com/arclight.tips?igsh=MWYwc2wxNDB4ajZmMQ==",
             description:
                 "Arclight is the official blogging club of the CS & IT department at Trinity Institute of Professional Studies. The club encourages creativity, collaboration, and communication, serving as a platform for students to share ideas, experiences, and showcase their literary talents in various forms, from technical writing to storytelling.",
             mission:
