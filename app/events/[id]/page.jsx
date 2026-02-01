@@ -23,10 +23,10 @@ const eventData = {
     // name: "CODEX Build",
     fees: "₹50 Per Member",
     organizers: "ALFA Coding Club",
-    link:"/clubs/alfa",
+    link: "/clubs/alfa",
     deadline: "February 26",
     // tagline: "Code the future, one byte at a time.",
-    timing: "February 26, TBA",
+    timing: "February 26",
     location: "305 Lab",
     teamSize: "Individual",
     EventRegister: "https://forms.gle/vP9hRhSwUToi9v7p6",
@@ -34,9 +34,9 @@ const eventData = {
       "CODEX Build is a fast-paced development challenge where participants create innovative applications powered by Artificial Intelligence. Link of website will be shared in groups and the problem statement will be found on the website. Participants will find a solution and build a platform (web, app, or software etc.). The event culminates in a live demonstration of their “AI-first” application to a panel of experts.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "TBA" },
-      { rank: "2nd Place", reward: "TBA" },
-      { rank: "3rd Place", reward: "TBA" },
+      { rank: "1st Place", reward: "₹500 (Cash) + Trophy + Certificate" },
+      { rank: "2nd Place", reward: "₹300 (Cash) + Trophy + Certificate" },
+      { rank: "3rd Place", reward: "₹200 (Cash) + Certificate" },
       {
         rank: "All Participants",
         participation: "E-certificates to all Participants",
@@ -55,22 +55,23 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.42.00 AM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_12_58 PM.png",
+    MobilePoster:
+      "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_12_58 PM.png",
   },
   "fire-bound": {
     id: "fire-bound",
     // name: "Firebound",
     organizers: "ALFA Coding Club",
-    link:"/clubs/alfa",
+    link: "/clubs/alfa",
     fees: "₹100 Per Team",
     deadline: "February 26",
     // tagline: "forged in fire, unleashed in strength",
-    timing: "February 26, TBA",
+    timing: "February 26",
     location: "3rd and 4th floor",
     teamSize: "2 Members",
     EventRegister: "https://forms.gle/kxCvHWGM8wtaF7WJ9",
     description: [
-      "The Treasure Hunt is a fun-based offline event where participants work in teams to solve a series of clues and challenges. Each clue leads to the next location, gradually guiding teams closer to the final treasure. Participants must think logically, manage time efficiently, and collaborate effectively. The team that finds the treasure first by following all rules will be declared as winner.",
+      "The Treasure Hunt is a fun-based offline event where participants work in teams to solve a series of clues and challenges. Each clue leads to the next location, gradually guiding teams closer to the final treasure. Participants must think logically, manage time efficiently, and collaborate effectively. The team that finds the treasure first by following all the rules will be declared as winner.",
     ],
     prizes: [
       {
@@ -91,9 +92,10 @@ const eventData = {
       "Late completion beyond the time limit will not be considered",
       "Teams must stay together during the event",
       "QR codes must not be damaged",
+      "Only 1 mobile will be used at a time to play game",
       "No unfair means allowed",
     ],
-    requirements: ["Id card", "Pen"],
+    requirements: ["Id card"],
     Heads: [
       { name: "Kashvi Anand", phone: "+91 98716 80537" },
       { name: "Prince Singh", phone: "+91 88605 50502" },
@@ -101,19 +103,20 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.53 AM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_10_20 PM.png",
+    MobilePoster:
+      "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_10_20 PM.png",
   },
   // CYBER KNIGHT DATA
   "shadow-trace": {
     id: "Shadow-trace",
     // name: "Shadow Trace",
     organizers: "Cyber Knight",
-    link:"/clubs/cyberknight",
+    link: "/clubs/cyberknight",
     fees: "₹ 150 Per Team",
     deadline: "February 26",
-    tagline: "Uncover the system behind the data",
-    timing: "February 26, TBA",
-    location: "305 at Trinity Dwarka",
+    // tagline: "Uncover the system behind the data",
+    timing: "February 26",
+    location: "305 Lab",
     teamSize: "3 members in each team ",
     EventRegister: "https://forms.gle/6Dh7u3nUhE2ioKDQ6",
     description: [
@@ -141,17 +144,18 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 7.41.10 AM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/cyberknight/ck-logos/ChatGPT Image Feb 1, 2026, 12_02_38 PM.png",
+    MobilePoster:
+      "/WebAssets/cyberknight/ck-logos/ChatGPT Image Feb 1, 2026, 12_02_38 PM.png",
   },
   "cyber-tok": {
     id: "Cyber-tok",
     // name: "Cyber Tok",
     organizers: "Cyber Knight",
-    link:"/clubs/cyberknight",
+    link: "/clubs/cyberknight",
     fees: "₹80",
     deadline: "February 26",
-    tagline: "Crack it, Reel it, Win it",
-    timing: "February 26, TBA",
+    // tagline: "Crack it, Reel it, Win it",
+    timing: "February 26",
     location: "ROOM NO. 402",
     teamSize: "2 Members Per team",
     EventRegister: "https://forms.gle/B5p2uMKzqsgqTf8t8 ",
@@ -182,18 +186,19 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 10.45.34 PM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/cyberknight/ck-logos/ChatGPT Image Feb 1, 2026, 12_04_07 PM.png",
+    MobilePoster:
+      "/WebAssets/cyberknight/ck-logos/ChatGPT Image Feb 1, 2026, 12_04_07 PM.png",
   },
   // FACTSMITH DATA
   "the-scholar-stage": {
     id: "the-scholar-stage",
     // name: "THE SCHOLAR’S STAGE",
     organizers: "Factsmith",
-    link:"/clubs/bloggingclub",
+    link: "/clubs/bloggingclub",
     fees: "₹100",
     deadline: "February 26",
-    tagline: "Presenting Perspectives, Defining Possibilities!",
-    timing: "February 26, TBA",
+    // tagline: "Presenting Perspectives, Defining Possibilities!",
+    timing: "February 26",
     location: "Conference Room",
     teamSize: "2 Members",
     EventRegister: "https://forms.gle/E3Y7K4TUR6RZ5tvy7",
@@ -229,22 +234,23 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.32.59 AM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/factsmith/factsmith-logos/ChatGPT Image Feb 1, 2026, 11_56_41 AM.png",
+    MobilePoster:
+      "/WebAssets/factsmith/factsmith-logos/ChatGPT Image Feb 1, 2026, 11_56_41 AM.png",
   },
   "pitch-perfect": {
     id: "pitch-perfect",
     // name: "PITCH PERFECT",
     organizers: "Factsmith",
-    link:"/clubs/bloggingclub",
+    link: "/clubs/bloggingclub",
     fees: "₹100",
     deadline: "February 26",
-    tagline: "Innovate. Pitch. Inspire.",
-    timing: "February 26, TBA",
+    // tagline: "Innovate. Pitch. Inspire.",
+    timing: "February 26",
     location: "Room 204",
     teamSize: "1–2 members",
     EventRegister: "https://forms.gle/zHeQ4aoY7a9nEwbJ9",
     description: [
-      "Pitch Perfect is a dynamic idea-presentation event organised by the Factsmith Research Club, designed to provide a platform for individuals and teams to showcase innovative ideas and practical solutions. Participants will present their concepts along with prototypes, focusing on originality, feasibility, and market potential. Theme of the event is Tech for Societal Welfare. The event encourages creative thinking, problem-solving, and effective communication skills. Each participant will have the opportunity to defend their idea before a panel of judges through presentations and Q&A sessions. Pitch Perfect aims to nurture innovation, promote entrepreneurial thinking, and empower students to transform ideas into impactful solutions.",
+      "Pitch Perfect is a dynamic idea-presentation event organized by the Factsmith Research Club, designed to provide a platform for individuals and teams to showcase innovative ideas and practical solutions. Participants will present their concepts along with prototypes, focusing on originality, feasibility, and market potential. Theme of the event is Tech for Societal Welfare. The event encourages creative thinking, problem-solving, and effective communication skills. Each participant will have the opportunity to defend their idea before a panel of judges through presentations and Q&A sessions. Pitch Perfect aims to nurture innovation, promote entrepreneurial thinking, and empower students to transform ideas into impactful solutions.",
     ],
     prizes: [
       { rank: "1st Place", reward: "₹500(cash) Certificates + medals" },
@@ -274,17 +280,18 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.31.38 AM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/factsmith/factsmith-logos/ChatGPT Image Feb 1, 2026, 11_56_39 AM.png",
+    MobilePoster:
+      "/WebAssets/factsmith/factsmith-logos/ChatGPT Image Feb 1, 2026, 11_56_39 AM.png",
   },
   // APEX DATA
   "brand-bot": {
     id: "brand-bot",
     // name: "Brand Bot",
-    link:"/clubs/apex",
+    link: "/clubs/apex",
     organizers: "APEX",
     fees: "TBA",
     deadline: "18 February 2026",
-    tagline: "Prompt the Future. Pitch the Vision.",
+    // tagline: "Prompt the Future. Pitch the Vision.",
     timing: "February 26, TBA",
     location: "Room 407 ",
     teamSize: "Min 2 and Max 4 participants",
@@ -315,16 +322,17 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/apex/apex-logos/WhatsApp Image 2026-02-01 at 2.13.58 PM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/apex/apex-logos/ChatGPT Image Feb 1, 2026, 12_08_57 PM.png",
+    MobilePoster:
+      "/WebAssets/apex/apex-logos/ChatGPT Image Feb 1, 2026, 12_08_57 PM.png",
   },
   "pixel-pulse": {
     id: "pixel-pulse",
     // name: "Pixel Pulse",
     organizers: "APEX",
-    link:"/clubs/apex",
+    link: "/clubs/apex",
     fees: "₹60 per team",
     deadline: "February 26, TBA",
-    tagline: "Freeze the Frame. Master the Edit.",
+    // tagline: "Freeze the Frame. Master the Edit.",
     timing: "February 20, 60 minutes",
     location: "Room 407 (Campus Photo Hunt Area)",
     teamSize: "2 Members",
@@ -360,17 +368,18 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-31 at 5.55.43 PM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/apex/apex-logos/ChatGPT Image Feb 1, 2026, 12_13_39 PM.png",
+    MobilePoster:
+      "/WebAssets/apex/apex-logos/ChatGPT Image Feb 1, 2026, 12_13_39 PM.png",
   },
   // ARCLIGHT DATA
   "genre-jeopardy": {
     id: "genre-jeopardy",
     // name: "Genre Jeopardy",
     organizers: "Arclight",
-    link:"/clubs/researchclub",
+    link: "/clubs/researchclub",
     fees: "₹100",
     deadline: "February 26",
-    EventRegister:"https://forms.gle/nUuPebSqNvwibUtK9",
+    EventRegister: "https://forms.gle/nUuPebSqNvwibUtK9",
     // tagline: "Greater the Risk, Sweeter the victory",
     timing: "February 26, TBA",
     location: "Room no 402(tentative)",
@@ -399,16 +408,17 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/arclight/arclight-logos/ChatGPT Image Feb 1, 2026, 11_56_36 AM.png",
+    MobilePoster:
+      "/WebAssets/arclight/arclight-logos/ChatGPT Image Feb 1, 2026, 11_56_36 AM.png",
   },
   "hack-my-mind": {
     id: "hack-my-mind",
     // name: "Hack My Mind",
     organizers: "Arclight",
-    link:"/clubs/researchclub",
+    link: "/clubs/researchclub",
     fees: "₹100",
     deadline: "February 26",
-    EventRegister:"https://forms.gle/Lj9kpoJbBEoXbMXM9 ",
+    EventRegister: "https://forms.gle/Lj9kpoJbBEoXbMXM9 ",
     // tagline: "Soch lao, card uthao, dimag hilao",
     timing: "February 26, TBA",
     location: "Conference Room (tentative)",
@@ -434,17 +444,18 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM (1).jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/arclight/arclight-logos/ChatGPT Image Feb 1, 2026, 11_56_33 AM.png"
+    MobilePoster:
+      "/WebAssets/arclight/arclight-logos/ChatGPT Image Feb 1, 2026, 11_56_33 AM.png",
   },
   // ALFA AND APEX DATA
   "the-404-makeover": {
     id: "the-404-makeover",
     // name: "The 404 Makeover",
     organizers: "ALFA and APEX",
-    link:"",
+    link: "",
     fees: "₹50 for Individual and ₹80 for Team",
     deadline: "February 26",
-    tagline: "Lost in Code. Found in Design.",
+    // tagline: "Lost in Code. Found in Design.",
     timing: "February 26, TBA",
     location: "305 Lab Trinity Dwarka",
     teamSize: "Individual And Team",
@@ -470,7 +481,8 @@ const eventData = {
     DesktopPoster:
       "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.46 AM.jpeg",
     RightPoster: "",
-    MobilePoster: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.53 AM.jpeg",
+    MobilePoster:
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.53 AM.jpeg",
   },
 };
 
@@ -562,7 +574,7 @@ export default function EventPage() {
 
       {/* Hero Poster */}
       <div className="container mx-auto px-6 mb-12 relative z-10">
-        <div className="relative w-full h-[300px] md:h-[500px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl">
+        <div className="relative w-full h-[300px] md:h-[400px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl">
           {/* 🖼️ Desktop poster */}
           <img
             src={event.DesktopPoster}
@@ -575,18 +587,6 @@ export default function EventPage() {
             src={event.MobilePoster}
             alt="Event Banner Mobile"
             className="block md:hidden w-full h-full object-cover"
-          />
-
-          {/* top fade effect top-right */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-
-          {/* dark glow bottom-left */}
-          <div
-            className="
-    absolute inset-0 pointer-events-none
-    md:bg-[radial-gradient(circle_at_bottom_left,rgba(0,0,0,0.9),rgba(0,0,0,0.6),transparent_80%)]
-    bg-[radial-gradient(ellipse_at_bottom_left,rgba(0,0,0,0.95),rgba(0,0,0,0.7),transparent_85%)]
-  "
           />
 
           {/* Content */}
@@ -704,7 +704,9 @@ export default function EventPage() {
                   <div className="space-y-4 mb-8 text-[11px] uppercase tracking-widest font-bold">
                     <div className="flex justify-between pb-4 border-b border-white/5">
                       <span className="text-gray-100">Registration Fees</span>
-                      <span className="text-white text-right">{event.fees}</span>
+                      <span className="text-white text-right">
+                        {event.fees}
+                      </span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-100">
@@ -744,21 +746,20 @@ export default function EventPage() {
                     Event Organizers
                   </h3>
                   <div className="flex justify-center mb-2  font-bold">
-                      <span className="text-gray-100 items-center justify-center -mt-4 mb-2 flex">
-                        {event.organizers}
-                      </span>
-                      </div>
-                     <Link 
-                     href={event.link}>
-                      <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
+                    <span className="text-gray-100 items-center justify-center -mt-4 mb-2 flex">
+                      {event.organizers}
+                    </span>
+                  </div>
+                  <Link href={event.link}>
+                    <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
                       View Club Details
                     </button>
-                    </Link>
+                  </Link>
                 </div>
               </div>
 
               {/* Event Poster below Coordinators */}
-              <div className="mt-6 rounded-[24px] overflow-hidden border border-white/10 shadow-lg">
+              <div className="mt-6 rounded-[24px] h-[200px] overflow-hidden border border-white/10 shadow-lg">
                 <img
                   src={event.RightPoster || event.DesktopPoster}
                   alt="Event Poster"

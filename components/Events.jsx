@@ -41,13 +41,13 @@ const Events = ({ id = "events" }) => {
   );
 
   const eventList = [
-  {
+    {
       id: "codex-build",
       name: "CODEX Build",
       desc: "Code the future, one byte at a time.",
       Eligibility: "knowledge of emerging technologies and domains",
       time: "110 Minutes",
-      Venue: "305 Lab Trinity Dwarka",
+      Venue: "305 Lab",
       fees: "₹50 Per Member",
       img: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-30 at 7.13.53 AM.jpeg",
       color: "from-blue-600",
@@ -65,13 +65,13 @@ const Events = ({ id = "events" }) => {
       color: "from-red-600",
       link: "/events/fire-bound",
     },
-     {
+    {
       id: "shadow-trace",
       name: "Shadow Trace",
       desc: "Uncover the system behind the data",
       Eligibility: "knowledge of technical analysis ",
       time: "110 Minutes",
-      Venue: "305 at tips dwarka",
+      Venue: "305 Lab",
       fees: "₹150",
       img: "/WebAssets/cyberknight/ck-logos//WhatsApp Image 2026-01-24 at 1.48.41 PM.jpeg",
       color: "from-purple-600",
@@ -284,64 +284,64 @@ const Events = ({ id = "events" }) => {
             {/* Glow border */}
 
             <Link href={club.link} scroll={false}>
-            <motion.div
-              layout
-              transition={{ layout: { duration: 0.8, type: "spring" } }}
-              className="absolute -inset-[1px] bg-gradient-to-b from-white/20 to-transparent rounded-[30px] transition-all duration-700 group-hover:from-[#e99b63] group-hover:to-transparent opacity-50 group-hover:opacity-100"
-            />
-          
-            {/* Card */}
-            <motion.div
-              layout
-              whileHover={{ scale: 1.03, y: -6 }}
-              transition={{ type: "spring", stiffness: 120, damping: 12 }}
-              className="relative h-full bg-[#0d0d0d]/95 rounded-[29px] p-8 border border-white/5 flex flex-col justify-start overflow-hidden"
-            >
-              {/* Glow */}
-              <div
-                className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-gradient-to-br ${club.color} opacity-0 blur-[70px] group-hover:opacity-40 transition-all duration-700`}
+              <motion.div
+                layout
+                transition={{ layout: { duration: 0.8, type: "spring" } }}
+                className="absolute -inset-[1px] bg-gradient-to-b from-white/20 to-transparent rounded-[30px] transition-all duration-700 group-hover:from-[#e99b63] group-hover:to-transparent opacity-50 group-hover:opacity-100"
               />
 
-              {/* Image, Name, Description */}
-              <div className="flex flex-col items-left text-left gap-4 mt-2">
-                <motion.div
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ type: "spring", stiffness: 200, damping: 18 }}
-                  className="w-19 h-19 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
-                >
-                  <img
-                    src={club.img}
-                    alt={club.name}
-                    className="object-cover w-full h-full rounded-2xl"
-                  />
-                </motion.div>
+              {/* Card */}
+              <motion.div
+                layout
+                whileHover={{ scale: 1.03, y: -6 }}
+                transition={{ type: "spring", stiffness: 120, damping: 12 }}
+                className="relative h-full bg-[#0d0d0d]/95 rounded-[29px] p-8 border border-white/5 flex flex-col justify-start overflow-hidden"
+              >
+                {/* Glow */}
+                <div
+                  className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-gradient-to-br ${club.color} opacity-0 blur-[70px] group-hover:opacity-40 transition-all duration-700`}
+                />
 
-                <h3 className="text-2xl font-bold group-hover:text-white transition-colors">
-                  {club.name}
-                </h3>
+                {/* Image, Name, Description */}
+                <div className="flex flex-col items-left text-left gap-4 mt-2">
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 200, damping: 18 }}
+                    className="w-19 h-19 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
+                  >
+                    <img
+                      src={club.img}
+                      alt={club.name}
+                      className="object-cover w-full h-full rounded-2xl"
+                    />
+                  </motion.div>
 
-                <p className="text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors">
-                  {club.desc}
-                </p>
-                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
-                  <UserCheck className="w-4 h-4 text-gray-400 shrink-0" />
-                  {club.Eligibility}
-                </p>
-                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
-                  <Clock className="w-4 h-4 text-gray-400 shrink-0" />
-                  {club.time}
-                </p>
-                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
-                  <MapPin className="w-4 h-4 text-gray-400 shrink-0" />
-                  {club.Venue}
-                </p>
-                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
-                  <Wallet className="w-4 h-4 text-gray-400 shrink-0" />
-                  {club.fees}
-                </p>
-              </div>
+                  <h3 className="text-2xl font-bold group-hover:text-white transition-colors">
+                    {club.name}
+                  </h3>
 
-              {/* Button */}
+                  <p className="text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors">
+                    {club.desc}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                    <UserCheck className="w-4 h-4 text-gray-400 shrink-0" />
+                    {club.Eligibility}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                    <Clock className="w-4 h-4 text-gray-400 shrink-0" />
+                    {club.time}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                    <MapPin className="w-4 h-4 text-gray-400 shrink-0" />
+                    {club.Venue}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                    <Wallet className="w-4 h-4 text-gray-400 shrink-0" />
+                    {club.fees}
+                  </p>
+                </div>
+
+                {/* Button */}
                 <motion.button
                   whileTap={{ scale: 0.97 }}
                   className={cn(
@@ -356,8 +356,7 @@ const Events = ({ id = "events" }) => {
                 >
                   {/* VIEW EVENT DETAILS */}
                 </motion.button>
-              
-            </motion.div>
+              </motion.div>
             </Link>
           </motion.div>
         ))}
