@@ -155,7 +155,7 @@ const Events = ({ id = "events" }) => {
       desc: "Soch lao, card uthao, dimag hilao",
       Eligibility: "Open to all",
       time: "90 Minutes",
-      Venue: "Conference Room (tentative)",
+      Venue: "Conference Room",
       fees: "₹100",
       img: "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-30 at 7.07.00 AM.jpeg",
       color: "from-cyan-600",

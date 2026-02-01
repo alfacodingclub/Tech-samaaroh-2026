@@ -136,7 +136,7 @@ const Footer = () => {
               <i className="bx bx-map-pin text-2xl text-[#e99b63]"></i>
               <div>
                 <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  Trinty Dwarka
+                  Trinity Dwarka
                 </p>
                 <p className="text-xs text-gray-100 mt-1">
                   Trinity Dwarka, Sector-9, New Delhi, India
@@ -162,7 +162,12 @@ const Footer = () => {
             </li>
             <li className="flex items-start gap-3 text-left hover:text-[#e99b63] transition-colors duration-300">
               <i className="bx bx-current-location text-lg text-[#e99b63]"></i>
-              <span>Trinity Dwarka, Sector-9, New Delhi, India</span>
+              <a
+                href="https://maps.app.goo.gl/RLuSEznDjYhasRhS6"
+                target="_blank"
+              >
+                Trinity Dwarka, Sector-9, New Delhi, India
+              </a>
             </li>
           </ul>
         </div>

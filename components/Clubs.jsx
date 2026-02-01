@@ -21,14 +21,22 @@ const Clubs = ({ id = "clubs" }) => {
     offset: ["start end", "end start"],
   });
 
-  const opacity = useTransform(scrollYProgress, [0, 0.15, 0.8, 1], [0, 1, 1, 0.9]);
-  const scale = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.95, 1, 1, 0.98]);
+  const opacity = useTransform(
+    scrollYProgress,
+    [0, 0.15, 0.8, 1],
+    [0, 1, 1, 0.9],
+  );
+  const scale = useTransform(
+    scrollYProgress,
+    [0, 0.2, 0.8, 1],
+    [0.95, 1, 1, 0.98],
+  );
 
   const clubList = [
     {
       id: 1,
-      name: "ALFA Coding Club",
-      desc: "ALFA Coding Club is the official coding club of the CS & IT Department at Trinity Institute of Professional Studies.It serves as a hub for tech enthusiasts,fostering a collaborative learning environement throught workshop, hackckathons,and coding competitions.The club empower students with hands on experience in emerging technologies.",
+      name: "ALFA",
+      desc: "ALFA Coding Club is the official coding club of the CS & IT Department at Trinity Institute of Professional Studies.It serves as a hub for tech enthusiasts,fostering a collaborative learning environment throught workshop, hackathons,and coding competitions.The club empower students with hands on experience in emerging technologies.",
       img: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
       color: "from-blue-600",
       link: "/clubs/alfa",
@@ -36,7 +44,7 @@ const Clubs = ({ id = "clubs" }) => {
     {
       id: 2,
       name: "Cyber Knight",
-      desc: "Cyber Knight is the Networking and Security club of Trinty Institute of Professional Studies.Cyber knight focuses on spreading awareness on cyber security and gives opportunities to the students who are enthusiastic about cyber security world and wanted to explore about Ethical hacking,Security and Networking by taking various seminars and sessions.",
+      desc: "Cyber Knight is the Networking and Security club of Trinity Institute of Professional Studies.Cyber knight focuses on spreading awareness on cyber security and gives opportunities to the students who are enthusiastic about cyber security world and wanted to explore about Ethical hacking,Security and Networking by taking various seminars and sessions.",
       img: "/WebAssets/cyberknight/ck-logos/Cyber Knight logo.jpg",
       color: "from-red-600",
       link: "/clubs/cyberknight",
@@ -44,7 +52,7 @@ const Clubs = ({ id = "clubs" }) => {
     {
       id: 3,
       name: "APEX",
-      desc: "APEX- Designing Society of Trinity,Dwarka, is the college's creative arts hub, promoting innovation and collaboration in design, video production, photography and more.The Society offers students a platform to develop their skills through workshops, competitions, and hands-on projects across various creative fields.",
+      desc: "APEX- Designing Society of Trinity Dwarka, is the college's creative arts hub, promoting innovation and collaboration in design, video production, photography and more.The Society offers students a platform to develop their skills through workshops, competitions, and hands-on projects across various creative fields.",
       img: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
       color: "from-purple-600",
       link: "/clubs/apex",
@@ -136,7 +144,7 @@ const Clubs = ({ id = "clubs" }) => {
           viewport={{ once: true, amount: 0.4 }}
           className={cn(
             "text-8xl md:text-6xl lg:text-8xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#e99b63] via-[#ffcc8f] to-[#e99b63]/80",
-            dancingScript.className
+            dancingScript.className,
           )}
         >
           Clubs
@@ -154,8 +162,8 @@ const Clubs = ({ id = "clubs" }) => {
           <span className="text-[#e99b63] font-semibold">
             Our exclusive Communities
           </span>{" "}
-          — where innovation meets collaboration. Shape the future of
-          technology with creativity, teamwork, and passion!
+          — where innovation meets collaboration. Shape the future of technology
+          with creativity, teamwork, and passion!
         </motion.p>
       </div>
 
@@ -169,7 +177,9 @@ const Clubs = ({ id = "clubs" }) => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
-            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)}
+            onClick={() =>
+              setActiveCard(activeCard === club.id ? null : club.id)
+            }
             className="group relative h-auto"
           >
             {/* Glow border */}
@@ -225,7 +235,7 @@ const Clubs = ({ id = "clubs" }) => {
                       group-hover:w-full group-hover:shadow-[0_0_20px_4px_#e99b63bb]`,
                     activeCard === club.id
                       ? "translate-y-0"
-                      : "translate-y-full md:group-hover:translate-y-0"
+                      : "translate-y-full md:group-hover:translate-y-0",
                   )}
                 >
                   {/* EXPLORE THE COMMUNITY */}

@@ -420,7 +420,7 @@ const eventData = {
     EventRegister: "https://forms.gle/Lj9kpoJbBEoXbMXM9 ",
     // tagline: "Soch lao, card uthao, dimag hilao",
     timing: "February 26",
-    location: "Conference Room (tentative)",
+    location: "Conference Room",
     teamSize: "Individual or Duo",
     description: [
       "Two contestants face off with one bold, funny, or controversial statement on the screen. One contestant must defend the statement, while the other tries to change their opponent’s mind using logic, humour, and smart persuasion.",
@@ -451,8 +451,7 @@ const eventData = {
     id: "the-404-makeover",
     // name: "The 404 Makeover",
     organizers: "ALFA and APEX",
-    link: "",
-    fees: "₹50 for Individual and ₹80 for Team",
+    fees: "₹50 for Solo and ₹80 for Team",
     deadline: "February 26",
     // tagline: "Lost in Code. Found in Design.",
     timing: "February 26",
@@ -572,8 +571,8 @@ export default function EventPage() {
       </div>
 
       {/* Hero Poster */}
-      <div className="container mx-auto px-6 mb-12 relative z-10">
-        <div className="relative w-[85%] h-[300px] md:h-[400px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl mx-auto">
+      <div className="container mx-auto max-w-7xl px-6 mb-12 relative z-10">
+        <div className="relative w-full h-[300px] md:h-[400px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl mx-auto">
           {/* 🖼️ Desktop poster */}
           <img
             src={event.DesktopPoster}
@@ -739,23 +738,25 @@ export default function EventPage() {
                 </div>
               </div>
               {/* organizers */}
-              <div className="hidden md:block bg-white/[0.03] border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
-                <div className="relative z-10">
-                  <h3 className="text-center text-sm font-black mb-6 uppercase tracking-[0.2em] text-[#e99b63]">
-                    Event Organizers
-                  </h3>
-                  <div className="flex justify-center mb-2  font-bold">
-                    <span className="text-gray-100 items-center justify-center -mt-4 mb-2 flex">
-                      {event.organizers}
-                    </span>
+              {event.organizers && event.link && (
+                <div className="hidden md:block bg-white/[0.03] border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
+                  <div className="relative z-10">
+                    <h3 className="text-center text-sm font-black mb-6 uppercase tracking-[0.2em] text-[#e99b63]">
+                      Event Organizers
+                    </h3>
+                    <div className="flex justify-center mb-2  font-bold">
+                      <span className="text-gray-100 items-center justify-center -mt-4 mb-2 flex">
+                        {event?.organizers}
+                      </span>
+                    </div>
+                    <Link href={event?.link}>
+                      <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
+                        View Club Details
+                      </button>
+                    </Link>
                   </div>
-                  <Link href={event.link}>
-                    <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
-                      View Club Details
-                    </button>
-                  </Link>
                 </div>
-              </div>
+              )}
 
               {/* Event Poster below Coordinators */}
               <div className="mt-6 rounded-[24px] h-[200px] overflow-hidden border border-white/10 shadow-lg">
