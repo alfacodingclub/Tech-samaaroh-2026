@@ -16,26 +16,27 @@ import {
     Camera,
 } from "lucide-react";
 import ElegantShape from "@/components/elegantShape";
-import { Dancing_Script } from "next/font/google";
+// import { Dancing_Script } from "next/font/google";
 
 // ✅ Font import at module scope
-const dancingScript = Dancing_Script({
-    weight: ["400"],
-    subsets: ["latin"],
-});
+// const dancingScript = Dancing_Script({
+//     weight: ["400"],
+//     subsets: ["latin"],
+// });
 
 const ClubPage = () => {
     const params = useParams();
     const router = useRouter();
 
+
     // 🎯 Full Club Data
     const clubs = {
         alfa: {
             id: 1,
-            name: "ALFA",
+            // name: "ALFA",
             // tagline: "Code • Create • Conquer",
-            banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 7.29.17 AM.jpeg",
-            logo: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            banner: "/WebAssets/alfa/alfa-logos/1.png",
+            // logo: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
             established: "2022",
             inst: "https://www.instagram.com/alfa.coding.tips?igsh=MXBmcDdsbnlucHlmdg==",
             linkdin: "https://www.linkedin.com/company/alfa-the-coding-club-of-tips/",
@@ -111,7 +112,7 @@ const ClubPage = () => {
                     role: "Core Member",
                     image: "/WebAssets/alfa/alfa-core/WhatsApp Image 2026-01-30 at 7.57.24 AM (1).jpeg",
                 },
-                 {
+                {
                     name: "Yugal Bisht",
                     role: "Core Member",
                     image: "/WebAssets/alfa/alfa-core/img11.png",
@@ -148,7 +149,7 @@ const ClubPage = () => {
             id: 2,
             name: "Cyber Knight",
             // tagline: "We Defend We Protect",
-            banner: "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 7.04.16 AM.jpeg",
+            banner: "/WebAssets/cyberknight/ck-logos/3.png",
             logo: "/WebAssets/cyberknight/ck-logos/Cyber Knight logo.jpg",
             established: "2022",
             inst: "https://www.instagram.com/cyberknight.tips?igsh=YTJtZjJmcWttYmds",
@@ -186,22 +187,22 @@ const ClubPage = () => {
                     role: "Joint Secretary",
                     image: "/WebAssets/cyberknight/ck-core/RAHUL PATHAK_JOINT SECRETARY_.jpg",
                 },
-                 {
+                {
                     name: "Bargavi",
                     role: "Joint Secretary",
                     image: "/WebAssets/cyberknight/ck-core/bargavi_joint secretary 2.jpg",
                 },
-                 {
+                {
                     name: "Abhinav Mehta",
                     role: "Executive Head",
                     image: "/WebAssets/cyberknight/ck-core/Abhinav Mehta_ExecutiveHead.jpeg",
                 },
-                 {
+                {
                     name: "Shivam",
                     role: "Management Head",
                     image: "/WebAssets/cyberknight/ck-core/shivam_management head.jpg",
                 },
-                 {
+                {
                     name: "Rishav",
                     role: "Project Head",
                     image: "/WebAssets/cyberknight/ck-core/rishav_project head.jpg",
@@ -233,8 +234,8 @@ const ClubPage = () => {
             id: 3,
             name: "APEX",
             // tagline: "",
-            banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
-            logo: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg", 
+            banner: "/WebAssets/apex/apex-logos/2.png",
+            logo: "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
             established: "2022",
             inst: "https://www.instagram.com/design.apex?igsh=M2x3Mzh4bHlubm1w",
             linkdin: "https://www.linkedin.com/company/design-apex/",
@@ -332,8 +333,8 @@ const ClubPage = () => {
             id: 4,
             name: "FactSmith",
             // tagline: "",
-            banner: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.03.55 AM.jpeg",
-            logo: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-23 at 5.13.52 PM.jpeg", 
+            banner: "/WebAssets/factsmith/factsmith-logos/4.png",
+            logo: "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-23 at 5.13.52 PM.jpeg",
             established: "2023",
             inst: "https://www.instagram.com/research.factsmith?igsh=MWo2dHF3YWF3cXh6Ng==",
             description:
@@ -409,7 +410,7 @@ const ClubPage = () => {
             id: 5,
             name: "Arclight Blogging Club",
             // tagline: "",
-            banner: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+            banner: "/WebAssets/arclight/arclight-logos/5.png",
             logo: "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-23 at 5.14.50 PM.jpeg",
             established: "2023",
             inst: "https://www.instagram.com/arclight.tips?igsh=MWYwc2wxNDB4ajZmMQ==",
@@ -549,7 +550,7 @@ const ClubPage = () => {
 
                             {/* Club Info */}
                             <div className="absolute bottom-0 left-0 w-full flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between p-6 md:p-10">
-                                <div className="flex flex-row items-center md:items-end gap-4 md:gap-6">
+                                {/* <div className="flex flex-row items-center md:items-end gap-4 md:gap-6">
                                     <img
                                         src={club.logo}
                                         alt={club.name}
@@ -565,7 +566,7 @@ const ClubPage = () => {
                                             {club.name}
                                         </h1>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     )}
@@ -631,16 +632,19 @@ const ClubPage = () => {
                                 {club?.team?.map((member, i) => (
                                     <div key={i} className="group flex flex-col items-center md:items-start">
                                         <div className="relative w-full aspect-square rounded-[32px] overflow-hidden bg-[#0a0a0a] border border-white/5 mb-4">
+
                                             <img
                                                 src={member.image}
                                                 alt={member.name}
                                                 className="w-full h-full object-cover  group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                                             />
                                         </div>
-                                        <h4 className="text-white font-bold text-sm tracking-wide">{member.name}</h4>
-                                        <p className="text-[10px] text-[#e99b63] font-bold uppercase tracking-[0.2em] mt-1 italic">
-                                            {member.role}
-                                        </p>
+                                        <div className="md: flex flex-col items-center justify-center text-center">
+                                            <h4 className="text-white font-bold text-sm tracking-wide">{member.name}</h4>
+                                            <p className="text-[10px] text-[#e99b63] font-bold uppercase tracking-[0.2em] mt-1 italic text-center">
+                                                {member.role}
+                                            </p>
+                                        </div>
                                     </div>
                                 ))}
                             </div>
@@ -679,31 +683,61 @@ const ClubPage = () => {
                         </div>
 
                         {/* SOCIALS */}
-                        <div className="bg-[#0a0a0a] border border-white/5 rounded-[30px] p-6 flex items-center justify-between">
-                            <div
-                                className="flex-1 flex flex-col items-center group cursor-pointer"
-                                onClick={() => window.open(club.inst, "_blank")}
-                            >
-                                <Instagram className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
-                                <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
-                                    Instagram
-                                </span>
-                            </div>
-                            <div className="w-[1px] h-8 bg-white/5" />
-                            <div
-                                className="flex-1 flex flex-col items-center group cursor-pointer"
-                                onClick={() => window.open(club.linkdin, "_blank")}
-                            >
-                                <Linkedin className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
-                                <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
-                                    LinkedIn
-                                </span>
-                            </div>
+                        <div className="bg-[#0a0a0a] border border-white/5 rounded-[30px] p-6 flex items-center justify-center">
+                            {/* If both exist */}
+                            {club.inst && club.linkdin ? (
+                                <div className="flex w-full items-center justify-between">
+                                    <div
+                                        className="flex-1 flex flex-col items-center group cursor-pointer"
+                                        onClick={() => window.open(club.inst, "_blank")}
+                                    >
+                                        <Instagram className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
+                                        <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
+                                            Instagram
+                                        </span>
+                                    </div>
+
+                                    <div className="w-[1px] h-8 bg-white/5" />
+
+                                    <div
+                                        className="flex-1 flex flex-col items-center group cursor-pointer"
+                                        onClick={() => window.open(club.linkdin, "_blank")}
+                                    >
+                                        <Linkedin className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
+                                        <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
+                                            LinkedIn
+                                        </span>
+                                    </div>
+                                </div>
+                            ) : club.linkdin ? (
+                                // Only LinkedIn
+                                <div
+                                    className="flex flex-col items-center group cursor-pointer"
+                                    onClick={() => window.open(club.linkdin, "_blank")}
+                                >
+                                    <Linkedin className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
+                                    <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
+                                        LinkedIn
+                                    </span>
+                                </div>
+                            ) : club.inst ? (
+                                // Only Instagram (centered)
+                                <div
+                                    className="flex flex-col items-center group cursor-pointer"
+                                    onClick={() => window.open(club.inst, "_blank")}
+                                >
+                                    <Instagram className="w-5 h-5 text-gray-600 group-hover:text-[#e99b63] transition-colors mb-2" />
+                                    <span className="text-[8px] font-bold text-gray-700 uppercase tracking-widest">
+                                        Instagram
+                                    </span>
+                                </div>
+                            ) : null}
                         </div>
 
-                        <p className="text-center text-[8px] text-gray-700 font-bold uppercase tracking-[0.3em] pt-4">
+
+                        {/* <p className="text-center text-[8px] text-gray-700 font-bold uppercase tracking-[0.3em] pt-4">
                             Established {club.established} • Guided by Excellence
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </div>

@@ -56,7 +56,7 @@ const Events = ({ id = "events" }) => {
     {
       id: "fire-bound",
       name: "Firebound",
-      desc: "forged in fire, unleashed in strength",
+      desc: "Forged in fire, unleashed in strength",
       Eligibility: "Open to all college students with valid ID Cards",
       time: "120 Minutes",
       Venue: "3rd and 4th floor",
@@ -168,7 +168,7 @@ const Events = ({ id = "events" }) => {
       Eligibility: "Open for all",
       time: "60 Minutes",
       Venue: "305 Lab Trinity Dwarka",
-      fees: "₹50 for Individual and ₹80 for Team",
+      fees: "₹50 for Solo and ₹80 for Team",
       img: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-30 at 7.03.36 AM.jpeg",
       color: "from-cyan-600",
       link: "/events/the-404-makeover",

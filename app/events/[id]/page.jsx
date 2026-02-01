@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { useLayoutEffect } from "react";
 import {
@@ -20,10 +20,12 @@ const eventData = {
   // ALFA DATA
   "codex-build": {
     id: "codex-build",
-    name: "CODEX Build",
+    // name: "CODEX Build",
     fees: "₹50 Per Member",
+    organizers: "ALFA Coding Club",
+    link:"/clubs/alfa",
     deadline: "February 26",
-    tagline: "Code the future, one byte at a time.",
+    // tagline: "Code the future, one byte at a time.",
     timing: "February 26, TBA",
     location: "305 Lab",
     teamSize: "Individual",
@@ -46,25 +48,23 @@ const eventData = {
       "Plagiarism: Copying complete pre-existing projects is strictly prohibited.",
     ],
     requirements: ["Laptop", "Id card"],
-    organizers: [
+    Heads: [
       { name: "Abhinav Mehta ", phone: "+91 9811812178" },
       { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
-    poster:
-<<<<<<< HEAD
-      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.55.14 PM.jpeg",
-    LeftPoster:"",  
-=======
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
-    LeftPoster: "",
->>>>>>> 28f41d2556b7e6d2356e90c7f3a453e2120a0c5d
+    DesktopPoster:
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.42.00 AM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_12_58 PM.png",
   },
   "fire-bound": {
     id: "fire-bound",
-    name: "Firebound",
+    // name: "Firebound",
+    organizers: "ALFA Coding Club",
+    link:"/clubs/alfa",
     fees: "₹100 Per Team",
     deadline: "February 26",
-    tagline: "forged in fire, unleashed in strength",
+    // tagline: "forged in fire, unleashed in strength",
     timing: "February 26, TBA",
     location: "3rd and 4th floor",
     teamSize: "2 Members",
@@ -94,23 +94,28 @@ const eventData = {
       "No unfair means allowed",
     ],
     requirements: ["Id card", "Pen"],
-    organizers: [
+    Heads: [
       { name: "Kashvi Anand", phone: "+91 98716 80537" },
       { name: "Prince Singh", phone: "+91 88605 50502" },
     ],
-    poster:
-      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.54 PM.jpeg",
+    DesktopPoster:
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.53 AM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_10_20 PM.png",
   },
   // CYBER KNIGHT DATA
   "shadow-trace": {
     id: "Shadow-trace",
     // name: "Shadow Trace",
+    organizers: "Cyber Knight",
+    link:"/clubs/cyberknight",
     fees: "₹ 150 Per Team",
     deadline: "February 26",
     // tagline: "Uncover the system behind the data",
     timing: "February 26, TBA",
     location: "305 at Trinity Dwarka",
     teamSize: "3 members in each team ",
+    EventRegister: "https://forms.gle/6Dh7u3nUhE2ioKDQ6",
     description: [
       "Digital Crime Scene Investigation (DCSI) is a laptop-based cyber forensics event where students act as digital investigators. A cybercrime has already happened, and participants do not hack or code. Instead, they analyze digital evidence such as access logs, emails, chat screenshots, file timestamps, and company policies provided through a secure drive link. The goal is to understand how the data breach occurred, who was responsible, what data was affected, and which mistake or policy violation allowed it. Teams work together to build a timeline, connect clues, and submit a final investigation report. The event helps students develop logical thinking, cybersecurity awareness, and real-world investigation skills in an ethical and engaging way.",
     ],
@@ -132,19 +137,24 @@ const eventData = {
       "Single person team is not allowed",
     ],
     requirements: ["Laptop/id card", "Pen"],
-    organizers: [{ name: "Shivam goel", phone: "+91 9891169971" }],
-    poster:
+    Heads: [{ name: "Shivam goel", phone: "+91 9891169971" }],
+    DesktopPoster:
       "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 7.41.10 AM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/cyberknight/ck-logos/ChatGPT Image Feb 1, 2026, 12_02_38 PM.png",
   },
   "cyber-tok": {
     id: "Cyber-tok",
     // name: "Cyber Tok",
+    organizers: "Cyber Knight",
+    link:"/clubs/cyberknight",
     fees: "₹80",
     deadline: "February 26",
     // tagline: "Crack it, Reel it, Win it",
     timing: "February 26, TBA",
     location: "ROOM NO. 402",
     teamSize: "2 Members Per team",
+    EventRegister: "https://forms.gle/B5p2uMKzqsgqTf8t8 ",
     description: [
       "Cyber Quest is a multi-round cybersecurity challenge designed to test participants’ awareness, creativity, and logical thinking in a fun and engaging format. The event blends real-life cyber and networking scenarios with content creation and riddle-solving to create a fast-paced learning experience. Participants begin by analyzing cyber cases, move on to creating awareness reels, and finally compete in a high-energy cyber riddle finale. Open to both technical and non-technical students, Cyber Quest encourages teamwork, communication, and quick decision-making while promoting cyber awareness in a creative way. It is an ideal event for beginners and advanced participants alike, making cybersecurity learning interactive, practical, and exciting.",
     ],
@@ -168,14 +178,18 @@ const eventData = {
       "Basic cybersecurity awareness",
       "Creativity & teamwork skills",
     ],
-    organizers: [{ name: " Ishita Sharma", phone: "+91 9810581549 " }],
-    poster:
+    Heads: [{ name: " Ishita Sharma", phone: "+91 9810581549 " }],
+    DesktopPoster:
       "/WebAssets/cyberknight/ck-logos/WhatsApp Image 2026-01-30 at 10.45.34 PM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/cyberknight/ck-logos/ChatGPT Image Feb 1, 2026, 12_04_07 PM.png",
   },
   // FACTSMITH DATA
   "the-scholar-stage": {
     id: "the-scholar-stage",
     // name: "THE SCHOLAR’S STAGE",
+    organizers: "Factsmith",
+    link:"/clubs/bloggingclub",
     fees: "₹100",
     deadline: "February 26",
     // tagline: "Presenting Perspectives, Defining Possibilities!",
@@ -208,16 +222,20 @@ const eventData = {
       "Laptop for presentation",
       "Presentation (compatible with MS PowerPoint)",
     ],
-    organizers: [
+    Heads: [
       { name: "Nidhi", phone: "+91 93159 57256" },
       { name: "Yuvika", phone: "+91 78385 30752" },
     ],
-    poster:
+    DesktopPoster:
       "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.32.59 AM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/factsmith/factsmith-logos/ChatGPT Image Feb 1, 2026, 11_56_41 AM.png",
   },
   "pitch-perfect": {
     id: "pitch-perfect",
     // name: "PITCH PERFECT",
+    organizers: "Factsmith",
+    link:"/clubs/bloggingclub",
     fees: "₹100",
     deadline: "February 26",
     // tagline: "Innovate. Pitch. Inspire.",
@@ -249,17 +267,21 @@ const eventData = {
       "College/School ID Card",
       "Presentation (PPT)",
     ],
-    organizers: [
+    Heads: [
       { name: "Khushi Bishtania", phone: "+91 99110 57463" },
       { name: "Shabnam", phone: "+91 93174 44542" },
     ],
-    poster:
+    DesktopPoster:
       "/WebAssets/factsmith/factsmith-logos/WhatsApp Image 2026-01-30 at 7.31.38 AM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/factsmith/factsmith-logos/ChatGPT Image Feb 1, 2026, 11_56_39 AM.png",
   },
   // APEX DATA
   "brand-bot": {
     id: "brand-bot",
     // name: "Brand Bot",
+    link:"/clubs/apex",
+    organizers: "APEX",
     fees: "TBA",
     deadline: "18 February 2026",
     // tagline: "Prompt the Future. Pitch the Vision.",
@@ -286,16 +308,20 @@ const eventData = {
       "Brand Name and Slogan must be completely original and created during the event.",
       "Brand type and crisis brief will be revealed on the spot at the start of the event.",
     ],
-    organizers: [
+    Heads: [
       { name: "Charu Kakkar", phone: "+91 8368411655" },
       { name: "Vaibhav Sharma", phone: "+91 9873600910" },
     ],
-    poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+    DesktopPoster:
+      "/WebAssets/apex/apex-logos/WhatsApp Image 2026-02-01 at 2.13.58 PM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/apex/apex-logos/ChatGPT Image Feb 1, 2026, 12_08_57 PM.png",
   },
   "pixel-pulse": {
     id: "pixel-pulse",
     // name: "Pixel Pulse",
+    organizers: "APEX",
+    link:"/clubs/apex",
     fees: "₹60 per team",
     deadline: "February 26, TBA",
     // tagline: "Freeze the Frame. Master the Edit.",
@@ -327,19 +353,24 @@ const eventData = {
       "College ID Card",
       "Internet access (for submission if required)",
     ],
-    organizers: [
+    Heads: [
       { name: "Dev", phone: "+91 7042077948" },
       { name: "Aarav", phone: "+91 7834995446" },
     ],
-    poster:
+    DesktopPoster:
       "/WebAssets/apex/apex-logos/WhatsApp Image 2026-01-31 at 5.55.43 PM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/apex/apex-logos/ChatGPT Image Feb 1, 2026, 12_13_39 PM.png",
   },
   // ARCLIGHT DATA
   "genre-jeopardy": {
     id: "genre-jeopardy",
     // name: "Genre Jeopardy",
+    organizers: "Arclight",
+    link:"/clubs/researchclub",
     fees: "₹100",
     deadline: "February 26",
+    EventRegister:"https://forms.gle/nUuPebSqNvwibUtK9",
     // tagline: "Greater the Risk, Sweeter the victory",
     timing: "February 26, TBA",
     location: "Room no 402(tentative)",
@@ -364,15 +395,20 @@ const eventData = {
       "In case of a tie, a tie-breaker question will be asked.",
     ],
     requirements: ["College ID"],
-    organizers: [{ name: "Sneha", phone: "+91  85059 39335" }],
-    poster:
+    Heads: [{ name: "Sneha", phone: "+91  85059 39335" }],
+    DesktopPoster:
       "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/arclight/arclight-logos/ChatGPT Image Feb 1, 2026, 11_56_36 AM.png",
   },
   "hack-my-mind": {
     id: "hack-my-mind",
     // name: "Hack My Mind",
+    organizers: "Arclight",
+    link:"/clubs/researchclub",
     fees: "₹100",
     deadline: "February 26",
+    EventRegister:"https://forms.gle/Lj9kpoJbBEoXbMXM9 ",
     // tagline: "Soch lao, card uthao, dimag hilao",
     timing: "February 26, TBA",
     location: "Conference Room (tentative)",
@@ -394,14 +430,18 @@ const eventData = {
       "Top scoring participants will qualify for the next round",
     ],
     requirements: ["College ID"],
-    organizers: [{ name: "Bhumi", phone: "+91 87459 32303" }],
-    poster:
+    Heads: [{ name: "Bhumi", phone: "+91 87459 32303" }],
+    DesktopPoster:
       "/WebAssets/arclight/arclight-logos/WhatsApp Image 2026-01-31 at 7.26.41 AM (1).jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/arclight/arclight-logos/ChatGPT Image Feb 1, 2026, 11_56_33 AM.png"
   },
   // ALFA AND APEX DATA
   "the-404-makeover": {
     id: "the-404-makeover",
     // name: "The 404 Makeover",
+    organizers: "ALFA and APEX",
+    link:"",
     fees: "₹50 for Individual and ₹80 for Team",
     deadline: "February 26",
     // tagline: "Lost in Code. Found in Design.",
@@ -423,12 +463,14 @@ const eventData = {
       "Submission: A live preview (using GitHub Pages, Netlify, or simply opening the local file on the judge's screen).",
     ],
     requirements: ["College ID", "Laptop"],
-    organizers: [
+    Heads: [
       { name: "ALFA", phone: "+91 1234567890" },
       { name: "APEX", phone: "+91 1234567890" },
     ],
-    poster:
-      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.31 PM.jpeg",
+    DesktopPoster:
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.46 AM.jpeg",
+    RightPoster: "",
+    MobilePoster: "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.53 AM.jpeg",
   },
 };
 
@@ -521,10 +563,18 @@ export default function EventPage() {
       {/* 🖼️ Hero Poster */}
       <div className="container mx-auto px-6 mb-12 relative z-10">
         <div className="relative w-full h-[300px] md:h-[500px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl">
+          {/* 🖼️ Desktop poster */}
           <img
-            src={event.poster}
-            alt="Event Banner"
-            className="w-full h-full object-cover"
+            src={event.DesktopPoster}
+            alt="Event Banner Desktop"
+            className="hidden md:block w-full h-full object-cover"
+          />
+
+          {/* 📱 Mobile poster */}
+          <img
+            src={event.MobilePoster}
+            alt="Event Banner Mobile"
+            className="block md:hidden w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
           <div className="absolute bottom-10 left-10 right-10">
@@ -641,7 +691,7 @@ export default function EventPage() {
                   <div className="space-y-4 mb-8 text-[11px] uppercase tracking-widest font-bold">
                     <div className="flex justify-between pb-4 border-b border-white/5">
                       <span className="text-gray-100">Registration Fees</span>
-                      <span className="text-white">{event.fees}</span>
+                      <span className="text-white text-right">{event.fees}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-100">
@@ -665,7 +715,7 @@ export default function EventPage() {
                     Coordinators
                   </h3>
                   <div className="divide-y divide-white/10 text-[11px] uppercase tracking-widest font-bold">
-                    {event.organizers.map((item, idx) => (
+                    {event.Heads.map((item, idx) => (
                       <div key={idx} className="flex justify-between py-3">
                         <span className="text-gray-100">{item.name}</span>
                         <span className="text-white">{item.phone}</span>
@@ -674,11 +724,30 @@ export default function EventPage() {
                   </div>
                 </div>
               </div>
+              {/* organizers */}
+              <div className="hidden md:block bg-white/[0.03] border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
+                <div className="relative z-10">
+                  <h3 className="text-center text-sm font-black mb-6 uppercase tracking-[0.2em] text-[#e99b63]">
+                    Event Organizers
+                  </h3>
+                  <div className="flex justify-center mb-2  font-bold">
+                      <span className="text-gray-100 items-center justify-center -mt-4 mb-2 flex">
+                        {event.organizers}
+                      </span>
+                      </div>
+                     <Link 
+                     href={event.link}>
+                      <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
+                      View Club Details
+                    </button>
+                    </Link>
+                </div>
+              </div>
 
               {/* Event Poster below Coordinators */}
               <div className="mt-6 rounded-[24px] overflow-hidden border border-white/10 shadow-lg">
                 <img
-                  src={event.LeftPoster || event.poster}
+                  src={event.RightPoster || event.DesktopPoster}
                   alt="Event Poster"
                   className="w-full h-auto object-cover"
                 />
