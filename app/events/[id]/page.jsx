@@ -289,7 +289,7 @@ const eventData = {
     // name: "Brand Bot",
     link: "/clubs/apex",
     organizers: "APEX",
-    fees: "TBA",
+    fees: "₹80 per team",
     deadline: "18 February 2026",
     // tagline: "Prompt the Future. Pitch the Vision.",
     timing: "February 26",
