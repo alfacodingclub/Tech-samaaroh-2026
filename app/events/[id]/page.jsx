@@ -52,10 +52,16 @@ const eventData = {
       { name: "Abhinav Mehta ", phone: "+91 9811812178" },
       { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
+<<<<<<< HEAD
     DesktopPoster:
       "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.42.00 AM.jpeg",
     RightPoster: "",
     MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_12_58 PM.png",
+=======
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+    LeftPoster: "",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
   },
   "fire-bound": {
     id: "fire-bound",
@@ -98,20 +104,29 @@ const eventData = {
       { name: "Kashvi Anand", phone: "+91 98716 80537" },
       { name: "Prince Singh", phone: "+91 88605 50502" },
     ],
+<<<<<<< HEAD
     DesktopPoster:
       "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.53 AM.jpeg",
     RightPoster: "",
     MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_10_20 PM.png",
+=======
+    poster:
+      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.54 PM.png",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
   },
   // CYBER KNIGHT DATA
   "shadow-trace": {
     id: "Shadow-trace",
+<<<<<<< HEAD
     // name: "Shadow Trace",
     organizers: "Cyber Knight",
     link:"/clubs/cyberknight",
+=======
+    name: "Shadow Trace",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹ 150 Per Team",
     deadline: "February 26",
-    // tagline: "Uncover the system behind the data",
+    tagline: "Uncover the system behind the data",
     timing: "February 26, TBA",
     location: "305 at Trinity Dwarka",
     teamSize: "3 members in each team ",
@@ -145,12 +160,16 @@ const eventData = {
   },
   "cyber-tok": {
     id: "Cyber-tok",
+<<<<<<< HEAD
     // name: "Cyber Tok",
     organizers: "Cyber Knight",
     link:"/clubs/cyberknight",
+=======
+    name: "Cyber Tok",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹80",
     deadline: "February 26",
-    // tagline: "Crack it, Reel it, Win it",
+    tagline: "Crack it, Reel it, Win it",
     timing: "February 26, TBA",
     location: "ROOM NO. 402",
     teamSize: "2 Members Per team",
@@ -187,12 +206,16 @@ const eventData = {
   // FACTSMITH DATA
   "the-scholar-stage": {
     id: "the-scholar-stage",
+<<<<<<< HEAD
     // name: "THE SCHOLAR’S STAGE",
     organizers: "Factsmith",
     link:"/clubs/bloggingclub",
+=======
+    name: "THE SCHOLAR’S STAGE",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹100",
     deadline: "February 26",
-    // tagline: "Presenting Perspectives, Defining Possibilities!",
+    tagline: "Presenting Perspectives, Defining Possibilities!",
     timing: "February 26, TBA",
     location: "Conference Room",
     teamSize: "2 Members",
@@ -233,12 +256,16 @@ const eventData = {
   },
   "pitch-perfect": {
     id: "pitch-perfect",
+<<<<<<< HEAD
     // name: "PITCH PERFECT",
     organizers: "Factsmith",
     link:"/clubs/bloggingclub",
+=======
+    name: "PITCH PERFECT",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹100",
     deadline: "February 26",
-    // tagline: "Innovate. Pitch. Inspire.",
+    tagline: "Innovate. Pitch. Inspire.",
     timing: "February 26, TBA",
     location: "Room 204",
     teamSize: "1–2 members",
@@ -279,12 +306,16 @@ const eventData = {
   // APEX DATA
   "brand-bot": {
     id: "brand-bot",
+<<<<<<< HEAD
     // name: "Brand Bot",
     link:"/clubs/apex",
     organizers: "APEX",
+=======
+    name: "Brand Bot",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "TBA",
     deadline: "18 February 2026",
-    // tagline: "Prompt the Future. Pitch the Vision.",
+    tagline: "Prompt the Future. Pitch the Vision.",
     timing: "February 26, TBA",
     location: "Room 407 ",
     teamSize: "Min 2 and Max 4 participants",
@@ -319,12 +350,16 @@ const eventData = {
   },
   "pixel-pulse": {
     id: "pixel-pulse",
+<<<<<<< HEAD
     // name: "Pixel Pulse",
     organizers: "APEX",
     link:"/clubs/apex",
+=======
+    name: "Pixel Pulse",
+>>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹60 per team",
     deadline: "February 26, TBA",
-    // tagline: "Freeze the Frame. Master the Edit.",
+    tagline: "Freeze the Frame. Master the Edit.",
     timing: "February 20, 60 minutes",
     location: "Room 407 (Campus Photo Hunt Area)",
     teamSize: "2 Members",
@@ -444,7 +479,7 @@ const eventData = {
     link:"",
     fees: "₹50 for Individual and ₹80 for Team",
     deadline: "February 26",
-    // tagline: "Lost in Code. Found in Design.",
+    tagline: "Lost in Code. Found in Design.",
     timing: "February 26, TBA",
     location: "305 Lab Trinity Dwarka",
     teamSize: "Individual And Team",
@@ -560,7 +595,7 @@ export default function EventPage() {
         </button>
       </div>
 
-      {/* 🖼️ Hero Poster */}
+      {/* Hero Poster */}
       <div className="container mx-auto px-6 mb-12 relative z-10">
         <div className="relative w-full h-[300px] md:h-[500px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl">
           {/* 🖼️ Desktop poster */}
@@ -576,9 +611,22 @@ export default function EventPage() {
             alt="Event Banner Mobile"
             className="block md:hidden w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
-          <div className="absolute bottom-10 left-10 right-10">
-            <h1 className="text-4xl md:text-7xl font-black tracking-tighter uppercase leading-[0.9] mb-2">
+
+          {/* top fade effect top-right */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+
+          {/* dark glow bottom-left */}
+          <div
+            className="
+    absolute inset-0 pointer-events-none
+    md:bg-[radial-gradient(circle_at_bottom_left,rgba(0,0,0,0.9),rgba(0,0,0,0.6),transparent_80%)]
+    bg-[radial-gradient(ellipse_at_bottom_left,rgba(0,0,0,0.95),rgba(0,0,0,0.7),transparent_85%)]
+  "
+          />
+
+          {/* Content */}
+          <div className="absolute bottom-10 max-md:bottom-3 left-10 max-md:left-3 right-10 z-10">
+            <h1 className="text-4xl md:text-7xl font-black tracking-tighter uppercase leading-[0.9] mb-2 text-white">
               {event.name}
             </h1>
             <p className="text-[#e99b63] text-lg md:text-xl font-light italic">
