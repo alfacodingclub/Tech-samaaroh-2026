@@ -128,8 +128,7 @@ const eventData = {
       { rank: "3rd Place", reward: "₹200(cash) + Medal+ Certificate " },
       {
         rank: "All Participants",
-        participation:
-          "Everyone will get digital certificates of participation",
+        participation: "E-certificate",
       },
     ],
     rules: [
@@ -166,7 +165,7 @@ const eventData = {
       { rank: "1st Place", reward: "₹500(cash) + Trophy + Certificate" },
       { rank: "2nd Place", reward: "₹300(cash) + Medal + Certificate" },
       { rank: "3rd Place", reward: "₹200(cash) + Medal + Certificate " },
-      { rank: "All Participants", participation: "Participation Certificate" },
+      { rank: "All Participants", participation: "E-certificate" },
     ],
     rules: [
       "Team size strictly limited to 2 members",
