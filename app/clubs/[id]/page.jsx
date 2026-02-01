@@ -119,12 +119,13 @@ const ClubPage = () => {
                 },
             ],
             gallery: [
-                { src: "/WebAssets/alfa/alfa-gallery/IMG-20251030-WA0079.jpg", alt: "image 1" },
-                { src: "/WebAssets/alfa/alfa-gallery/img1.png", alt: "image 2" },
-                { src: "/WebAssets/alfa/alfa-gallery/img2.jpg", alt: "image 3" },
-                { src: "/WebAssets/alfa/alfa-gallery/img3.jpg", alt: "image 4" },
-                { src: "/WebAssets/alfa/alfa-gallery/img3.png", alt: "image 5" },
-                { src: "/WebAssets/alfa/alfa-gallery/WhatsApp Image 2025-09-07 at 22.13.56_a2188da5.jpg", alt: "image 6" },
+                { src: "/WebAssets/alfa/alfa-gallery/img_697eb5d73747c.webp", alt: "image 1" },
+                { src: "/WebAssets/alfa/alfa-gallery/img_697eb6de3e952.webp", alt: "image 2" },
+                { src: "WebAssets/alfa/alfa-gallery/img_697eb70ddbf0b.webp", alt: "image 3" },
+                { src: "WebAssets/alfa/alfa-gallery/img_697eb627f0886.webp", alt: "image 4" },
+                { src: "WebAssets/alfa/alfa-gallery/img_697eb744bce92.webp", alt: "image 5" },
+                { src: "WebAssets/alfa/alfa-gallery/img_697eb69417be2.webp", alt: "image 6" },
+                { src: "WebAssets/alfa/alfa-gallery/img_697eb661901fb.webp", alt: "image 7" },
             ],
             upcomingEvents: [
                 {
@@ -170,12 +171,12 @@ const ClubPage = () => {
                 {
                     name: "Madhur Sindhwani",
                     role: "President",
-                    image: "/WebAssets/cyberknight/ck-core/madhur sindhwani_president.jpeg",
+                    image: "/WebAssets/cyberknight/ck-core/madhur_president.webp",
                 },
                 {
                     name: "Angel Kaur Kalra",
                     role: "Vice President",
-                    image: "/WebAssets/cyberknight/ck-core/angel kaur kalra_vice president.jpg",
+                    image: "/WebAssets/cyberknight/ck-core/angel kalra_vp.webp",
                 },
                 {
                     name: "Tamanna Vats",
@@ -185,7 +186,7 @@ const ClubPage = () => {
                 {
                     name: "Rahul Pathak",
                     role: "Joint Secretary",
-                    image: "/WebAssets/cyberknight/ck-core/RAHUL PATHAK_JOINT SECRETARY_.jpg",
+                    image: "/WebAssets/cyberknight/ck-core/rahul_js.webp",
                 },
                 {
                     name: "Bargavi",
@@ -195,26 +196,21 @@ const ClubPage = () => {
                 {
                     name: "Abhinav Mehta",
                     role: "Executive Head",
-                    image: "/WebAssets/cyberknight/ck-core/Abhinav Mehta_ExecutiveHead.jpeg",
+                    image: "/WebAssets/cyberknight/ck-core/Abhinav mehta_executive.webp",
                 },
                 {
                     name: "Shivam",
                     role: "Management Head",
-                    image: "/WebAssets/cyberknight/ck-core/shivam_management head.jpg",
-                },
-                {
-                    name: "Rishav",
-                    role: "Project Head",
-                    image: "/WebAssets/cyberknight/ck-core/rishav_project head.jpg",
+                    image: "/WebAssets/cyberknight/ck-core/shivam_mh.webp",
                 },
             ],
             gallery: [
-                { src: "/WebAssets/cyberknight/ck-gallery/1.jpeg", alt: "image 1" },
-                { src: "/WebAssets/cyberknight/ck-gallery/5 (1).jpeg", alt: "image 2" },
-                { src: "/WebAssets/cyberknight/ck-gallery/5.jpeg", alt: "image 2" },
-                { src: "/WebAssets/cyberknight/ck-gallery/9.jpeg", alt: "image 3" },
-                { src: "/WebAssets/cyberknight/ck-gallery/IMG-20251029-WA0078.jpg", alt: "image 4" },
-                { src: "/WebAssets/cyberknight/ck-gallery/IMG-20251029-WA0090.jpg", alt: "image 5" },
+                { src: "/WebAssets/cyberknight/ck-gallery/img_697ec4b118e8a.webp", alt: "image 1" },
+                { src: "/WebAssets/cyberknight/ck-gallery/img_697ec39b2f970.webp", alt: "image 2" },
+                { src: "/WebAssets/cyberknight/ck-gallery/img_697ec40d04567.webp", alt: "image 2" },
+                { src: "/WebAssets/cyberknight/ck-gallery/img_697ec56d283be.webp", alt: "image 3" },
+                { src: "/WebAssets/cyberknight/ck-gallery/img_697ec46199ae1.webp", alt: "image 4" },
+                { src: "/WebAssets/cyberknight/ck-gallery/img_697ec6143838b.webp", alt: "image 5" },
             ],
             upcomingEvents: [
                 {
@@ -255,22 +251,22 @@ const ClubPage = () => {
                 {
                     name: "Lakshita Chawla",
                     role: "President",
-                    image: "/WebAssets/apex/apex-core/lakshita_president.jpeg",
+                    image: "/WebAssets/apex/apex-core/lakshita_president.webp",
                 },
                 {
                     name: "Jatin Chaurasia",
                     role: "Society Administrator",
-                    image: "/WebAssets/apex/apex-core/society_administrator_jatin.jpeg",
+                    image: "/WebAssets/apex/apex-core/jatin_society administrator.webp",
                 },
                 {
                     name: "Khushi Kathuria",
                     role: "Vice President",
-                    image: "/WebAssets/apex/apex-core/khushi_vp.jpg",
+                    image: "/WebAssets/apex/apex-core/khushi_vp.webp",
                 },
                 {
                     name: "Dipanshu Kalita",
                     role: "Vice President",
-                    image: "/WebAssets/apex/apex-core/DipanshuKalita_VP.jpg",
+                    image: "/WebAssets/apex/apex-core/dipanshu_VP.webp",
                 },
                 {
                     name: "Adhyan Kandhari",
@@ -280,12 +276,12 @@ const ClubPage = () => {
                 {
                     name: "Vaibhav Sharma",
                     role: "Joint Secretary",
-                    image: "/WebAssets/apex/apex-core/vaibhav_js.jpg",
+                    image: "/WebAssets/apex/apex-core/vaibahv_js.webp",
                 },
                 {
                     name: "Sambraddhi Parihar",
                     role: "Joint Secretary",
-                    image: "/WebAssets/apex/apex-core/Sambraddhi Parihar_.jpg",
+                    image: "/WebAssets/apex/apex-core/samriddhi parihar.webp",
                 },
                 {
                     name: "Dev",
@@ -295,20 +291,20 @@ const ClubPage = () => {
                 {
                     name: "Aarav Tanwar",
                     role: "Executive Head",
-                    image: "/WebAssets/apex/apex-core/aarav_executive.jpg",
+                    image: "/WebAssets/apex/apex-core/aarav_executive.webp",
                 },
             ],
             gallery: [
-                { src: "/WebAssets/apex/apex-gallery/20250830_122916.jpg", alt: "image 1" },
-                { src: "/WebAssets/apex/apex-gallery/20250830_124446.jpg", alt: "image 2" },
-                { src: "/WebAssets/apex/apex-gallery/IMG_2166.jpg", alt: "image 3" },
-                { src: "/WebAssets/apex/apex-gallery/IMG_2185.jpg", alt: "image 4" },
-                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.35.06 PM.jpeg", alt: "image 5" },
-                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.37.47 PM.jpeg", alt: "image 6" },
-                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.39.07 PM.jpeg", alt: "image 7" },
-                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.49.53 PM.jpeg", alt: "image 8" },
-                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.23 PM.jpeg", alt: "image 9" },
-                { src: "/WebAssets/apex/apex-gallery/WhatsApp Image 2026-01-24 at 3.50.57 PM.jpeg", alt: "image 10" },
+                { src: "/WebAssets/apex/apex-gallery/img_697eb7e7d04b5.webp", alt: "image 1" },
+                { src: "/WebAssets/apex/apex-gallery/img_697eb83d7616a.webp", alt: "image 2" },
+                { src: "/WebAssets/apex/apex-gallery/img_697ebc1d152b7.webp", alt: "image 3" },
+                { src: "/WebAssets/apex/apex-gallery/img_697ebc7dcaa4b.webp", alt: "image 4" },
+                { src: "/WebAssets/apex/apex-gallery/img_697ebce721723.webp", alt: "image 5" },
+                { src: "/WebAssets/apex/apex-gallery/img_697ebd5ebd6bb.webp", alt: "image 6" },
+                { src: "/WebAssets/apex/apex-gallery/img_697ebdd7d78c4.webp", alt: "image 7" },
+                { src: "/WebAssets/apex/apex-gallery/img_697ebe3713133.webp", alt: "image 8" },
+                { src: "/WebAssets/apex/apex-gallery/img_697eef083a51f.webp", alt: "image 9" },
+                { src: "/WebAssets/apex/apex-gallery/img_697eef4820b6c.webp", alt: "image 10" },
 
             ],
             upcomingEvents: [
@@ -356,42 +352,42 @@ const ClubPage = () => {
                 {
                     name: "Pihu Mudgal",
                     role: "President",
-                    image: "/WebAssets/factsmith/factsmith-core/Pihu Mudgal_President.jpeg",
+                    image: "/WebAssets/factsmith/factsmith-core/pihu_president.webp",
                 },
                 {
                     name: "Mahak Preet",
                     role: "Vice President",
-                    image: "/WebAssets/factsmith/factsmith-core/Mahak Preet_Vice President.jpeg",
+                    image: "/WebAssets/factsmith/factsmith-core/mahak_vicepresident.webp",
                 },
                 {
                     name: "Kalash",
                     role: "Secretary",
-                    image: "/WebAssets/factsmith/factsmith-core/Kalash_Secretary.jpeg",
+                    image: "/WebAssets/factsmith/factsmith-core/Kalash_Secretary.webp",
                 },
                 {
                     name: "Tanishk",
                     role: "joint secretary",
-                    image: "/WebAssets/factsmith/factsmith-core/Tanishk_joint secretary.jpeg",
+                    image: "/WebAssets/factsmith/factsmith-core/tanishq_joints secretary.webp",
                 },
                 {
                     name: "Khushi",
                     role: "Executive Member",
-                    image: "/WebAssets/factsmith/factsmith-core/Khushi_Executive Member.jpeg",
+                    image: "/WebAssets/factsmith/factsmith-core/khushi_executive.webp",
                 },
                 {
                     name: "Devansh",
                     role: "Executive Member",
-                    image: "/WebAssets/factsmith/factsmith-core/Devansh_Executive Member.jpeg",
+                    image: "/WebAssets/factsmith/factsmith-core/devansh_executive.webp",
                 },
             ],
             gallery: [
-                { src: "/WebAssets/factsmith/factsmith-gallery/4baeba1d-73a7-4c09-af5f-256582bd3c9b.jpg", alt: "image 1" },
-                { src: "/WebAssets/factsmith/factsmith-gallery/f6139eb5-8ba1-420c-b204-9cb3e38c9efd.jpg", alt: "image 2" },
-                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250828-WA0034.jpg", alt: "image 3" },
-                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250828-WA0105.jpg", alt: "image 4" },
-                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250901-WA0081.jpg", alt: "image 5" },
-                { src: "/WebAssets/factsmith/factsmith-gallery/IMG-20250901-WA0121.jpg", alt: "image 6" },
-                { src: "/WebAssets/factsmith/factsmith-gallery/Videoshot_20250812_224529.jpg", alt: "image 7" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/img_697ec6f0c1716.webp", alt: "image 1" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/img_697ec7da0ab34.webp", alt: "image 2" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/img_697ec8d85cb3e.webp", alt: "image 3" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/img_697ec74a1826b.webp", alt: "image 4" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/img_697ec78cbc2f8.webp", alt: "image 5" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/img_697ec88d6a300.webp", alt: "image 6" },
+                { src: "/WebAssets/factsmith/factsmith-gallery/img_697ec822db0b7.webp", alt: "image 7" },
             ],
             upcomingEvents: [
                 {
@@ -427,30 +423,29 @@ const ClubPage = () => {
                 {
                     name: "Krishna",
                     role: "President",
-                    image: "/WebAssets/arclight/arclight-core/IMG-20251210-WA0627.jpg",
+                    image: "/WebAssets/arclight/arclight-core/img_697eca3b29e07.webp",
                 },
                 {
                     name: "Dipanshu",
                     role: "Vice President",
-                    image: "/WebAssets/arclight/arclight-core/Dipanshu.jpg",
+                    image: "/WebAssets/arclight/arclight-core/dipanshu.webp",
                 },
                 {
                     name: "Khanak",
                     role: "Secretary",
-                    image: "/WebAssets/arclight/arclight-core/Khanak.jpg",
+                    image: "/WebAssets/arclight/arclight-core/khanak.webp",
                 },
                 {
                     name: "Nancy",
                     role: "joint secretary",
-                    image: "/WebAssets/arclight/arclight-core/Nancy.jpg",
+                    image: "/WebAssets/arclight/arclight-core/nancy.webp",
                 },
             ],
             gallery: [
-                { src: "/WebAssets/arclight/arclight-gallery/IMG_1076.JPG", alt: "image 1" },
-                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250904-WA0016.jpg", alt: "image 2" },
-                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250905-WA0012.jpg", alt: "image 3" },
-                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250917-WA0043.jpg", alt: "image 4" },
-                { src: "/WebAssets/arclight/arclight-gallery/IMG-20250917-WA0051.jpg", alt: "image 5" },
+                { src: "/WebAssets/arclight/arclight-gallery/img_697ec2c5b0f32.webp", alt: "image 1" },
+                { src: "/WebAssets/arclight/arclight-gallery/img_697ec20c4080f.webp", alt: "image 2" },
+                { src: "/WebAssets/arclight/arclight-gallery/img_697ec31b4d922.webp", alt: "image 3" },
+                { src: "/WebAssets/arclight/arclight-gallery/img_697ec2732929f.webp", alt: "image 4" },
             ],
             upcomingEvents: [
                 {
