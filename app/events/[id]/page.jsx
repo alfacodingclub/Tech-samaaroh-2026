@@ -52,16 +52,10 @@ const eventData = {
       { name: "Abhinav Mehta ", phone: "+91 9811812178" },
       { name: "Sahil Handa", phone: "+91 9821742657" },
     ],
-<<<<<<< HEAD
     DesktopPoster:
       "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.42.00 AM.jpeg",
     RightPoster: "",
     MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_12_58 PM.png",
-=======
-    poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
-    LeftPoster: "",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
   },
   "fire-bound": {
     id: "fire-bound",
@@ -104,26 +98,17 @@ const eventData = {
       { name: "Kashvi Anand", phone: "+91 98716 80537" },
       { name: "Prince Singh", phone: "+91 88605 50502" },
     ],
-<<<<<<< HEAD
     DesktopPoster:
       "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-02-01 at 11.41.53 AM.jpeg",
     RightPoster: "",
     MobilePoster: "/WebAssets/alfa/alfa-logos/ChatGPT Image Feb 1, 2026, 12_10_20 PM.png",
-=======
-    poster:
-      "/WebAssets/alfa/alfa-logos/WhatsApp Image 2026-01-31 at 5.54.54 PM.png",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
   },
   // CYBER KNIGHT DATA
   "shadow-trace": {
     id: "Shadow-trace",
-<<<<<<< HEAD
     // name: "Shadow Trace",
     organizers: "Cyber Knight",
     link:"/clubs/cyberknight",
-=======
-    name: "Shadow Trace",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹ 150 Per Team",
     deadline: "February 26",
     tagline: "Uncover the system behind the data",
@@ -160,13 +145,9 @@ const eventData = {
   },
   "cyber-tok": {
     id: "Cyber-tok",
-<<<<<<< HEAD
     // name: "Cyber Tok",
     organizers: "Cyber Knight",
     link:"/clubs/cyberknight",
-=======
-    name: "Cyber Tok",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹80",
     deadline: "February 26",
     tagline: "Crack it, Reel it, Win it",
@@ -206,13 +187,9 @@ const eventData = {
   // FACTSMITH DATA
   "the-scholar-stage": {
     id: "the-scholar-stage",
-<<<<<<< HEAD
     // name: "THE SCHOLAR’S STAGE",
     organizers: "Factsmith",
     link:"/clubs/bloggingclub",
-=======
-    name: "THE SCHOLAR’S STAGE",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹100",
     deadline: "February 26",
     tagline: "Presenting Perspectives, Defining Possibilities!",
@@ -256,13 +233,9 @@ const eventData = {
   },
   "pitch-perfect": {
     id: "pitch-perfect",
-<<<<<<< HEAD
     // name: "PITCH PERFECT",
     organizers: "Factsmith",
     link:"/clubs/bloggingclub",
-=======
-    name: "PITCH PERFECT",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹100",
     deadline: "February 26",
     tagline: "Innovate. Pitch. Inspire.",
@@ -306,13 +279,9 @@ const eventData = {
   // APEX DATA
   "brand-bot": {
     id: "brand-bot",
-<<<<<<< HEAD
     // name: "Brand Bot",
     link:"/clubs/apex",
     organizers: "APEX",
-=======
-    name: "Brand Bot",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "TBA",
     deadline: "18 February 2026",
     tagline: "Prompt the Future. Pitch the Vision.",
@@ -350,13 +319,9 @@ const eventData = {
   },
   "pixel-pulse": {
     id: "pixel-pulse",
-<<<<<<< HEAD
     // name: "Pixel Pulse",
     organizers: "APEX",
     link:"/clubs/apex",
-=======
-    name: "Pixel Pulse",
->>>>>>> 28a143cb4e35156282a26e5ebf5e23658df25736
     fees: "₹60 per team",
     deadline: "February 26, TBA",
     tagline: "Freeze the Frame. Master the Edit.",
