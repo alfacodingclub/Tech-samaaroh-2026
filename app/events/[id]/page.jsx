@@ -292,7 +292,7 @@ const eventData = {
     fees: "TBA",
     deadline: "18 February 2026",
     // tagline: "Prompt the Future. Pitch the Vision.",
-    timing: "February 26, TBA",
+    timing: "February 26",
     location: "Room 407 ",
     teamSize: "Min 2 and Max 4 participants",
     EventRegister: "https://forms.gle/gr4kM2Amg95UNayB9",
@@ -300,8 +300,8 @@ const eventData = {
       "A branding challenge where participants use Generative AI to design a visual identity and pitch a solution for a Crisis Brand",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹500" },
-      { rank: "2nd Place", reward: "₹300" },
+      { rank: "1st Place", reward: "Trophy + Certificates + Gift Hamper" },
+      { rank: "2nd Place", reward: "Certificates + Gift Hamper" },
     ],
     rules: [
       "AI Integration: Use of Generative AI tools (DALL-E, Midjourney, etc.) is mandatory for visual assets, but the Brand Name and Slogan must be original.",
@@ -331,9 +331,9 @@ const eventData = {
     organizers: "APEX",
     link: "/clubs/apex",
     fees: "₹60 per team",
-    deadline: "February 26, TBA",
+    deadline: "February 26",
     // tagline: "Freeze the Frame. Master the Edit.",
-    timing: "February 20, 60 minutes",
+    timing: "February 26",
     location: "Room 407 (Campus Photo Hunt Area)",
     teamSize: "2 Members",
     EventRegister: "https://forms.gle/4ymoWwPF3srX4CbW9",
@@ -341,9 +341,8 @@ const eventData = {
       "Pixel Pulse is a high-speed photography and editing challenge that puts creativity and quick thinking to the test. The event kicks off with an exciting round of Tech Charades, designed to assess participants’ visual and media awareness. Once the theme is unlocked, teams race across the campus to capture a compelling photograph using only their mobile phones. The captured image must then be edited within the given time using free mobile editing applications. With no professional equipment, no pre-set filters, and strict time constraints, Pixel Pulse challenges participants to rely purely on their vision, storytelling skills, and editing instincts to create a striking visual narrative.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹500(cash) + Certificate" },
-      { rank: "2nd Place", reward: "₹300 (Cash) + Certificate" },
-      { rank: "3rd Place", reward: "Certificate" },
+      { rank: "1st Place", reward: "Gift Hamper + Trophy + Certificate" },
+      { rank: "2nd Place", reward: "Gift Hamper + Certificate" },
       { rank: "All Participants", participation: "Participation Certificate" },
     ],
     rules: [
@@ -381,7 +380,7 @@ const eventData = {
     deadline: "February 26",
     EventRegister: "https://forms.gle/nUuPebSqNvwibUtK9",
     // tagline: "Greater the Risk, Sweeter the victory",
-    timing: "February 26, TBA",
+    timing: "February 26",
     location: "Room no 402(tentative)",
     teamSize: "Individual ",
     description: [
@@ -420,7 +419,7 @@ const eventData = {
     deadline: "February 26",
     EventRegister: "https://forms.gle/Lj9kpoJbBEoXbMXM9 ",
     // tagline: "Soch lao, card uthao, dimag hilao",
-    timing: "February 26, TBA",
+    timing: "February 26",
     location: "Conference Room (tentative)",
     teamSize: "Individual or Duo",
     description: [
@@ -456,7 +455,7 @@ const eventData = {
     fees: "₹50 for Individual and ₹80 for Team",
     deadline: "February 26",
     // tagline: "Lost in Code. Found in Design.",
-    timing: "February 26, TBA",
+    timing: "February 26",
     location: "305 Lab Trinity Dwarka",
     teamSize: "Individual And Team",
     description: [
@@ -574,7 +573,7 @@ export default function EventPage() {
 
       {/* Hero Poster */}
       <div className="container mx-auto px-6 mb-12 relative z-10">
-        <div className="relative w-full h-[300px] md:h-[400px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl">
+        <div className="relative w-[85%] h-[300px] md:h-[400px] rounded-[40px] overflow-hidden border border-white/10 shadow-xl mx-auto">
           {/* 🖼️ Desktop poster */}
           <img
             src={event.DesktopPoster}
@@ -763,7 +762,7 @@ export default function EventPage() {
                 <img
                   src={event.RightPoster || event.DesktopPoster}
                   alt="Event Poster"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
