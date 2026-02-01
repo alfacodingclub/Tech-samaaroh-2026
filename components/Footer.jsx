@@ -88,14 +88,14 @@ const Footer = () => {
             Tech Samaaroh 2026 – Trinity Dwarka's premier tech fest, showcasing
             innovation, competitions, and creativity in the digital era!
           </p>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <a
               href="https://www.instagram.com/techsamaaroh?igsh=a3V1dmsyd2o3bDlx"
               className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-xl hover:bg-[#e99b63] hover:text-black transition-all duration-300"
             >
               <i className="bx bxl-instagram"></i>
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Column 2: Navigation */}

@@ -76,11 +76,11 @@ const eventData = {
     prizes: [
       {
         rank: "1st Place",
-        reward: "₹1500 + Certificate + Swags + Internship Opportunity",
+        reward: "₹500(cash) + Trophy + Certificate",
       },
-      { rank: "2nd Place", reward: "₹800 + Certificate + Swags " },
-      { rank: "3rd Place", reward: "Certificate " },
-      { rank: "All Participants", participation: "keychains + E-certificate" },
+      { rank: "2nd Place", reward: "₹300(cash) + Trophy + Certificate" },
+      { rank: "3rd Place", reward: "₹200(cash) + Certificate" },
+      { rank: "All Participants", participation: "E-certificate" },
     ],
     rules: [
       "Mobile phones are allowed only for QR scanning",
@@ -123,9 +123,9 @@ const eventData = {
       "Digital Crime Scene Investigation (DCSI) is a laptop-based cyber forensics event where students act as digital investigators. A cybercrime has already happened, and participants do not hack or code. Instead, they analyze digital evidence such as access logs, emails, chat screenshots, file timestamps, and company policies provided through a secure drive link. The goal is to understand how the data breach occurred, who was responsible, what data was affected, and which mistake or policy violation allowed it. Teams work together to build a timeline, connect clues, and submit a final investigation report. The event helps students develop logical thinking, cybersecurity awareness, and real-world investigation skills in an ethical and engaging way.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
-      { rank: "2nd Place", reward: "₹300(cash) + medal+ certificate" },
-      { rank: "3rd Place", reward: "₹200(cash) + medal+ certificate " },
+      { rank: "1st Place", reward: "₹500(cash) + Trophy + Certificate" },
+      { rank: "2nd Place", reward: "₹300(cash) + Medal + Certificate" },
+      { rank: "3rd Place", reward: "₹200(cash) + Medal+ Certificate " },
       {
         rank: "All Participants",
         participation:
@@ -163,9 +163,9 @@ const eventData = {
       "Cyber Quest is a multi-round cybersecurity challenge designed to test participants’ awareness, creativity, and logical thinking in a fun and engaging format. The event blends real-life cyber and networking scenarios with content creation and riddle-solving to create a fast-paced learning experience. Participants begin by analyzing cyber cases, move on to creating awareness reels, and finally compete in a high-energy cyber riddle finale. Open to both technical and non-technical students, Cyber Quest encourages teamwork, communication, and quick decision-making while promoting cyber awareness in a creative way. It is an ideal event for beginners and advanced participants alike, making cybersecurity learning interactive, practical, and exciting.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
-      { rank: "2nd Place", reward: "₹300(cash)+ medal+ certificate" },
-      { rank: "3rd Place", reward: "₹200(cash)+ medal+ certificate " },
+      { rank: "1st Place", reward: "₹500(cash) + Trophy + Certificate" },
+      { rank: "2nd Place", reward: "₹300(cash) + Medal + Certificate" },
+      { rank: "3rd Place", reward: "₹200(cash) + Medal + Certificate " },
       { rank: "All Participants", participation: "Participation Certificate" },
     ],
     rules: [
@@ -206,9 +206,9 @@ const eventData = {
       "The Scholar’s Stage is a research-based presentation event designed to provide a platform for students to showcase their analytical thinking and innovation on emerging technologies and their impact on the future. Participants will present well-structured research presentations evaluated on research methodology, content depth, and presentation skills. This competition is more than just a presentation; it is a challenge to think critically, communicate effectively, and engage in meaningful intellectual discussions with peers and experts. It provides a unique opportunity to bridge the gap between academic knowledge and real-world innovation.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹500(cash) +  Certificates + medals" },
-      { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
-      { rank: "3rd Place", reward: "Certificates + medals+ Hamper(₹ 150) " },
+      { rank: "1st Place", reward: "₹500(cash) + Medals + Certificates" },
+      { rank: "2nd Place", reward: "₹300(cash) + Medals + Certificates" },
+      { rank: "3rd Place", reward: "Gift Hamper + Medals + Certificates" },
       {
         rank: "All Participants",
         participation: "Certificate of Participation",
@@ -253,9 +253,9 @@ const eventData = {
       "Pitch Perfect is a dynamic idea-presentation event organized by the Factsmith Research Club, designed to provide a platform for individuals and teams to showcase innovative ideas and practical solutions. Participants will present their concepts along with prototypes, focusing on originality, feasibility, and market potential. Theme of the event is Tech for Societal Welfare. The event encourages creative thinking, problem-solving, and effective communication skills. Each participant will have the opportunity to defend their idea before a panel of judges through presentations and Q&A sessions. Pitch Perfect aims to nurture innovation, promote entrepreneurial thinking, and empower students to transform ideas into impactful solutions.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹500(cash) Certificates + medals" },
-      { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
-      { rank: "3rd Place", reward: "Certificates + medals+ Hamper (₹ 150)" },
+      { rank: "1st Place", reward: "₹500(cash) + Medals + Certificate" },
+      { rank: "2nd Place", reward: "₹300(cash) + Medals + Certificate" },
+      { rank: "3rd Place", reward: "Gift Hamper + Medals + Certificate" },
       {
         rank: "All Participants",
         participation: "Certificate of Participation",
@@ -300,8 +300,8 @@ const eventData = {
       "A branding challenge where participants use Generative AI to design a visual identity and pitch a solution for a Crisis Brand",
     ],
     prizes: [
-      { rank: "1st Place", reward: "Trophy + Certificates + Gift Hamper" },
-      { rank: "2nd Place", reward: "Certificates + Gift Hamper" },
+      { rank: "1st Place", reward: "Gift Hamper + Trophy + Certificates" },
+      { rank: "2nd Place", reward: "Gift Hamper + Certificates" },
     ],
     rules: [
       "AI Integration: Use of Generative AI tools (DALL-E, Midjourney, etc.) is mandatory for visual assets, but the Brand Name and Slogan must be original.",
@@ -388,7 +388,7 @@ const eventData = {
     ],
     prizes: [
       { rank: "1st Place", reward: "Trophy + Certificate" },
-      { rank: "2nd Place", reward: "Medal+Certificate" },
+      { rank: "2nd Place", reward: "Medal + Certificate" },
       { rank: "3rd Place", reward: "Medal + Certificate" },
     ],
     rules: [
@@ -421,14 +421,14 @@ const eventData = {
     // tagline: "Soch lao, card uthao, dimag hilao",
     timing: "February 26",
     location: "Conference Room",
-    teamSize: "Individual or Duo",
+    teamSize: "Solo or Duo",
     description: [
       "Two contestants face off with one bold, funny, or controversial statement on the screen. One contestant must defend the statement, while the other tries to change their opponent’s mind using logic, humour, and smart persuasion.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "Trophy + Certificate" },
-      { rank: "2nd Place", reward: "Medal+Certificate" },
-      { rank: "3rd Place", reward: "Medal + Certificate" },
+      { rank: "1st Place", reward: "₹500(cash) + Trophy + Certificate" },
+      { rank: "2nd Place", reward: "₹300(cash) + Medal + Certificate" },
+      { rank: "3rd Place", reward: "₹100(cash) + Medal + Certificate" },
     ],
     rules: [
       "Participants will compete in structured opinion based game format",
@@ -451,12 +451,13 @@ const eventData = {
     id: "the-404-makeover",
     // name: "The 404 Makeover",
     organizers: "ALFA and APEX",
-    fees: "₹50 for Solo and ₹80 for Team",
+    fees: "₹50 (Solo) & ₹80 (Team)",
     deadline: "February 26",
+    EventRegister: "https://forms.gle/jsDLcwL8zWLy3zTq6",
     // tagline: "Lost in Code. Found in Design.",
     timing: "February 26",
-    location: "305 Lab Trinity Dwarka",
-    teamSize: "Individual And Team",
+    location: "305 Lab",
+    teamSize: "Solo And Team",
     description: [
       "The 404 Makeover is a fast-paced creative challenge where design and code collide. Teams of two reimagine a boring 404 error page into a fun, interactive experience based on a unique company persona. Using only HTML, CSS, and basic JavaScript, participants blend strong visual design, clever UX micro-copy, and playful interactions to prove that even errors can leave a great impression.",
     ],
