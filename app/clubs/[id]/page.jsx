@@ -227,11 +227,6 @@ const ClubPage = () => {
           role: "Management Head",
           image: "/WebAssets/cyberknight/ck-core/shivamManagementHead.webp",
         },
-        {
-          name: "Rishab",
-          role: "Project Head",
-          image: "/WebAssets/cyberknight/ck-core/rishavProjectHead.webp",
-        },
       ],
       gallery: [
         {
